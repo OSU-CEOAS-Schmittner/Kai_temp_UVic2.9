@@ -1,0 +1,8 @@
+*.nc
+data/
+ferret\.jnl\.*
+*.o
+mobi1
+sftp-config.json
+UVic_ESCM
+

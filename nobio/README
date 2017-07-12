@@ -1,0 +1,3 @@
+Jun 14,2016:
+	scp -pr ../karin/mwc15_npzd_fe_n15_c13_alk_caco3/* .
+

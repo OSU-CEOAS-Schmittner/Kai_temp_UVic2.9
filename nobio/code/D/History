@@ -1,0 +1,2451 @@
+    Equality_Character <=
+    Auto_Update(0) <= true
+    Code_Directory(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(0) <= f
+    Compiler_Default_F(0) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(0) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(0) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(0) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(0) <= lfc --o3 --dbl -c
+    Compiler_F90(0) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(0) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(0) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(0) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(0) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(0) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(0) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(0) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(0) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(0) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(0) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(0) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(0) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(0) <= lfc --o3 --dbl -c
+    Compiler_f90(0) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(0) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(0) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(0) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(0) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(0) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(0) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(0) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(0) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(0) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(0) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(0) <= false
+    Definitions_Up(0) <= true
+    Dependency_Directory(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(0) <= UVIC_ESCM integration is complete
+    Executable_Directory(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(0) <= h inc
+    Input_File(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(0) <= -lnetcdf
+    Libraries_Default(0) <= -lnetcdf
+    Libraries_Directory(0) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(0) <= lib_linux
+    Libraries_Directory_Prefix(0) <= -L
+    Libraries_Directory_Prefix_Default(0) <= -L
+    Libraries_Directory_aix(0) <= lib_aix
+    Libraries_Directory_darwin(0) <= lib_darwin
+    Libraries_Directory_irix(0) <= lib_irix
+    Libraries_Directory_kikou(0) <= lib_super-ux
+    Libraries_Directory_linux(0) <= lib_linux
+    Libraries_Directory_mare(0) <= lib_mare
+    Libraries_Directory_super-ux(0) <= lib_super-ux
+    Libraries_Directory_sx(0) <= lib_super-ux
+    Libraries_Parallel_aix(0) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(0) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(0) <= -lnetcdf
+    Libraries_irix(0) <= -lnetcdf
+    Libraries_super-ux(0) <= -lnetcdf
+    Linker(0) <= lfc --o3 --dbl -o
+    Linker_Default(0) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(0) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(0) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(0) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(0) <= f90 -o
+    Linker_kikou(0) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(0) <= lfc --o3 --dbl -o
+    Linker_super-ux(0) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(0) <= /SX/usr/bin/sxf90 -o
+    Log_File(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(0) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(0) <= mod
+    Module_Extension_Default(0) <= mod
+    Module_Extension_aix(0) <= mod
+    Module_Extension_darwin(0) <= mod
+    Module_Extension_irix(0) <= kmo
+    Module_Extension_kikou(0) <= mod
+    Module_Extension_linux(0) <= mod
+    Module_Extension_super-ux(0) <= mod
+    Module_Extension_sx(0) <= mod
+    Nice(0) <= -19
+    No_Warnings(0) <= false
+    Notify_User(0) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(0) <= o
+    Option_Prefix(0) <= -D
+    Option_Prefix_Default(0) <= -D
+    Output_File(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(0) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(0) <= false
+    Preprocessor_Compile(0) <= false
+    Preprocessor_Default(0) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(0) <= /lib/cpp -P -C
+    Preprocessor_darwin(0) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(0) <= /lib/cpp -P -C
+    Preprocessor_kikou(0) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(0) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(0) <= /lib/cpp -P -C
+    Preprocessor_sx(0) <= /lib/cpp -traditional -P -C
+    Remote_Directory(0) <= /net/kikou
+    Remote_Machine(0) <= kikou
+    Run_Copy(0) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(0) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(0) <= run/run
+    Run_File_Local(0) <= run/run
+    Run_File_Parallel_aix(0) <= run/run_parallel_loadleveler
+    Run_File_aix(0) <= run/run_loadleveler
+    Run_File_darwin(0) <= run/run
+    Run_File_irix(0) <= run/run
+    Run_File_kikou(0) <= run/run_nqsII
+    Run_File_linux(0) <= run/run_pbs
+    Run_File_super-ux(0) <= run/run_nqsII
+    Run_File_sx(0) <= run/run_nqsII
+    Source_Comment_Character(0) <= !
+    Source_Directory(0) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/updates
+    Source_Extension(0) <= F f F90 f90
+    Step_End_File(0) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(0) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(0) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(0) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(1) <= true
+    Code_Directory(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(1) <= f
+    Compiler_Default_F(1) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(1) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(1) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(1) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(1) <= lfc --o3 --dbl -c
+    Compiler_F90(1) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(1) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(1) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(1) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(1) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(1) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(1) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(1) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(1) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(1) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(1) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(1) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(1) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(1) <= lfc --o3 --dbl -c
+    Compiler_f90(1) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(1) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(1) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(1) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(1) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(1) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(1) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(1) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(1) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(1) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(1) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(1) <= false
+    Definitions_Up(1) <= true
+    Dependency_Directory(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(1) <= UVIC_ESCM integration is complete
+    Executable_Directory(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(1) <= h inc
+    Input_File(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(1) <= -lnetcdf
+    Libraries_Default(1) <= -lnetcdf
+    Libraries_Directory(1) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(1) <= lib_linux
+    Libraries_Directory_Prefix(1) <= -L
+    Libraries_Directory_Prefix_Default(1) <= -L
+    Libraries_Directory_aix(1) <= lib_aix
+    Libraries_Directory_darwin(1) <= lib_darwin
+    Libraries_Directory_irix(1) <= lib_irix
+    Libraries_Directory_kikou(1) <= lib_super-ux
+    Libraries_Directory_linux(1) <= lib_linux
+    Libraries_Directory_mare(1) <= lib_mare
+    Libraries_Directory_super-ux(1) <= lib_super-ux
+    Libraries_Directory_sx(1) <= lib_super-ux
+    Libraries_Parallel_aix(1) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(1) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(1) <= -lnetcdf
+    Libraries_irix(1) <= -lnetcdf
+    Libraries_super-ux(1) <= -lnetcdf
+    Linker(1) <= lfc --o3 --dbl -o
+    Linker_Default(1) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(1) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(1) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(1) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(1) <= f90 -o
+    Linker_kikou(1) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(1) <= lfc --o3 --dbl -o
+    Linker_super-ux(1) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(1) <= /SX/usr/bin/sxf90 -o
+    Log_File(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(1) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(1) <= mod
+    Module_Extension_Default(1) <= mod
+    Module_Extension_aix(1) <= mod
+    Module_Extension_darwin(1) <= mod
+    Module_Extension_irix(1) <= kmo
+    Module_Extension_kikou(1) <= mod
+    Module_Extension_linux(1) <= mod
+    Module_Extension_super-ux(1) <= mod
+    Module_Extension_sx(1) <= mod
+    Nice(1) <= -19
+    No_Warnings(1) <= false
+    Notify_User(1) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(1) <= o
+    Option_Prefix(1) <= -D
+    Option_Prefix_Default(1) <= -D
+    Output_File(1) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(1) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(1) <= false
+    Preprocessor_Compile(1) <= false
+    Preprocessor_Default(1) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(1) <= /lib/cpp -P -C
+    Preprocessor_darwin(1) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(1) <= /lib/cpp -P -C
+    Preprocessor_kikou(1) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(1) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(1) <= /lib/cpp -P -C
+    Preprocessor_sx(1) <= /lib/cpp -traditional -P -C
+    Remote_Directory(1) <= /net/kikou
+    Remote_Machine(1) <= kikou
+    Run_Copy(1) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(1) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(1) <= run/run
+    Run_File_Local(1) <= run/run
+    Run_File_Parallel_aix(1) <= run/run_parallel_loadleveler
+    Run_File_aix(1) <= run/run_loadleveler
+    Run_File_darwin(1) <= run/run
+    Run_File_irix(1) <= run/run
+    Run_File_kikou(1) <= run/run_nqsII
+    Run_File_linux(1) <= run/run_pbs
+    Run_File_super-ux(1) <= run/run_nqsII
+    Run_File_sx(1) <= run/run_nqsII
+    Source_Comment_Character(1) <= !
+    Source_Directory(1) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Source_Extension(1) <= F f F90 f90
+    Step_End_File(1) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(1) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(1) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(1) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(2) <= true
+    Code_Directory(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(2) <= f
+    Compiler_Default_F(2) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(2) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(2) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(2) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(2) <= lfc --o3 --dbl -c
+    Compiler_F90(2) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(2) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(2) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(2) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(2) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(2) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(2) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(2) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(2) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(2) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(2) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(2) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(2) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(2) <= lfc --o3 --dbl -c
+    Compiler_f90(2) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(2) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(2) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(2) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(2) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(2) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(2) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(2) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(2) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(2) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(2) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(2) <= false
+    Definitions_Up(2) <= true
+    Dependency_Directory(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(2) <= UVIC_ESCM integration is complete
+    Executable_Directory(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(2) <= h inc
+    Input_File(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(2) <= -lnetcdf
+    Libraries_Default(2) <= -lnetcdf
+    Libraries_Directory(2) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(2) <= lib_linux
+    Libraries_Directory_Prefix(2) <= -L
+    Libraries_Directory_Prefix_Default(2) <= -L
+    Libraries_Directory_aix(2) <= lib_aix
+    Libraries_Directory_darwin(2) <= lib_darwin
+    Libraries_Directory_irix(2) <= lib_irix
+    Libraries_Directory_kikou(2) <= lib_super-ux
+    Libraries_Directory_linux(2) <= lib_linux
+    Libraries_Directory_mare(2) <= lib_mare
+    Libraries_Directory_super-ux(2) <= lib_super-ux
+    Libraries_Directory_sx(2) <= lib_super-ux
+    Libraries_Parallel_aix(2) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(2) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(2) <= -lnetcdf
+    Libraries_irix(2) <= -lnetcdf
+    Libraries_super-ux(2) <= -lnetcdf
+    Linker(2) <= lfc --o3 --dbl -o
+    Linker_Default(2) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(2) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(2) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(2) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(2) <= f90 -o
+    Linker_kikou(2) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(2) <= lfc --o3 --dbl -o
+    Linker_super-ux(2) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(2) <= /SX/usr/bin/sxf90 -o
+    Log_File(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(2) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(2) <= mod
+    Module_Extension_Default(2) <= mod
+    Module_Extension_aix(2) <= mod
+    Module_Extension_darwin(2) <= mod
+    Module_Extension_irix(2) <= kmo
+    Module_Extension_kikou(2) <= mod
+    Module_Extension_linux(2) <= mod
+    Module_Extension_super-ux(2) <= mod
+    Module_Extension_sx(2) <= mod
+    Nice(2) <= -19
+    No_Warnings(2) <= false
+    Notify_User(2) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(2) <= o
+    Option_Prefix(2) <= -D
+    Option_Prefix_Default(2) <= -D
+    Output_File(2) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(2) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(2) <= false
+    Preprocessor_Compile(2) <= false
+    Preprocessor_Default(2) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(2) <= /lib/cpp -P -C
+    Preprocessor_darwin(2) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(2) <= /lib/cpp -P -C
+    Preprocessor_kikou(2) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(2) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(2) <= /lib/cpp -P -C
+    Preprocessor_sx(2) <= /lib/cpp -traditional -P -C
+    Remote_Directory(2) <= /net/kikou
+    Remote_Machine(2) <= kikou
+    Run_Copy(2) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(2) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(2) <= run/run
+    Run_File_Local(2) <= run/run
+    Run_File_Parallel_aix(2) <= run/run_parallel_loadleveler
+    Run_File_aix(2) <= run/run_loadleveler
+    Run_File_darwin(2) <= run/run
+    Run_File_irix(2) <= run/run
+    Run_File_kikou(2) <= run/run_nqsII
+    Run_File_linux(2) <= run/run_pbs
+    Run_File_super-ux(2) <= run/run_nqsII
+    Run_File_sx(2) <= run/run_nqsII
+    Source_Comment_Character(2) <= !
+    Source_Directory(2) <=
+    /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+    Source_Extension(2) <= F f F90 f90
+    Step_End_File(2) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(2) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(2) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(2) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(3) <= true
+    Code_Directory(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(3) <= f
+    Compiler_Default_F(3) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(3) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(3) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(3) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(3) <= lfc --o3 --dbl -c
+    Compiler_F90(3) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(3) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(3) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(3) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(3) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(3) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(3) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(3) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(3) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(3) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(3) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(3) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(3) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(3) <= lfc --o3 --dbl -c
+    Compiler_f90(3) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(3) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(3) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(3) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(3) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(3) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(3) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(3) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(3) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(3) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(3) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(3) <= false
+    Definitions_Up(3) <= true
+    Dependency_Directory(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(3) <= UVIC_ESCM integration is complete
+    Executable_Directory(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(3) <= h inc
+    Input_File(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(3) <= -lnetcdf
+    Libraries_Default(3) <= -lnetcdf
+    Libraries_Directory(3) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(3) <= lib_linux
+    Libraries_Directory_Prefix(3) <= -L
+    Libraries_Directory_Prefix_Default(3) <= -L
+    Libraries_Directory_aix(3) <= lib_aix
+    Libraries_Directory_darwin(3) <= lib_darwin
+    Libraries_Directory_irix(3) <= lib_irix
+    Libraries_Directory_kikou(3) <= lib_super-ux
+    Libraries_Directory_linux(3) <= lib_linux
+    Libraries_Directory_mare(3) <= lib_mare
+    Libraries_Directory_super-ux(3) <= lib_super-ux
+    Libraries_Directory_sx(3) <= lib_super-ux
+    Libraries_Parallel_aix(3) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(3) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(3) <= -lnetcdf
+    Libraries_irix(3) <= -lnetcdf
+    Libraries_super-ux(3) <= -lnetcdf
+    Linker(3) <= lfc --o3 --dbl -o
+    Linker_Default(3) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(3) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(3) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(3) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(3) <= f90 -o
+    Linker_kikou(3) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(3) <= lfc --o3 --dbl -o
+    Linker_super-ux(3) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(3) <= /SX/usr/bin/sxf90 -o
+    Log_File(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(3) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(3) <= mod
+    Module_Extension_Default(3) <= mod
+    Module_Extension_aix(3) <= mod
+    Module_Extension_darwin(3) <= mod
+    Module_Extension_irix(3) <= kmo
+    Module_Extension_kikou(3) <= mod
+    Module_Extension_linux(3) <= mod
+    Module_Extension_super-ux(3) <= mod
+    Module_Extension_sx(3) <= mod
+    Nice(3) <= -19
+    No_Warnings(3) <= false
+    Notify_User(3) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(3) <= o
+    Option_Prefix(3) <= -D
+    Option_Prefix_Default(3) <= -D
+    Output_File(3) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(3) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(3) <= false
+    Preprocessor_Compile(3) <= false
+    Preprocessor_Default(3) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(3) <= /lib/cpp -P -C
+    Preprocessor_darwin(3) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(3) <= /lib/cpp -P -C
+    Preprocessor_kikou(3) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(3) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(3) <= /lib/cpp -P -C
+    Preprocessor_sx(3) <= /lib/cpp -traditional -P -C
+    Remote_Directory(3) <= /net/kikou
+    Remote_Machine(3) <= kikou
+    Run_Copy(3) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(3) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(3) <= run/run
+    Run_File_Local(3) <= run/run
+    Run_File_Parallel_aix(3) <= run/run_parallel_loadleveler
+    Run_File_aix(3) <= run/run_loadleveler
+    Run_File_darwin(3) <= run/run
+    Run_File_irix(3) <= run/run
+    Run_File_kikou(3) <= run/run_nqsII
+    Run_File_linux(3) <= run/run_pbs
+    Run_File_super-ux(3) <= run/run_nqsII
+    Run_File_sx(3) <= run/run_nqsII
+    Source_Comment_Character(3) <= !
+    Source_Directory(3) <= /usr/local/models/UVic_ESCM/2.9/source/common
+    Source_Extension(3) <= F f F90 f90
+    Step_End_File(3) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(3) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(3) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(3) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(4) <= true
+    Code_Directory(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(4) <= f
+    Compiler_Default_F(4) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(4) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(4) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(4) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(4) <= lfc --o3 --dbl -c
+    Compiler_F90(4) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(4) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(4) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(4) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(4) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(4) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(4) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(4) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(4) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(4) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(4) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(4) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(4) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(4) <= lfc --o3 --dbl -c
+    Compiler_f90(4) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(4) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(4) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(4) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(4) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(4) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(4) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(4) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(4) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(4) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(4) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(4) <= false
+    Definitions_Up(4) <= true
+    Dependency_Directory(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(4) <= UVIC_ESCM integration is complete
+    Executable_Directory(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(4) <= h inc
+    Input_File(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(4) <= -lnetcdf
+    Libraries_Default(4) <= -lnetcdf
+    Libraries_Directory(4) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(4) <= lib_linux
+    Libraries_Directory_Prefix(4) <= -L
+    Libraries_Directory_Prefix_Default(4) <= -L
+    Libraries_Directory_aix(4) <= lib_aix
+    Libraries_Directory_darwin(4) <= lib_darwin
+    Libraries_Directory_irix(4) <= lib_irix
+    Libraries_Directory_kikou(4) <= lib_super-ux
+    Libraries_Directory_linux(4) <= lib_linux
+    Libraries_Directory_mare(4) <= lib_mare
+    Libraries_Directory_super-ux(4) <= lib_super-ux
+    Libraries_Directory_sx(4) <= lib_super-ux
+    Libraries_Parallel_aix(4) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(4) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(4) <= -lnetcdf
+    Libraries_irix(4) <= -lnetcdf
+    Libraries_super-ux(4) <= -lnetcdf
+    Linker(4) <= lfc --o3 --dbl -o
+    Linker_Default(4) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(4) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(4) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(4) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(4) <= f90 -o
+    Linker_kikou(4) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(4) <= lfc --o3 --dbl -o
+    Linker_super-ux(4) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(4) <= /SX/usr/bin/sxf90 -o
+    Log_File(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(4) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(4) <= mod
+    Module_Extension_Default(4) <= mod
+    Module_Extension_aix(4) <= mod
+    Module_Extension_darwin(4) <= mod
+    Module_Extension_irix(4) <= kmo
+    Module_Extension_kikou(4) <= mod
+    Module_Extension_linux(4) <= mod
+    Module_Extension_super-ux(4) <= mod
+    Module_Extension_sx(4) <= mod
+    Nice(4) <= -19
+    No_Warnings(4) <= false
+    Notify_User(4) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(4) <= o
+    Option_Prefix(4) <= -D
+    Option_Prefix_Default(4) <= -D
+    Output_File(4) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(4) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(4) <= false
+    Preprocessor_Compile(4) <= false
+    Preprocessor_Default(4) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(4) <= /lib/cpp -P -C
+    Preprocessor_darwin(4) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(4) <= /lib/cpp -P -C
+    Preprocessor_kikou(4) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(4) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(4) <= /lib/cpp -P -C
+    Preprocessor_sx(4) <= /lib/cpp -traditional -P -C
+    Remote_Directory(4) <= /net/kikou
+    Remote_Machine(4) <= kikou
+    Run_Copy(4) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(4) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(4) <= run/run
+    Run_File_Local(4) <= run/run
+    Run_File_Parallel_aix(4) <= run/run_parallel_loadleveler
+    Run_File_aix(4) <= run/run_loadleveler
+    Run_File_darwin(4) <= run/run
+    Run_File_irix(4) <= run/run
+    Run_File_kikou(4) <= run/run_nqsII
+    Run_File_linux(4) <= run/run_pbs
+    Run_File_super-ux(4) <= run/run_nqsII
+    Run_File_sx(4) <= run/run_nqsII
+    Source_Comment_Character(4) <= !
+    Source_Directory(4) <= /usr/local/models/UVic_ESCM/2.9/source/netcdf
+    Source_Extension(4) <= F f F90 f90
+    Step_End_File(4) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(4) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(4) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(4) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(5) <= true
+    Code_Directory(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(5) <= f
+    Compiler_Default_F(5) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(5) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(5) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(5) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(5) <= lfc --o3 --dbl -c
+    Compiler_F90(5) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(5) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(5) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(5) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(5) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(5) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(5) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(5) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(5) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(5) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(5) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(5) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(5) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(5) <= lfc --o3 --dbl -c
+    Compiler_f90(5) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(5) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(5) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(5) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(5) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(5) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(5) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(5) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(5) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(5) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(5) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(5) <= false
+    Definitions_Up(5) <= true
+    Dependency_Directory(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(5) <= UVIC_ESCM integration is complete
+    Executable_Directory(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(5) <= h inc
+    Input_File(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(5) <= -lnetcdf
+    Libraries_Default(5) <= -lnetcdf
+    Libraries_Directory(5) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(5) <= lib_linux
+    Libraries_Directory_Prefix(5) <= -L
+    Libraries_Directory_Prefix_Default(5) <= -L
+    Libraries_Directory_aix(5) <= lib_aix
+    Libraries_Directory_darwin(5) <= lib_darwin
+    Libraries_Directory_irix(5) <= lib_irix
+    Libraries_Directory_kikou(5) <= lib_super-ux
+    Libraries_Directory_linux(5) <= lib_linux
+    Libraries_Directory_mare(5) <= lib_mare
+    Libraries_Directory_super-ux(5) <= lib_super-ux
+    Libraries_Directory_sx(5) <= lib_super-ux
+    Libraries_Parallel_aix(5) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(5) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(5) <= -lnetcdf
+    Libraries_irix(5) <= -lnetcdf
+    Libraries_super-ux(5) <= -lnetcdf
+    Linker(5) <= lfc --o3 --dbl -o
+    Linker_Default(5) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(5) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(5) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(5) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(5) <= f90 -o
+    Linker_kikou(5) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(5) <= lfc --o3 --dbl -o
+    Linker_super-ux(5) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(5) <= /SX/usr/bin/sxf90 -o
+    Log_File(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(5) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(5) <= mod
+    Module_Extension_Default(5) <= mod
+    Module_Extension_aix(5) <= mod
+    Module_Extension_darwin(5) <= mod
+    Module_Extension_irix(5) <= kmo
+    Module_Extension_kikou(5) <= mod
+    Module_Extension_linux(5) <= mod
+    Module_Extension_super-ux(5) <= mod
+    Module_Extension_sx(5) <= mod
+    Nice(5) <= -19
+    No_Warnings(5) <= false
+    Notify_User(5) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(5) <= o
+    Option_Prefix(5) <= -D
+    Option_Prefix_Default(5) <= -D
+    Output_File(5) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(5) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(5) <= false
+    Preprocessor_Compile(5) <= false
+    Preprocessor_Default(5) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(5) <= /lib/cpp -P -C
+    Preprocessor_darwin(5) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(5) <= /lib/cpp -P -C
+    Preprocessor_kikou(5) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(5) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(5) <= /lib/cpp -P -C
+    Preprocessor_sx(5) <= /lib/cpp -traditional -P -C
+    Remote_Directory(5) <= /net/kikou
+    Remote_Machine(5) <= kikou
+    Run_Copy(5) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(5) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(5) <= run/run
+    Run_File_Local(5) <= run/run
+    Run_File_Parallel_aix(5) <= run/run_parallel_loadleveler
+    Run_File_aix(5) <= run/run_loadleveler
+    Run_File_darwin(5) <= run/run
+    Run_File_irix(5) <= run/run
+    Run_File_kikou(5) <= run/run_nqsII
+    Run_File_linux(5) <= run/run_pbs
+    Run_File_super-ux(5) <= run/run_nqsII
+    Run_File_sx(5) <= run/run_nqsII
+    Source_Comment_Character(5) <= !
+    Source_Directory(5) <=
+    /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+    Source_Extension(5) <= F f F90 f90
+    Step_End_File(5) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(5) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(5) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(5) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(6) <= true
+    Code_Directory(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(6) <= f
+    Compiler_Default_F(6) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(6) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(6) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(6) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(6) <= lfc --o3 --dbl -c
+    Compiler_F90(6) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(6) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(6) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(6) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(6) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(6) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(6) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(6) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(6) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(6) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(6) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(6) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(6) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(6) <= lfc --o3 --dbl -c
+    Compiler_f90(6) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(6) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(6) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(6) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(6) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(6) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(6) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(6) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(6) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(6) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(6) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(6) <= false
+    Definitions_Up(6) <= true
+    Dependency_Directory(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(6) <= UVIC_ESCM integration is complete
+    Executable_Directory(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(6) <= h inc
+    Input_File(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(6) <= -lnetcdf
+    Libraries_Default(6) <= -lnetcdf
+    Libraries_Directory(6) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(6) <= lib_linux
+    Libraries_Directory_Prefix(6) <= -L
+    Libraries_Directory_Prefix_Default(6) <= -L
+    Libraries_Directory_aix(6) <= lib_aix
+    Libraries_Directory_darwin(6) <= lib_darwin
+    Libraries_Directory_irix(6) <= lib_irix
+    Libraries_Directory_kikou(6) <= lib_super-ux
+    Libraries_Directory_linux(6) <= lib_linux
+    Libraries_Directory_mare(6) <= lib_mare
+    Libraries_Directory_super-ux(6) <= lib_super-ux
+    Libraries_Directory_sx(6) <= lib_super-ux
+    Libraries_Parallel_aix(6) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(6) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(6) <= -lnetcdf
+    Libraries_irix(6) <= -lnetcdf
+    Libraries_super-ux(6) <= -lnetcdf
+    Linker(6) <= lfc --o3 --dbl -o
+    Linker_Default(6) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(6) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(6) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(6) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(6) <= f90 -o
+    Linker_kikou(6) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(6) <= lfc --o3 --dbl -o
+    Linker_super-ux(6) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(6) <= /SX/usr/bin/sxf90 -o
+    Log_File(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(6) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(6) <= mod
+    Module_Extension_Default(6) <= mod
+    Module_Extension_aix(6) <= mod
+    Module_Extension_darwin(6) <= mod
+    Module_Extension_irix(6) <= kmo
+    Module_Extension_kikou(6) <= mod
+    Module_Extension_linux(6) <= mod
+    Module_Extension_super-ux(6) <= mod
+    Module_Extension_sx(6) <= mod
+    Nice(6) <= -19
+    No_Warnings(6) <= false
+    Notify_User(6) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(6) <= o
+    Option_Prefix(6) <= -D
+    Option_Prefix_Default(6) <= -D
+    Output_File(6) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(6) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(6) <= false
+    Preprocessor_Compile(6) <= false
+    Preprocessor_Default(6) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(6) <= /lib/cpp -P -C
+    Preprocessor_darwin(6) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(6) <= /lib/cpp -P -C
+    Preprocessor_kikou(6) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(6) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(6) <= /lib/cpp -P -C
+    Preprocessor_sx(6) <= /lib/cpp -traditional -P -C
+    Remote_Directory(6) <= /net/kikou
+    Remote_Machine(6) <= kikou
+    Run_Copy(6) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(6) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(6) <= run/run
+    Run_File_Local(6) <= run/run
+    Run_File_Parallel_aix(6) <= run/run_parallel_loadleveler
+    Run_File_aix(6) <= run/run_loadleveler
+    Run_File_darwin(6) <= run/run
+    Run_File_irix(6) <= run/run
+    Run_File_kikou(6) <= run/run_nqsII
+    Run_File_linux(6) <= run/run_pbs
+    Run_File_super-ux(6) <= run/run_nqsII
+    Run_File_sx(6) <= run/run_nqsII
+    Source_Comment_Character(6) <= !
+    Source_Directory(6) <= /usr/local/models/UVic_ESCM/2.9/source/embm
+    Source_Extension(6) <= F f F90 f90
+    Step_End_File(6) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(6) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(6) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(6) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(7) <= true
+    Code_Directory(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(7) <= f
+    Compiler_Default_F(7) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(7) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(7) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(7) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(7) <= lfc --o3 --dbl -c
+    Compiler_F90(7) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(7) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(7) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(7) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(7) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(7) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(7) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(7) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(7) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(7) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(7) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(7) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(7) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(7) <= lfc --o3 --dbl -c
+    Compiler_f90(7) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(7) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(7) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(7) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(7) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(7) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(7) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(7) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(7) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(7) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(7) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(7) <= false
+    Definitions_Up(7) <= true
+    Dependency_Directory(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(7) <= UVIC_ESCM integration is complete
+    Executable_Directory(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(7) <= h inc
+    Input_File(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(7) <= -lnetcdf
+    Libraries_Default(7) <= -lnetcdf
+    Libraries_Directory(7) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(7) <= lib_linux
+    Libraries_Directory_Prefix(7) <= -L
+    Libraries_Directory_Prefix_Default(7) <= -L
+    Libraries_Directory_aix(7) <= lib_aix
+    Libraries_Directory_darwin(7) <= lib_darwin
+    Libraries_Directory_irix(7) <= lib_irix
+    Libraries_Directory_kikou(7) <= lib_super-ux
+    Libraries_Directory_linux(7) <= lib_linux
+    Libraries_Directory_mare(7) <= lib_mare
+    Libraries_Directory_super-ux(7) <= lib_super-ux
+    Libraries_Directory_sx(7) <= lib_super-ux
+    Libraries_Parallel_aix(7) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(7) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(7) <= -lnetcdf
+    Libraries_irix(7) <= -lnetcdf
+    Libraries_super-ux(7) <= -lnetcdf
+    Linker(7) <= lfc --o3 --dbl -o
+    Linker_Default(7) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(7) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(7) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(7) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(7) <= f90 -o
+    Linker_kikou(7) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(7) <= lfc --o3 --dbl -o
+    Linker_super-ux(7) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(7) <= /SX/usr/bin/sxf90 -o
+    Log_File(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(7) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(7) <= mod
+    Module_Extension_Default(7) <= mod
+    Module_Extension_aix(7) <= mod
+    Module_Extension_darwin(7) <= mod
+    Module_Extension_irix(7) <= kmo
+    Module_Extension_kikou(7) <= mod
+    Module_Extension_linux(7) <= mod
+    Module_Extension_super-ux(7) <= mod
+    Module_Extension_sx(7) <= mod
+    Nice(7) <= -19
+    No_Warnings(7) <= false
+    Notify_User(7) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(7) <= o
+    Option_Prefix(7) <= -D
+    Option_Prefix_Default(7) <= -D
+    Output_File(7) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(7) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(7) <= false
+    Preprocessor_Compile(7) <= false
+    Preprocessor_Default(7) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(7) <= /lib/cpp -P -C
+    Preprocessor_darwin(7) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(7) <= /lib/cpp -P -C
+    Preprocessor_kikou(7) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(7) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(7) <= /lib/cpp -P -C
+    Preprocessor_sx(7) <= /lib/cpp -traditional -P -C
+    Remote_Directory(7) <= /net/kikou
+    Remote_Machine(7) <= kikou
+    Run_Copy(7) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(7) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(7) <= run/run
+    Run_File_Local(7) <= run/run
+    Run_File_Parallel_aix(7) <= run/run_parallel_loadleveler
+    Run_File_aix(7) <= run/run_loadleveler
+    Run_File_darwin(7) <= run/run
+    Run_File_irix(7) <= run/run
+    Run_File_kikou(7) <= run/run_nqsII
+    Run_File_linux(7) <= run/run_pbs
+    Run_File_super-ux(7) <= run/run_nqsII
+    Run_File_sx(7) <= run/run_nqsII
+    Source_Comment_Character(7) <= !
+    Source_Directory(7) <= /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+    Source_Extension(7) <= F f F90 f90
+    Step_End_File(7) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(7) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(7) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(7) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(8) <= true
+    Code_Directory(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(8) <= f
+    Compiler_Default_F(8) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(8) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(8) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(8) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(8) <= lfc --o3 --dbl -c
+    Compiler_F90(8) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(8) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(8) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(8) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(8) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(8) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(8) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(8) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(8) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(8) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(8) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(8) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(8) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(8) <= lfc --o3 --dbl -c
+    Compiler_f90(8) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(8) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(8) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(8) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(8) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(8) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(8) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(8) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(8) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(8) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(8) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(8) <= false
+    Definitions_Up(8) <= true
+    Dependency_Directory(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(8) <= UVIC_ESCM integration is complete
+    Executable_Directory(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(8) <= h inc
+    Input_File(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(8) <= -lnetcdf
+    Libraries_Default(8) <= -lnetcdf
+    Libraries_Directory(8) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(8) <= lib_linux
+    Libraries_Directory_Prefix(8) <= -L
+    Libraries_Directory_Prefix_Default(8) <= -L
+    Libraries_Directory_aix(8) <= lib_aix
+    Libraries_Directory_darwin(8) <= lib_darwin
+    Libraries_Directory_irix(8) <= lib_irix
+    Libraries_Directory_kikou(8) <= lib_super-ux
+    Libraries_Directory_linux(8) <= lib_linux
+    Libraries_Directory_mare(8) <= lib_mare
+    Libraries_Directory_super-ux(8) <= lib_super-ux
+    Libraries_Directory_sx(8) <= lib_super-ux
+    Libraries_Parallel_aix(8) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(8) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(8) <= -lnetcdf
+    Libraries_irix(8) <= -lnetcdf
+    Libraries_super-ux(8) <= -lnetcdf
+    Linker(8) <= lfc --o3 --dbl -o
+    Linker_Default(8) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(8) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(8) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(8) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(8) <= f90 -o
+    Linker_kikou(8) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(8) <= lfc --o3 --dbl -o
+    Linker_super-ux(8) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(8) <= /SX/usr/bin/sxf90 -o
+    Log_File(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(8) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(8) <= mod
+    Module_Extension_Default(8) <= mod
+    Module_Extension_aix(8) <= mod
+    Module_Extension_darwin(8) <= mod
+    Module_Extension_irix(8) <= kmo
+    Module_Extension_kikou(8) <= mod
+    Module_Extension_linux(8) <= mod
+    Module_Extension_super-ux(8) <= mod
+    Module_Extension_sx(8) <= mod
+    Nice(8) <= -19
+    No_Warnings(8) <= false
+    Notify_User(8) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(8) <= o
+    Option_Prefix(8) <= -D
+    Option_Prefix_Default(8) <= -D
+    Output_File(8) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(8) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(8) <= false
+    Preprocessor_Compile(8) <= false
+    Preprocessor_Default(8) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(8) <= /lib/cpp -P -C
+    Preprocessor_darwin(8) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(8) <= /lib/cpp -P -C
+    Preprocessor_kikou(8) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(8) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(8) <= /lib/cpp -P -C
+    Preprocessor_sx(8) <= /lib/cpp -traditional -P -C
+    Remote_Directory(8) <= /net/kikou
+    Remote_Machine(8) <= kikou
+    Run_Copy(8) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(8) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(8) <= run/run
+    Run_File_Local(8) <= run/run
+    Run_File_Parallel_aix(8) <= run/run_parallel_loadleveler
+    Run_File_aix(8) <= run/run_loadleveler
+    Run_File_darwin(8) <= run/run
+    Run_File_irix(8) <= run/run
+    Run_File_kikou(8) <= run/run_nqsII
+    Run_File_linux(8) <= run/run_pbs
+    Run_File_super-ux(8) <= run/run_nqsII
+    Run_File_sx(8) <= run/run_nqsII
+    Source_Comment_Character(8) <= !
+    Source_Directory(8) <= /usr/local/models/UVic_ESCM/2.9/source/ice
+    Source_Extension(8) <= F f F90 f90
+    Step_End_File(8) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(8) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(8) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(8) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(9) <= true
+    Code_Directory(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(9) <= f
+    Compiler_Default_F(9) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(9) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(9) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(9) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(9) <= lfc --o3 --dbl -c
+    Compiler_F90(9) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(9) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(9) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(9) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(9) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(9) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_F_darwin(9) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(9) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(9) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(9) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(9) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(9) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(9) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(9) <= lfc --o3 --dbl -c
+    Compiler_f90(9) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(9) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(9) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(9) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(9) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(9) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3 -qrealsize=8
+    -c
+    Compiler_f_darwin(9) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(9) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(9) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(9) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(9) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(9) <= false
+    Definitions_Up(9) <= true
+    Dependency_Directory(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(9) <= UVIC_ESCM integration is complete
+    Executable_Directory(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(9) <= h inc
+    Input_File(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(9) <= -lnetcdf
+    Libraries_Default(9) <= -lnetcdf
+    Libraries_Directory(9) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(9) <= lib_linux
+    Libraries_Directory_Prefix(9) <= -L
+    Libraries_Directory_Prefix_Default(9) <= -L
+    Libraries_Directory_aix(9) <= lib_aix
+    Libraries_Directory_darwin(9) <= lib_darwin
+    Libraries_Directory_irix(9) <= lib_irix
+    Libraries_Directory_kikou(9) <= lib_super-ux
+    Libraries_Directory_linux(9) <= lib_linux
+    Libraries_Directory_mare(9) <= lib_mare
+    Libraries_Directory_super-ux(9) <= lib_super-ux
+    Libraries_Directory_sx(9) <= lib_super-ux
+    Libraries_Parallel_aix(9) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(9) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(9) <= -lnetcdf
+    Libraries_irix(9) <= -lnetcdf
+    Libraries_super-ux(9) <= -lnetcdf
+    Linker(9) <= lfc --o3 --dbl -o
+    Linker_Default(9) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(9) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(9) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(9) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(9) <= f90 -o
+    Linker_kikou(9) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(9) <= lfc --o3 --dbl -o
+    Linker_super-ux(9) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(9) <= /SX/usr/bin/sxf90 -o
+    Log_File(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(9) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(9) <= mod
+    Module_Extension_Default(9) <= mod
+    Module_Extension_aix(9) <= mod
+    Module_Extension_darwin(9) <= mod
+    Module_Extension_irix(9) <= kmo
+    Module_Extension_kikou(9) <= mod
+    Module_Extension_linux(9) <= mod
+    Module_Extension_super-ux(9) <= mod
+    Module_Extension_sx(9) <= mod
+    Nice(9) <= -19
+    No_Warnings(9) <= false
+    Notify_User(9) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(9) <= o
+    Option_Prefix(9) <= -D
+    Option_Prefix_Default(9) <= -D
+    Output_File(9) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(9) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(9) <= false
+    Preprocessor_Compile(9) <= false
+    Preprocessor_Default(9) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(9) <= /lib/cpp -P -C
+    Preprocessor_darwin(9) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(9) <= /lib/cpp -P -C
+    Preprocessor_kikou(9) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(9) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(9) <= /lib/cpp -P -C
+    Preprocessor_sx(9) <= /lib/cpp -traditional -P -C
+    Remote_Directory(9) <= /net/kikou
+    Remote_Machine(9) <= kikou
+    Run_Copy(9) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(9) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(9) <= run/run
+    Run_File_Local(9) <= run/run
+    Run_File_Parallel_aix(9) <= run/run_parallel_loadleveler
+    Run_File_aix(9) <= run/run_loadleveler
+    Run_File_darwin(9) <= run/run
+    Run_File_irix(9) <= run/run
+    Run_File_kikou(9) <= run/run_nqsII
+    Run_File_linux(9) <= run/run_pbs
+    Run_File_super-ux(9) <= run/run_nqsII
+    Run_File_sx(9) <= run/run_nqsII
+    Source_Comment_Character(9) <= !
+    Source_Directory(9) <=
+    /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+    Source_Extension(9) <= F f F90 f90
+    Step_End_File(9) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(9) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(9) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(9) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(10) <= true
+    Code_Directory(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(10) <= f
+    Compiler_Default_F(10) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(10) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(10) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(10) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(10) <= lfc --o3 --dbl -c
+    Compiler_F90(10) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(10) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(10) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(10) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(10) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(10) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_F_darwin(10) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(10) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(10) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(10) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(10) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(10) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(10) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(10) <= lfc --o3 --dbl -c
+    Compiler_f90(10) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(10) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(10) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(10) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(10) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(10) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_f_darwin(10) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(10) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(10) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(10) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(10) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(10) <= false
+    Definitions_Up(10) <= true
+    Dependency_Directory(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(10) <= UVIC_ESCM integration is complete
+    Executable_Directory(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(10) <= h inc
+    Input_File(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(10) <= -lnetcdf
+    Libraries_Default(10) <= -lnetcdf
+    Libraries_Directory(10) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(10) <= lib_linux
+    Libraries_Directory_Prefix(10) <= -L
+    Libraries_Directory_Prefix_Default(10) <= -L
+    Libraries_Directory_aix(10) <= lib_aix
+    Libraries_Directory_darwin(10) <= lib_darwin
+    Libraries_Directory_irix(10) <= lib_irix
+    Libraries_Directory_kikou(10) <= lib_super-ux
+    Libraries_Directory_linux(10) <= lib_linux
+    Libraries_Directory_mare(10) <= lib_mare
+    Libraries_Directory_super-ux(10) <= lib_super-ux
+    Libraries_Directory_sx(10) <= lib_super-ux
+    Libraries_Parallel_aix(10) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(10) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(10) <= -lnetcdf
+    Libraries_irix(10) <= -lnetcdf
+    Libraries_super-ux(10) <= -lnetcdf
+    Linker(10) <= lfc --o3 --dbl -o
+    Linker_Default(10) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(10) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(10) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(10) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(10) <= f90 -o
+    Linker_kikou(10) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(10) <= lfc --o3 --dbl -o
+    Linker_super-ux(10) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(10) <= /SX/usr/bin/sxf90 -o
+    Log_File(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(10) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(10) <= mod
+    Module_Extension_Default(10) <= mod
+    Module_Extension_aix(10) <= mod
+    Module_Extension_darwin(10) <= mod
+    Module_Extension_irix(10) <= kmo
+    Module_Extension_kikou(10) <= mod
+    Module_Extension_linux(10) <= mod
+    Module_Extension_super-ux(10) <= mod
+    Module_Extension_sx(10) <= mod
+    Nice(10) <= -19
+    No_Warnings(10) <= false
+    Notify_User(10) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(10) <= o
+    Option_Prefix(10) <= -D
+    Option_Prefix_Default(10) <= -D
+    Output_File(10) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(10) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(10) <= false
+    Preprocessor_Compile(10) <= false
+    Preprocessor_Default(10) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(10) <= /lib/cpp -P -C
+    Preprocessor_darwin(10) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(10) <= /lib/cpp -P -C
+    Preprocessor_kikou(10) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(10) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(10) <= /lib/cpp -P -C
+    Preprocessor_sx(10) <= /lib/cpp -traditional -P -C
+    Remote_Directory(10) <= /net/kikou
+    Remote_Machine(10) <= kikou
+    Run_Copy(10) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(10) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(10) <= run/run
+    Run_File_Local(10) <= run/run
+    Run_File_Parallel_aix(10) <= run/run_parallel_loadleveler
+    Run_File_aix(10) <= run/run_loadleveler
+    Run_File_darwin(10) <= run/run
+    Run_File_irix(10) <= run/run
+    Run_File_kikou(10) <= run/run_nqsII
+    Run_File_linux(10) <= run/run_pbs
+    Run_File_super-ux(10) <= run/run_nqsII
+    Run_File_sx(10) <= run/run_nqsII
+    Source_Comment_Character(10) <= !
+    Source_Directory(10) <= /usr/local/models/UVic_ESCM/2.9/source/mtlm
+    Source_Extension(10) <= F f F90 f90
+    Step_End_File(10) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(10) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(10) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(10) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(11) <= true
+    Code_Directory(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(11) <= f
+    Compiler_Default_F(11) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(11) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(11) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(11) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(11) <= lfc --o3 --dbl -c
+    Compiler_F90(11) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(11) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(11) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(11) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(11) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(11) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_F_darwin(11) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(11) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(11) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(11) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(11) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(11) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(11) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(11) <= lfc --o3 --dbl -c
+    Compiler_f90(11) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(11) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(11) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(11) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(11) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(11) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_f_darwin(11) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(11) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(11) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(11) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(11) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(11) <= false
+    Definitions_Up(11) <= true
+    Dependency_Directory(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(11) <= UVIC_ESCM integration is complete
+    Executable_Directory(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(11) <= h inc
+    Input_File(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(11) <= -lnetcdf
+    Libraries_Default(11) <= -lnetcdf
+    Libraries_Directory(11) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(11) <= lib_linux
+    Libraries_Directory_Prefix(11) <= -L
+    Libraries_Directory_Prefix_Default(11) <= -L
+    Libraries_Directory_aix(11) <= lib_aix
+    Libraries_Directory_darwin(11) <= lib_darwin
+    Libraries_Directory_irix(11) <= lib_irix
+    Libraries_Directory_kikou(11) <= lib_super-ux
+    Libraries_Directory_linux(11) <= lib_linux
+    Libraries_Directory_mare(11) <= lib_mare
+    Libraries_Directory_super-ux(11) <= lib_super-ux
+    Libraries_Directory_sx(11) <= lib_super-ux
+    Libraries_Parallel_aix(11) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(11) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(11) <= -lnetcdf
+    Libraries_irix(11) <= -lnetcdf
+    Libraries_super-ux(11) <= -lnetcdf
+    Linker(11) <= lfc --o3 --dbl -o
+    Linker_Default(11) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(11) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(11) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(11) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(11) <= f90 -o
+    Linker_kikou(11) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(11) <= lfc --o3 --dbl -o
+    Linker_super-ux(11) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(11) <= /SX/usr/bin/sxf90 -o
+    Log_File(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(11) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(11) <= mod
+    Module_Extension_Default(11) <= mod
+    Module_Extension_aix(11) <= mod
+    Module_Extension_darwin(11) <= mod
+    Module_Extension_irix(11) <= kmo
+    Module_Extension_kikou(11) <= mod
+    Module_Extension_linux(11) <= mod
+    Module_Extension_super-ux(11) <= mod
+    Module_Extension_sx(11) <= mod
+    Nice(11) <= -19
+    No_Warnings(11) <= false
+    Notify_User(11) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(11) <= o
+    Option_Prefix(11) <= -D
+    Option_Prefix_Default(11) <= -D
+    Output_File(11) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(11) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(11) <= false
+    Preprocessor_Compile(11) <= false
+    Preprocessor_Default(11) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(11) <= /lib/cpp -P -C
+    Preprocessor_darwin(11) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(11) <= /lib/cpp -P -C
+    Preprocessor_kikou(11) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(11) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(11) <= /lib/cpp -P -C
+    Preprocessor_sx(11) <= /lib/cpp -traditional -P -C
+    Remote_Directory(11) <= /net/kikou
+    Remote_Machine(11) <= kikou
+    Run_Copy(11) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(11) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(11) <= run/run
+    Run_File_Local(11) <= run/run
+    Run_File_Parallel_aix(11) <= run/run_parallel_loadleveler
+    Run_File_aix(11) <= run/run_loadleveler
+    Run_File_darwin(11) <= run/run
+    Run_File_irix(11) <= run/run
+    Run_File_kikou(11) <= run/run_nqsII
+    Run_File_linux(11) <= run/run_pbs
+    Run_File_super-ux(11) <= run/run_nqsII
+    Run_File_sx(11) <= run/run_nqsII
+    Source_Comment_Character(11) <= !
+    Source_Directory(11) <=
+    /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+    Source_Extension(11) <= F f F90 f90
+    Step_End_File(11) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(11) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(11) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(11) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(12) <= true
+    Code_Directory(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(12) <= f
+    Compiler_Default_F(12) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(12) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(12) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(12) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(12) <= lfc --o3 --dbl -c
+    Compiler_F90(12) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(12) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(12) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(12) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(12) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(12) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_F_darwin(12) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(12) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(12) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(12) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(12) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(12) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(12) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(12) <= lfc --o3 --dbl -c
+    Compiler_f90(12) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(12) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(12) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(12) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(12) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(12) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_f_darwin(12) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(12) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(12) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(12) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(12) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(12) <= false
+    Definitions_Up(12) <= true
+    Dependency_Directory(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(12) <= UVIC_ESCM integration is complete
+    Executable_Directory(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(12) <= h inc
+    Input_File(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(12) <= -lnetcdf
+    Libraries_Default(12) <= -lnetcdf
+    Libraries_Directory(12) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(12) <= lib_linux
+    Libraries_Directory_Prefix(12) <= -L
+    Libraries_Directory_Prefix_Default(12) <= -L
+    Libraries_Directory_aix(12) <= lib_aix
+    Libraries_Directory_darwin(12) <= lib_darwin
+    Libraries_Directory_irix(12) <= lib_irix
+    Libraries_Directory_kikou(12) <= lib_super-ux
+    Libraries_Directory_linux(12) <= lib_linux
+    Libraries_Directory_mare(12) <= lib_mare
+    Libraries_Directory_super-ux(12) <= lib_super-ux
+    Libraries_Directory_sx(12) <= lib_super-ux
+    Libraries_Parallel_aix(12) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(12) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(12) <= -lnetcdf
+    Libraries_irix(12) <= -lnetcdf
+    Libraries_super-ux(12) <= -lnetcdf
+    Linker(12) <= lfc --o3 --dbl -o
+    Linker_Default(12) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(12) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(12) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(12) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(12) <= f90 -o
+    Linker_kikou(12) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(12) <= lfc --o3 --dbl -o
+    Linker_super-ux(12) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(12) <= /SX/usr/bin/sxf90 -o
+    Log_File(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(12) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(12) <= mod
+    Module_Extension_Default(12) <= mod
+    Module_Extension_aix(12) <= mod
+    Module_Extension_darwin(12) <= mod
+    Module_Extension_irix(12) <= kmo
+    Module_Extension_kikou(12) <= mod
+    Module_Extension_linux(12) <= mod
+    Module_Extension_super-ux(12) <= mod
+    Module_Extension_sx(12) <= mod
+    Nice(12) <= -19
+    No_Warnings(12) <= false
+    Notify_User(12) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(12) <= o
+    Option_Prefix(12) <= -D
+    Option_Prefix_Default(12) <= -D
+    Output_File(12) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(12) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(12) <= false
+    Preprocessor_Compile(12) <= false
+    Preprocessor_Default(12) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(12) <= /lib/cpp -P -C
+    Preprocessor_darwin(12) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(12) <= /lib/cpp -P -C
+    Preprocessor_kikou(12) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(12) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(12) <= /lib/cpp -P -C
+    Preprocessor_sx(12) <= /lib/cpp -traditional -P -C
+    Remote_Directory(12) <= /net/kikou
+    Remote_Machine(12) <= kikou
+    Run_Copy(12) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(12) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(12) <= run/run
+    Run_File_Local(12) <= run/run
+    Run_File_Parallel_aix(12) <= run/run_parallel_loadleveler
+    Run_File_aix(12) <= run/run_loadleveler
+    Run_File_darwin(12) <= run/run
+    Run_File_irix(12) <= run/run
+    Run_File_kikou(12) <= run/run_nqsII
+    Run_File_linux(12) <= run/run_pbs
+    Run_File_super-ux(12) <= run/run_nqsII
+    Run_File_sx(12) <= run/run_nqsII
+    Source_Comment_Character(12) <= !
+    Source_Directory(12) <= /usr/local/models/UVic_ESCM/2.9/source/mom
+    Source_Extension(12) <= F f F90 f90
+    Step_End_File(12) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(12) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(12) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(12) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(13) <= true
+    Code_Directory(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(13) <= f
+    Compiler_Default_F(13) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(13) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(13) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(13) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(13) <= lfc --o3 --dbl -c
+    Compiler_F90(13) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(13) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(13) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(13) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(13) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(13) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_F_darwin(13) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(13) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(13) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(13) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(13) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(13) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(13) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(13) <= lfc --o3 --dbl -c
+    Compiler_f90(13) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(13) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(13) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(13) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(13) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(13) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_f_darwin(13) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(13) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(13) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(13) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(13) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(13) <= false
+    Definitions_Up(13) <= true
+    Dependency_Directory(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(13) <= UVIC_ESCM integration is complete
+    Executable_Directory(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(13) <= h inc
+    Input_File(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(13) <= -lnetcdf
+    Libraries_Default(13) <= -lnetcdf
+    Libraries_Directory(13) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(13) <= lib_linux
+    Libraries_Directory_Prefix(13) <= -L
+    Libraries_Directory_Prefix_Default(13) <= -L
+    Libraries_Directory_aix(13) <= lib_aix
+    Libraries_Directory_darwin(13) <= lib_darwin
+    Libraries_Directory_irix(13) <= lib_irix
+    Libraries_Directory_kikou(13) <= lib_super-ux
+    Libraries_Directory_linux(13) <= lib_linux
+    Libraries_Directory_mare(13) <= lib_mare
+    Libraries_Directory_super-ux(13) <= lib_super-ux
+    Libraries_Directory_sx(13) <= lib_super-ux
+    Libraries_Parallel_aix(13) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(13) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(13) <= -lnetcdf
+    Libraries_irix(13) <= -lnetcdf
+    Libraries_super-ux(13) <= -lnetcdf
+    Linker(13) <= lfc --o3 --dbl -o
+    Linker_Default(13) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(13) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(13) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(13) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(13) <= f90 -o
+    Linker_kikou(13) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(13) <= lfc --o3 --dbl -o
+    Linker_super-ux(13) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(13) <= /SX/usr/bin/sxf90 -o
+    Log_File(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(13) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(13) <= mod
+    Module_Extension_Default(13) <= mod
+    Module_Extension_aix(13) <= mod
+    Module_Extension_darwin(13) <= mod
+    Module_Extension_irix(13) <= kmo
+    Module_Extension_kikou(13) <= mod
+    Module_Extension_linux(13) <= mod
+    Module_Extension_super-ux(13) <= mod
+    Module_Extension_sx(13) <= mod
+    Nice(13) <= -19
+    No_Warnings(13) <= false
+    Notify_User(13) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(13) <= o
+    Option_Prefix(13) <= -D
+    Option_Prefix_Default(13) <= -D
+    Output_File(13) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(13) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(13) <= false
+    Preprocessor_Compile(13) <= false
+    Preprocessor_Default(13) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(13) <= /lib/cpp -P -C
+    Preprocessor_darwin(13) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(13) <= /lib/cpp -P -C
+    Preprocessor_kikou(13) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(13) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(13) <= /lib/cpp -P -C
+    Preprocessor_sx(13) <= /lib/cpp -traditional -P -C
+    Remote_Directory(13) <= /net/kikou
+    Remote_Machine(13) <= kikou
+    Run_Copy(13) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(13) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(13) <= run/run
+    Run_File_Local(13) <= run/run
+    Run_File_Parallel_aix(13) <= run/run_parallel_loadleveler
+    Run_File_aix(13) <= run/run_loadleveler
+    Run_File_darwin(13) <= run/run
+    Run_File_irix(13) <= run/run
+    Run_File_kikou(13) <= run/run_nqsII
+    Run_File_linux(13) <= run/run_pbs
+    Run_File_super-ux(13) <= run/run_nqsII
+    Run_File_sx(13) <= run/run_nqsII
+    Source_Comment_Character(13) <= !
+    Source_Directory(13) <=
+    /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+    Source_Extension(13) <= F f F90 f90
+    Step_End_File(13) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(13) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(13) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(13) <= /usr/local/models/UVic_ESCM/2.9
+    Auto_Update(14) <= true
+    Code_Directory(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code
+    Code_Extension(14) <= f
+    Compiler_Default_F(14) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_F90(14) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_Default_f(14) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_Default_f90(14) <= ifort -r8 -O3 -warn nouncalled -FR -c
+    Compiler_F(14) <= lfc --o3 --dbl -c
+    Compiler_F90(14) <= lfc --o3 --dbl -c
+    Compiler_F90_aix(14) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_F90_darwin(14) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F90_irix(14) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_F90_kikou(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_linux(14) <= lfc --o3 --dbl -c
+    Compiler_F90_super-ux(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F90_sx(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_F_aix(14) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_F_darwin(14) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_F_irix(14) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_F_kikou(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_linux(14) <= lfc --o3 --dbl -c
+    Compiler_F_super-ux(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_F_sx(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_Parallel_F90_aix(14) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_F_aix(14) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f90_aix(14) <= xlf90_r -qsmp=noauto -O3 -qstrict
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_Parallel_f_aix(14) <= xlf90_r -qsmp=noauto -O3 -qstrict -qfixed=132
+    -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f(14) <= lfc --o3 --dbl -c
+    Compiler_f90(14) <= lfc --o3 --dbl -c
+    Compiler_f90_aix(14) <= xlf90 -O3 -qstrict -qarch=pwr3 -qrealsize=8 -c
+    Compiler_f90_darwin(14) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f90_irix(14) <= f90 -r8 -O2 -OPT:Olimit=0 -freeform -c
+    Compiler_f90_kikou(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f90_linux(14) <= lfc --o3 --dbl -c
+    Compiler_f90_super-ux(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4-pi line=1000 nest=2  -c
+    Compiler_f90_sx(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f4 -pi line=1000 nest=2 -c
+    Compiler_f_aix(14) <= xlf90 -O3 -qstrict -qfixed=132 -qarch=pwr3
+    -qrealsize=8 -c
+    Compiler_f_darwin(14) <= ifort -r8 -O3 -warn nouncalled -c
+    Compiler_f_irix(14) <= f90 -O2 -OPT:Olimit=0 -r8 -fixedform -c
+    Compiler_f_kikou(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_linux(14) <= lfc --o3 --dbl -c
+    Compiler_f_super-ux(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl
+    noassume loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Compiler_f_sx(14) <= /SX/usr/bin/sxf90 -C hopt -Wf,-A idbl4,-pvctl noassume
+    loopcnt=1000000 -f0 -pi line=1000 nest=2 -c
+    Data_Directory(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/data
+    Data_Source(14) <= /usr/local/models/UVic_ESCM/2.9/data.100.100.19
+    Definitions_Down(14) <= false
+    Definitions_Up(14) <= true
+    Dependency_Directory(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/D
+    End_String(14) <= UVIC_ESCM integration is complete
+    Executable_Directory(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio
+    Executable_File(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/UVic_ESCM
+    Include_Extension(14) <= h inc
+    Input_File(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/control.in
+    Libraries(14) <= -lnetcdf
+    Libraries_Default(14) <= -lnetcdf
+    Libraries_Directory(14) <= /usr/local/models/UVic_ESCM/2.9/lib/lib_linux
+    Libraries_Directory_Default(14) <= lib_linux
+    Libraries_Directory_Prefix(14) <= -L
+    Libraries_Directory_Prefix_Default(14) <= -L
+    Libraries_Directory_aix(14) <= lib_aix
+    Libraries_Directory_darwin(14) <= lib_darwin
+    Libraries_Directory_irix(14) <= lib_irix
+    Libraries_Directory_kikou(14) <= lib_super-ux
+    Libraries_Directory_linux(14) <= lib_linux
+    Libraries_Directory_mare(14) <= lib_mare
+    Libraries_Directory_super-ux(14) <= lib_super-ux
+    Libraries_Directory_sx(14) <= lib_super-ux
+    Libraries_Parallel_aix(14) <= -lnetcdf -lmass -lessl_r -lxlsmp
+    Libraries_aix(14) <= -lnetcdf -lmass -lesslp2.m
+    Libraries_darwin(14) <= -lnetcdf
+    Libraries_irix(14) <= -lnetcdf
+    Libraries_super-ux(14) <= -lnetcdf
+    Linker(14) <= lfc --o3 --dbl -o
+    Linker_Default(14) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_Parallel_aix(14) <= xlf90_r -qsmp -bmaxdata:0x80000000 -o
+    Linker_aix(14) <= xlf90 -bmaxdata:0x80000000 -o
+    Linker_darwin(14) <= ifort -r8 -O3 -warn nouncalled -o
+    Linker_irix(14) <= f90 -o
+    Linker_kikou(14) <= /SX/usr/bin/sxf90 -o
+    Linker_linux(14) <= lfc --o3 --dbl -o
+    Linker_super-ux(14) <= /SX/usr/bin/sxf90 -o
+    Linker_sx(14) <= /SX/usr/bin/sxf90 -o
+    Log_File(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/mk.log
+    Model_Options(14) <= O_agric_data O_anisotropic_viscosity
+    O_anisotropic_zonal_mixing O_co2ccn_data O_conjugate_gradient
+    O_constant_flux_reference O_consthmix O_constvmix O_cyclic O_embm
+    O_embm_adiff O_embm_mgrid O_energy_analysis O_even_fluxes O_fourfil
+    O_fullconvect O_gent_mcwilliams O_gthflx O_gyre_components O_ice O_ice_evp
+    O_ice_fourfil O_isopycmix O_landice_data O_meridional_overturning O_mom
+    O_mtlm O_mtlm_segday O_ncar_upwind3 O_quicker O_ramdrive O_read_my_grid
+    O_read_my_kmt O_save_anisotropic_viscosity O_save_convection
+    O_save_embm_diff O_save_embm_wind O_save_time_relyear0 O_sbc_in_memory
+    O_sf_5_point O_solar_data O_stability_tests O_stream_function O_tai_lo
+    O_tai_ns O_tai_otsf O_tai_rad O_tai_slh O_term_balances O_tidal_kv
+    O_time_averages O_time_step_monitor O_tracer_averages
+    O_units_temperature_Celsius O_units_time_years
+    Module_Extension(14) <= mod
+    Module_Extension_Default(14) <= mod
+    Module_Extension_aix(14) <= mod
+    Module_Extension_darwin(14) <= mod
+    Module_Extension_irix(14) <= kmo
+    Module_Extension_kikou(14) <= mod
+    Module_Extension_linux(14) <= mod
+    Module_Extension_super-ux(14) <= mod
+    Module_Extension_sx(14) <= mod
+    Nice(14) <= -19
+    No_Warnings(14) <= false
+    Notify_User(14) <= aschmitt@coas.oregonstate.edu
+    Object_Directory(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/code/O
+    Object_Extension(14) <= o
+    Option_Prefix(14) <= -D
+    Option_Prefix_Default(14) <= -D
+    Output_File(14) <= /raid24/aho/UVic2.9/MOBI1.9/nobio/pr
+    Preprocessor(14) <= /lib/cpp -traditional -P -C
+    Preprocessor_Code(14) <= false
+    Preprocessor_Compile(14) <= false
+    Preprocessor_Default(14) <= /lib/cpp -traditional -P -C
+    Preprocessor_aix(14) <= /lib/cpp -P -C
+    Preprocessor_darwin(14) <= /usr/bin/cpp -P -C -traditional-cpp
+    Preprocessor_irix(14) <= /lib/cpp -P -C
+    Preprocessor_kikou(14) <= /lib/cpp -traditional -P -C
+    Preprocessor_linux(14) <= /lib/cpp -traditional -P -C
+    Preprocessor_super-ux(14) <= /lib/cpp -P -C
+    Preprocessor_sx(14) <= /lib/cpp -traditional -P -C
+    Remote_Directory(14) <= /net/kikou
+    Remote_Machine(14) <= kikou
+    Run_Copy(14) <= restatm.nc restocn.nc rest.nc restart.nc data
+    Run_File(14) <= /usr/local/models/UVic_ESCM/2.9/run/run_pbs
+    Run_File_Default(14) <= run/run
+    Run_File_Local(14) <= run/run
+    Run_File_Parallel_aix(14) <= run/run_parallel_loadleveler
+    Run_File_aix(14) <= run/run_loadleveler
+    Run_File_darwin(14) <= run/run
+    Run_File_irix(14) <= run/run
+    Run_File_kikou(14) <= run/run_nqsII
+    Run_File_linux(14) <= run/run_pbs
+    Run_File_super-ux(14) <= run/run_nqsII
+    Run_File_sx(14) <= run/run_nqsII
+    Source_Comment_Character(14) <= !
+    Source_Directory(14) <= /usr/local/models/UVic_ESCM/2.9/source/sed
+    Source_Extension(14) <= F f F90 f90
+    Step_End_File(14) <= /usr/local/models/UVic_ESCM/2.9/run/Step_End
+    Step_Start_File(14) <= /usr/local/models/UVic_ESCM/2.9/run/Step_Start
+    Updates_Level(14) <= /usr/local/models/UVic_ESCM/2.9/updates/02
+    Version_Directory(14) <= /usr/local/models/UVic_ESCM/2.9

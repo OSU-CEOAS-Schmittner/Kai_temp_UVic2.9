@@ -1,0 +1,8 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.67  
+ ! Linux(gfortran) 2.6.18-238.1.1.el5 - 02/11/11
+ !  5-Jul-17 11:23     
+
+use tavg.00100.01.01.nc
+sh da
+q
