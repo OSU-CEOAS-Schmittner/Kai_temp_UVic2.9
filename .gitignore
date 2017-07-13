@@ -2,7 +2,9 @@
 data/
 ferret\.jnl\.*
 *.o
+*.d
 mobi1
+mobi1.9nb.q.e*
+nobio/mobi1.9nb.q.e*
 sftp-config.json
 UVic_ESCM
-
