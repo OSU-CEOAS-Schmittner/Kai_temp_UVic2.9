@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/fluxes.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/fluxes.F
 
       subroutine fluxes (is, ie, js, je)
 

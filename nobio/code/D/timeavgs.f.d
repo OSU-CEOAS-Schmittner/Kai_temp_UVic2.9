@@ -43,6 +43,8 @@ hmixc.h
 #  endif
 #  if defined O_save_kv
 #  endif
+#  if defined O_KGMdiag
+#  endif
 #  if defined O_save_npzd
 #   if defined O_npzd_nitrogen
 #    if defined O_npzd_caco3
@@ -98,6 +100,7 @@ hmixc.h
 #  endif
 #  if defined O_save_kv
 #  endif
+#  if defined O_KGMdiag
 #  if defined O_save_npzd
 #   if defined O_save_carbon_totals
 #   endif
@@ -138,6 +141,8 @@ hmixc.h
 #  if defined O_carbon && defined O_carbon_14
 #  endif
 #  if defined O_save_kv
+#  endif
+#  if defined O_KGMdiag
 #  endif
 #  if defined O_save_npzd
 #   if defined O_npzd_nitrogen

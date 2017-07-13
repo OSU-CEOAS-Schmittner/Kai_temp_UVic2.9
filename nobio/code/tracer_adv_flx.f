@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio_linadv/updates/tracer_adv_flx.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/tracer_adv_flx.F
       subroutine adv_flux (joff, js, je, is, ie, n)
 
 !=======================================================================

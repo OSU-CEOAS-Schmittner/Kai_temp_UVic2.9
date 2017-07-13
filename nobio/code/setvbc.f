@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/setvbc.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/setvbc.F
       subroutine setvbc (joff, js, je, is, ie)
 
 !=======================================================================

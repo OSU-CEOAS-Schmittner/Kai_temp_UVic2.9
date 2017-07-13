@@ -64,6 +64,35 @@
       common /cisop_r/ adv_fbiso(imt,0:km,jsmw:jemw)
 # endif
 
+!begin AHO
+#   if defined O_KGMdiag
+      real drodxte, drodxbe
+      real drodytn, drodybn
+      real drodzte, drodzbe
+      real drodztn, drodzbn
+      
+      integer countx, county
+      real abs_grd_rho2, grd_rho_x, grd_rho_y, abs_drho_dz
+      
+      common /cisop_r/ drodxte(imt,km,jmt), drodxbe(imt,km,jmt)
+      common /cisop_r/ drodytn(imt,km,jmt), drodybn(imt,km,jmt)
+      common /cisop_r/ drodzte(imt,km,jmt), drodzbe(imt,km,jmt)
+      common /cisop_r/ drodztn(imt,km,jmt), drodzbn(imt,km,jmt)
+
+      !     Oleg and Geoff
+      !     niso = number of indices in kgm. =2 for anisotropic GM coeff
+      real Lm ! , N0
+      real Lr ! 1st baroclinic Rossby Radius
+      real kgm
+      real coef, pii
+      real stratif_int, clinic_int(niso), sum_zz
+      real eddy_min, eddy_max
+      
+      common /kgm2d_r/ kgm(imt,jmt,niso), Lr(imt,jmt)  
+!      common /kgm2d_r/ kgm(imt,jmt,1), Lr(imt,jmt)  
+#   endif  
+!end AHO
+
       real drodxe, drodze, drodyn, drodzn, drodxb, drodyb, drodzb
       real drodye, drodxn
 

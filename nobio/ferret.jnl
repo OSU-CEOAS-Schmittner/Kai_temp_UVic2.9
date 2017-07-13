@@ -1,8 +1,15 @@
  ! NOAA/PMEL TMAP
  ! FERRET v6.67  
  ! Linux(gfortran) 2.6.18-238.1.1.el5 - 02/11/11
- !  5-Jul-17 11:23     
+ ! 15-Aug-16 16:59     
 
+use tavg.00
 use tavg.00100.01.01.nc
-sh da
-q
+go calc_xi_2.9 l=15:20@ave
+use "../../default_comb/nobio/tavg.00100.01.01.nc"
+sh da/b
+set axis/depth depth
+go pl_xi_diffall 1
+go pl_xi_diffall 1
+go pl_xi_diffall 1
+go pl_xi_diffall 1

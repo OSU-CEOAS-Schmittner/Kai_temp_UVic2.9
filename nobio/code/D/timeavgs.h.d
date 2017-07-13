@@ -5,6 +5,8 @@ timeavgs.h
 #endif
 #if defined O_save_kv
 #endif
+#if defined O_KGMdiag
+#endif
 #if defined O_save_npzd
 # if defined O_kk_ballast
 # endif
