@@ -1,0 +1,11 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.67  
+ ! Linux(gfortran) 2.6.18-238.1.1.el5 - 02/11/11
+ ! 11-Jul-17 11:55     
+
+use  O_diffac.nc
+sh da
+shade O_DIFFAC[k=1]
+go land
+stop land
+go land
