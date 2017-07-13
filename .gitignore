@@ -1,5 +1,5 @@
 *.nc
-data/
+.svn
 ferret\.jnl\.*
 *.o
 *.d
