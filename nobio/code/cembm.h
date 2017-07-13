@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/cembm.h
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/cembm.h
 !======================= include file "cembm.h" ========================
 
 !     parameters for use in the energy balance model (also see atm.h)

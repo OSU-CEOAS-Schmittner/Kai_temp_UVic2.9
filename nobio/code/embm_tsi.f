@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/embm_tsi.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/embm_tsi.F
       subroutine embm_tsi_def (fname, calendar, expnam, runstamp)
 
 !=======================================================================
@@ -222,15 +222,8 @@
 !-----------------------------------------------------------------------
 !     open file and get latest record number
 !-----------------------------------------------------------------------
-!begin AHO
-      write(*,'(a,i5)') ' Index # [ntrec, embm_tsi], pre: ', ntrec
-!end AHO
-
       call opennext (fname, time, ntrec, iou)
       if (ntrec .le. 0) ntrec = 1
-!begin AHO
-      write (*, '(a,i5)') ' Index # [ntrec, embm_tsi], post: ', ntrec
-!end AHO
 
 !-----------------------------------------------------------------------
 !     write 1d data (t)

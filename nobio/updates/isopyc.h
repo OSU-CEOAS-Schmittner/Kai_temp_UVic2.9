@@ -4,6 +4,7 @@
 !     isopycnal diffusion variables:
 
 !     ahisop = isopycnal tracer mixing coefficient (cm**2/sec)
+!     beta   = df/dy where f is related to coriolis force
 !     drodx  = d(rho)/dx local to east face of T cell
 !     drody  = d(rho)/dy local to north face of T cell
 !     drodz  = d(rho)/dz local to bottom face of T cell
@@ -16,8 +17,8 @@
 !     slmxr  = reciprocal of maximum allowable slope of isopycnals for
 !              small angle approximation
 
-      real alphai, betai
-      common /cisop_r/ alphai(imt,km,jmw), betai(imt,km,jmw)
+      real alphai, betai, beta
+      common /cisop_r/ alphai(imt,km,jmw), betai(imt,km,jmw), beta
 
       real addisop
       real ddxt, ddyt, ddzt, Ai_ez, Ai_nz, Ai_bx, Ai_by, K11, K22, K33
@@ -63,6 +64,49 @@
       common /cisop_r/ adv_vbtiso(imt,0:km,jsmw:jemw)
       common /cisop_r/ adv_fbiso(imt,0:km,jsmw:jemw)
 # endif
+
+#   if defined O_KGMdiag
+!     Define variables related to calculating K_gm mesoscale eddy 
+!     diffiusivity as outlined in Gent an McWilliams Paper (1989). 
+!     Further refinement from Eden 2009
+!     *** NEED MORE COMMENTS HERE AND DETAIL ***
+!     L_Rhi      = Rhines scale. Defined as sigma/beta. Where sigma is 
+!                  the Eady Growth rate of baroclinic instability
+!     Lr         = 1st baroclinic Rossby Radius
+!     c_eden     = Determined constant to ensure an average O_KGM =~ 800 m^2/s
+!     kgm        = Isopycnal diffisivity constant
+!     kgm_ave    = Average of Kgm. Mainly used to compute c_eden
+!     kgm_sum     
+!     ahisop_var = Related to ahisop although this is a variable, vectorized
+!                  version that changes with kgm and a constant
+!     ahisop_sum
+!     ahisop_ave
+!     gridsum_area
+
+      real drodxte, drodxbe
+      real drodytn, drodybn
+      real drodzte, drodzbe
+      real drodztn, drodzbn
+      
+      integer countx, county
+      real abs_grd_rho2, grd_rho_x, grd_rho_y, abs_drho_dz
+      
+      common /cisop_r/ drodxte(imt,km,jmt), drodxbe(imt,km,jmt)
+      common /cisop_r/ drodytn(imt,km,jmt), drodybn(imt,km,jmt)
+      common /cisop_r/ drodzte(imt,km,jmt), drodzbe(imt,km,jmt)
+      common /cisop_r/ drodztn(imt,km,jmt), drodzbn(imt,km,jmt)
+
+      !     Oleg and Geoff
+      !     niso = number of indices in kgm. =2 for anisotropic GM coeff
+      real Lm, Lr, L_Rhi, kgm, ahisop_var, gridsum_area
+      real ahisop_sum, ahisop_ave, c_eden, coef, kgm_ave, kgm_sum, pii
+      real stratif_int, clinic_int(niso), sum_zz
+      real eddy_min, eddy_max
+      
+      common /kgm2d_r/ kgm(imt,jmt,niso), ahisop_var(imt,jmt,niso),
+     &                 Lr(imt,jmt), L_Rhi(imt,jmt)
+
+#   endif  
 
       real drodxe, drodze, drodyn, drodzn, drodxb, drodyb, drodzb
       real drodye, drodxn

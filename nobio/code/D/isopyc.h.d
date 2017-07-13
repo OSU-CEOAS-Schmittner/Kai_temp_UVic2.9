@@ -7,6 +7,8 @@ isopyc.h
 # endif
 # if defined O_gent_mcwilliams
 # endif
+#   if defined O_KGMdiag
+#   endif  
 # if defined O_full_tensor
 # endif
 #endif

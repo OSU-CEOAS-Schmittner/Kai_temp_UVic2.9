@@ -24,6 +24,10 @@
 
       integer imt, jmt, km, nt, nsrc, kpzd, nat, jmz, jmzm1, mnisle
       integer maxipp, jmw, jsmw, jemw
+
+      integer niso
+      parameter (niso = 1)
+
       parameter (imt=  102, jmt=  102, km= 19)
       parameter (nt=2 ! temp, salt
      $               )

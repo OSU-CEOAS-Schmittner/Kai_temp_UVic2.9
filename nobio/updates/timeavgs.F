@@ -457,6 +457,16 @@
           enddo
         enddo
 #  endif
+
+!begin AHO
+#  if defined O_KGMdiag
+        do i=1,imtav
+           ta_kgm(i,jj+1,:) = rnavgt*ta_kgm(i,jj+1,:)
+!           ta_kgm(i,jj+1,:) = c1
+        enddo
+#  endif
+!end AHO
+
 #  if defined O_save_npzd
 
         do k=1,kpzd
@@ -630,6 +640,12 @@
 #  if defined O_save_kv
      &,   ta_diff_cbt(is,1,jj+1)
 #  endif
+
+!begin AHO
+#  if defined O_KGMdiag
+     &,   ta_kgm(is,jj+1,1)
+!end AHO
+
 #  if defined O_save_npzd
 #   if defined O_save_carbon_totals
      &,   redctn
@@ -742,6 +758,13 @@
 #  if defined O_save_kv
       ta_diff_cbt(:,:,:) = c0
 #  endif
+
+!begin AHO
+#  if defined O_KGMdiag
+      ta_kgm(:,:,:) = c0
+#  endif
+!end AHO
+
 #  if defined O_save_npzd
       ta_rnpp(:,:,:) = c0
       ta_rgraz(:,:,:) = c0

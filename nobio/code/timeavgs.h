@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/timeavgs.h
+! source file: /raid24/aho/UVic2.9/default_comb/nobio/updates/timeavgs.h
 ! source file: /Users/dkeller/Desktop/UVic_ESCM/2.9/source/mom/timeavgs.h
 !====================== include file "timeavgs.h" ======================
 
@@ -11,6 +11,14 @@
       real ta_vetiso, ta_vntiso, ta_vbtiso
       common /ta_gm_r/ ta_vetiso(imt,km,jmt), ta_vntiso(imt,km,jmt)
       common /ta_gm_r/ ta_vbtiso(imt,km,jmt)
+
+!begin AHO
+      real ta_kgm
+      common /ta_gm_r/ ta_kgm(imt,jmt,1) !previously 1 was niso
+!      real kgm
+!      common /kgm2d_r/ kgm(imt,jmt,1) !previously 1 was niso
+!end AHO
+
       integer nta_conv
       common /ta_conv_i/ nta_conv
 

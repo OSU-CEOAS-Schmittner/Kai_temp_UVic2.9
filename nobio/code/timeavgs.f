@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/timeavgs.F
+! source file: /raid24/aho/UVic2.9/default_comb/nobio/updates/timeavgs.F
       subroutine avgset (xt, xu, yt, yu, zt, zw, imkmax
      &,          cvxz, cvx, cvy, cvz, javgr, imav, jmav, levav)
 
@@ -418,6 +418,13 @@
           enddo
         enddo
 
+!begin AHO
+        do i=1,imtav
+           ta_kgm(i,jj+1,:) = rnavgt*ta_kgm(i,jj+1,:)
+!           ta_kgm(i,jj+1,:) = c1
+        enddo
+!end AHO
+
         do i=2,imtav
           ta_totalk(i,jj+1) = rnta_conv*ta_totalk(i,jj+1)
           ta_vdepth(i,jj+1) = rnta_conv*ta_vdepth(i,jj+1)
@@ -452,6 +459,11 @@
      &,   avg3d(1,nt+3), avg2d(is,1), avg2d(is,nt+1), avg2d(is,nt+2)
      &,   ta_vetiso(is,1,jj+1), ta_vntiso(is,1,jj+1)
      &,   ta_vbtiso(is,1,jj+1)
+
+!begin AHO
+     &,   ta_kgm(is,jj+1,1)
+!end AHO
+
      &,   ta_totalk(is,jj+1), ta_vdepth(is,jj+1), ta_pe(is,jj+1)
      &,   avg2d(is,nt+3)
      &,   kmt(is,jj+1), mskhr(is,jj+1), tmask(is,1), umask(is,1)
@@ -459,19 +471,10 @@
      &,   visc_cnu(is,1,jj+1), visc_ceu(is,1,jj+1)
      &,   tgarea(is,jj+1), ugarea(is,jj+1), ntrec)
 
-!        if (jj .eq. 1)
-!     &    write (stdout,'(a,i4,a,a,a,i10,a,a)') '=> Ocn time means # '
-!     &,     ntrec, ' written to ',trim(fname),' on ts = ',itt, ', '
-!     &,     stamp
-
-!begin AHO
-        if (jj .eq. 1)then
-           write (stdout,'(a,i4,a,a,a,i10,a,a)') '=> Ocn time means # '
-     &, ntrec, ' written to ',trim(fname),' on ts = ',itt, ', '
-     &, stamp
-           write (*, '(a,i5)') 'Index # [ntrec,timeavgs, ocn]: ', ntrec
-        endif
-!end AHO
+        if (jj .eq. 1)
+     &    write (stdout,'(a,i4,a,a,a,i10,a,a)') '=> Ocn time means # '
+     &,     ntrec, ' written to ',trim(fname),' on ts = ',itt, ', '
+     &,     stamp
 
 !-----------------------------------------------------------------------
 !       zero out the "averaging" data the for the next averaging period
@@ -494,6 +497,11 @@
       ta_vetiso(:,:,:) = c0
       ta_vntiso(:,:,:) = c0
       ta_vbtiso(:,:,:) = c0
+
+!begin AHO
+      ta_kgm(:,:,:) = c0
+!end AHO
+
       ta_totalk(:,:) = c0
       ta_vdepth(:,:) = c0
       ta_pe(:,:) = c0

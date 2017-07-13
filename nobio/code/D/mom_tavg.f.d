@@ -31,6 +31,8 @@ mom_tavg.f
 # endif
 # if defined O_pipe_co2
 # endif
+# if defined O_KGMdiag
+# endif
 # if defined O_units_temperature_Celsius
 # else
 # endif
@@ -77,6 +79,8 @@ mom_tavg.f
 # endif
 # if defined O_save_kv
 # endif
+# if defined O_KGMdiag
+# endif
 # if defined O_save_npzd
 #  if defined O_save_carbon_totals
 #  endif
@@ -116,6 +120,8 @@ mom_tavg.f
 # if defined O_carbon && defined O_carbon_14
 # endif
 # if defined O_save_kv
+# endif
+# if defined O_KGMdiag
 # endif
 # if defined O_save_npzd
 #  if defined O_kk_ballast
@@ -170,6 +176,7 @@ mom_tavg.f
 # endif
 # if defined O_pipe_co2
 # endif
+# if defined O_KGMdiag
 # if defined O_save_carbon_totals
 # endif
 # if defined O_units_temperature_Celsius

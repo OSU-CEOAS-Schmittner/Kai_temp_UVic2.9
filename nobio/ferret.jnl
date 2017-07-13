@@ -1,8 +1,14 @@
  ! NOAA/PMEL TMAP
  ! FERRET v6.67  
  ! Linux(gfortran) 2.6.18-238.1.1.el5 - 02/11/11
- !  5-Jul-17 11:23     
+ ! 12-Jul-17 10:24     
 
 use tavg.00100.01.01.nc
-sh da
-q
+shade O_KGM[l=2]
+shade/lev=(300,1500,50)(inf)
+shade/lev=(600,3500,50)(inf)
+shade/lev=(600,3500,20)(inf)
+shade/lev=(600,4000,20)(inf)
+shade/lev=(600,1500,20)(inf)
+shade/lev=(600,1500,10)(inf)
+shade/lev=(600,1500,5)(inf)

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/sulphdata.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/sulphdata.F
       subroutine sulphdata
 
       return

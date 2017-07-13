@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/mom_tavg.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/mom_tavg.F
       subroutine mom_tavg_def (fname, imt, jmt, km, nt, kpzd, xt, yt
      &,                        calendar, expnam, runstamp, mapt)
 
@@ -309,6 +309,11 @@
       call defvar ('O_convpe', iou, 3, it, -c1, c1e6, ' ', 'F'
      &, 'potential energy lost due to convection', ' ', 'W m-2')
 
+!begin AHO
+      call defvar('O_KGM', iou, 3, it, 300, 3000, ' ', 'F'
+     &, 'GM coefficient', ' ', 'm2 s-1')
+!end AHO
+
 !-----------------------------------------------------------------------
 !     define time dependent 4d data (x,y,z,t)
 !-----------------------------------------------------------------------
@@ -475,6 +480,11 @@
      &,                        dxu, dyu, dzw, avgper, time, stamp, mapt
      &,                        t, u, v, adv_vbt, stf, taux, tauy
      &,                        adv_vetiso, adv_vntiso, adv_vbtiso
+
+!begin AHO
+     &,                        kgm
+!end Aho
+
      &,                        totalk, vdepth, pe
      &,                        psi
      &,                        kmt, mskhr, tm, um
@@ -529,6 +539,11 @@
       real adv_vetiso(ids:ide,jds:jde,km)
       real adv_vntiso(ids:ide,jds:jde,km)
       real adv_vbtiso(ids:ide,jds:jde,km)
+
+!begin AHO
+      real kgm(ids:ide,jds:jde)
+!end AHO
+
       real totalk(ids:ide,jds:jde), vdepth(ids:ide,jds:jde)
       real pe(ids:ide,jds:jde)
       real psi(ids:ide,jds:jde)
@@ -850,6 +865,12 @@
       tmpij(ils:ile,jls:jle) = pe(ils:ile,jls:jle)
       call putvaramsk ('O_convpe', iou, ln, ib, ic, tmpij, tmpijm
      &, c1e3, c0)
+
+!begin AHO
+      tmpij(ils:ile,jls:jle) = kgm(ils:ile,jls:jle)
+      call putvaramsk('O_KGM', iou, ln, ib, ic, tmpij, tmpijm
+     &, c1e4, c0)
+!end AHO
 
 !-----------------------------------------------------------------------
 !     write 4d data (x,y,z,t)

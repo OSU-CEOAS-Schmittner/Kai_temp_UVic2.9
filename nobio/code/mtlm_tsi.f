@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/mtlm_tsi.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/mtlm_tsi.F
       subroutine mtlm_tsi_def (fname, calendar, expnam, runstamp)
 
 !=======================================================================

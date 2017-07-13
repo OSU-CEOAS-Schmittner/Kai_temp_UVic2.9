@@ -989,7 +989,11 @@
       tmpij(ils:ile,jls:jle) = sedrr(ils:ile,jls:jle)
       call putvaramsk ('O_sedrr', iou, ln, ib, ic, tmpij, tmpijm
      &, c1e5, c0)
-
+!AHO
+      tmpij(ils:ile,jls:jle) = kgm(ils:ile,jls:jle)
+      call putvaramsk ('O_KGM', iou, ln, ib, ic, tmpij, tmpijm
+     &, c100, c0)
+!AHO
 !-----------------------------------------------------------------------
 !     write 4d data (x,y,z,t)
 !-----------------------------------------------------------------------

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/mw.h
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/mw.h
 !======================= include file "mw.h" ===========================
 
 !                     M E M O R Y    W I N D O W

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/UVic_ESCM.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/UVic_ESCM.F
 
       program UVic_ESCM
 
@@ -178,7 +178,6 @@
 !-----------------------------------------------------------------------
 
       do n=1,numseg
-!        write (*,'(a,i5)') ' n [UVic_ESCM]=',n !AHO
 
 !-----------------------------------------------------------------------
 !       get the atmospheric S.B.C.
@@ -225,16 +224,12 @@
 !-----------------------------------------------------------------------
 
         do loop=1,ntspos
-!begin AHO
-!          write (*,'(a,i5)') ' LOOP # [loop, UVic_ESCM]: ', loop
-!end AHO
           call mom
           call embmout (1, imt, 1, jmt)
           call mtlmout (1, imt, 1, jmt)
           if (tsits .and. iotsi .ne. stdout .and. iotsi .gt. 0) then
             write (*,'(1x, a3, i7, 1x, a32)') 'ts=',itt, stamp
           endif
-          
         enddo
 
 !-----------------------------------------------------------------------

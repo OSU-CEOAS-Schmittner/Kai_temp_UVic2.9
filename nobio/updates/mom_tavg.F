@@ -371,6 +371,13 @@
      &, 'pipe depth', ' ', 'm')
 # endif
 
+!begin AHO
+# if defined O_KGMdiag
+      call defvar('O_KGM', iou, 3, it, 300, 3000, ' ', 'F'
+     &, 'GM coefficient', ' ', 'm2 s-1')
+# endif
+!end AHO
+
 !-----------------------------------------------------------------------
 !     define time dependent 4d data (x,y,z,t)
 !-----------------------------------------------------------------------
@@ -697,6 +704,13 @@
 # if defined O_save_kv
      &,                        diff_cbt
 # endif
+
+!begin AHO
+# if defined O_KGMdiag
+     &,                        kgm
+# endif
+!end Aho
+
 # if defined O_save_npzd
 #  if defined O_save_carbon_totals
      &,                        redctn
@@ -815,6 +829,13 @@
 # if defined O_save_kv
       real diff_cbt(ids:ide,jds:jde,km)
 # endif
+
+!begin AHO
+# if defined O_KGMdiag
+      real kgm(ids:ide,jds:jde)
+# endif
+!end AHO
+
 # if defined O_save_npzd
       real npp(ids:ide,jds:jde,kpzd)
       real graz_Z(ids:ide,jds:jde,kpzd) , graz(ids:ide,jds:jde,kpzd)
@@ -1277,6 +1298,13 @@
       call putvaramsk ('O_zpipe', iou, ln, ib, ic, tmpij, tmpijm
      &, c100, c0)      
 # endif
+
+!begin AHO
+# if defined O_KGMdiag
+      tmpij(ils:ile,jls:jle) = kgm(ils:ile,jls:jle)
+      call putvaramsk('O_KGM', iou, ln, ib, ic, tmpij, tmpijm
+     &, c1e4, c0)
+!end AHO
 
 !-----------------------------------------------------------------------
 !     write 4d data (x,y,z,t)

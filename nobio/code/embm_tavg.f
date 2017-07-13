@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/embm_tavg.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/embm_tavg.F
       subroutine embm_tavg_def (fname, imt, jmt, nat, ncat, xt, yt
      &,                         calendar, expnam, runstamp, mapat)
 

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio_linadv/updates/loadmw.F
+! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/loadmw.F
       subroutine loadmw (joff, js, je, is, ie, num1, nu, first_mw)
 
 !=======================================================================

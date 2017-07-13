@@ -1,0 +1,681 @@
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Source_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/updates 
+  Current Source_Directory:  /home/kai/UVic2.9/default_comb2/updates 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
+  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
+  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
+  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
+  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
+  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
+  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
+  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
+  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
+  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+Done: mk e
