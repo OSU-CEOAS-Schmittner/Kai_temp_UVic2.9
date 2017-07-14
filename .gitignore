@@ -1,4 +1,5 @@
 ferret\.jnl\.*
+*.svn
 *.[oda]
 mobi1
 mobi1.9nb.q.e*

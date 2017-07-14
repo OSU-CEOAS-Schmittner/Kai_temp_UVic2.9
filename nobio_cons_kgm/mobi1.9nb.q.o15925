@@ -1,0 +1,3 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+38.970u 0.550s 0:40.43 97.7%	0+0k 0+0io 9pf+0w
