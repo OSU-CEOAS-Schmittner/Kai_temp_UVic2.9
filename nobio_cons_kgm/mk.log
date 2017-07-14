@@ -1,0 +1,8 @@
+Made /home/kai/UVic2.9/default_comb2/nobio_cons_kgm/code/isopyc.f
+Made /home/kai/UVic2.9/default_comb2/nobio_cons_kgm/code/D/isopyc.f.d
+Encountered 0 errors, 0 warnings in file /home/kai/UVic2.9/default_comb2/nobio_cons_kgm/code/isopyc.f.
+Made /home/kai/UVic2.9/default_comb2/nobio_cons_kgm/code/O/isopyc.o
+Executable Directory: /home/kai/UVic2.9/default_comb2/nobio_cons_kgm
+Linking: lfc --o3 --dbl -o UVic_ESCM code/O/*.o -L/usr/local/models/UVic_ESCM/2.9/lib/lib_linux -lnetcdf 
+Made /home/kai/UVic2.9/default_comb2/nobio_cons_kgm/UVic_ESCM
+Done: mk e
