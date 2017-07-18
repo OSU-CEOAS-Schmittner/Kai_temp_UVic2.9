@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/embm_tavg.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/embm_tavg.F
       subroutine embm_tavg_def (fname, imt, jmt, nat, ncat, xt, yt
      &,                         calendar, expnam, runstamp, mapat)
 
@@ -90,7 +90,6 @@
 !-----------------------------------------------------------------------
       it(1) = id_time
       call defvar ('time', iou, 1, it, c0, c0, 'T', 'D'
-
      &, 'time', 'time', 'years since 0-1-1')
       call putatttext (iou, 'time', 'calendar', calendar)
       call defvar ('T_avgper', iou, 1, it, c0, c0, ' ', 'F'

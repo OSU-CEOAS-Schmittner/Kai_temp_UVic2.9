@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/mtlmc14.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/mtlmc14.h
 !======================== include file "mtlmc14.h" ========================
 ! rc14std = standard c14/c12 ratio
 ! ac14npp = fractionation factor "alpha" for NPP

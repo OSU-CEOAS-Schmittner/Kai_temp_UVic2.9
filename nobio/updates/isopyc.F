@@ -670,7 +670,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 !            Ai0 = p5*(fisop(i,jrow,k) + fisop(i+1,jrow+1,k)) * 
 !     &        p5*(kgm(i,jrow,k)+kgm(i+1,jrow,k)) !AHO
             Ai0 = .5 * (fisop(i,jrow,k) + fisop(i+1,jrow+1,k)) * 
-     & (.5 * (ahisop_var(i,jrow,k) + ahisop_var(i+1,jrow,k)) + 
+     & (.5 * (ahisop_var(i,jrow,niso) + ahisop_var(i+1,jrow,niso)) + 
      &   addisop(i,k,jrow)) 
 
             
@@ -778,7 +778,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 !            Ai0 = p5*(fisop(i,jrow,k) + fisop(i,jrow+1,k)) * 
 !     &        p5*(kgm(i,jrow,k)+kgm(i,jrow+1,k)) !AHO
             Ai0 = p5*(fisop(i,jrow,k) + fisop(i,jrow+1,k)) * 
-     &            p5*(ahisop_var(i,jrow,k)+ahisop_var(i,jrow+1,k))
+     &            p5*(ahisop_var(i,jrow,niso)+ahisop_var(i,jrow+1,niso))
 
 #  if defined O_full_tensor
             sumz = c0
@@ -882,7 +882,8 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 !            Ai0 = p5*(fisop(i,jrow,k+1) + fisop(i,jrow,k)) * 
 !     &        p5*(kgm(i,jrow,k+1)+kgm(i,jrow,k)) !AHO
             Ai0 = p5*(fisop(i,jrow,k+1) + fisop(i,jrow,k)) * 
-     &        p5*(ahisop_var(i,jrow,k+1)+ahisop_var(i,jrow,k))
+     &        p5*(ahisop_var(i,jrow,niso)+ahisop_var(i,jrow,niso))
+
 #  if defined O_full_tensor
 
 !           eastward slopes at the base of T cells
@@ -1430,7 +1431,6 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 !     Determine constant to ensure K_GM ends up averaging to 800 m^2/s
 !     globally.
 !     HACK until multiplication by grid box size done. 
-!      kgm_ave = kgm_sum / size(kgm(:,:,1))
       kgm_ave = kgm_sum / gridsum_area
       c_eden  = 7.6e6 / kgm_ave
 

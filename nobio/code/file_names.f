@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/file_names.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/file_names.F
       subroutine file_names
 !=======================================================================
 !     edit this routine to change file names or add directories to file

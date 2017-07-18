@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/co2calc.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/co2calc.F
       subroutine co2calc_SWS (t, s, dic_in, ta_in, co2_in, atmpres
      &,                       depth, ph, co2star, dco2star, pCO2, dpco2
      &,                       CO3, Omega_c, Omega_a)
@@ -171,7 +171,6 @@
       b_x = b_x + 3.16528*1e-5*tk*tk*tk
       FugFac = exp((b_x+2*delta_x)*1/rt_x) ! Note that 1 is the atmospheric pressure in bars
 !
-
 !------------------------------------------------------------------------
 ! k1 = [H][HCO3]/[H2CO3]
 ! k2 = [H][CO3]/[HCO3]     on hSWS
@@ -306,10 +305,8 @@
 
 ! Add two output arguments for storing pCO2
 ! Should we be using K0 or ff for the solubility here?
-
       pCO2 = co2star/(k0*FugFac)
 c      pCO2 = co2star/ff ! if not O_pCO2_bug_fix
-
       dpCO2 = pCO2 - co2starair
 c      dpCO2 = pCO2 - co2*atmpres ! if not O_pCO2_bug_fix
 

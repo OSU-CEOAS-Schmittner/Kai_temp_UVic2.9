@@ -1,8 +1,22 @@
-Made /home/kai/UVic2.9/default_comb2/nobio/code/isopyc.f
-Made /home/kai/UVic2.9/default_comb2/nobio/code/D/isopyc.f.d
-Encountered 0 errors, 0 warnings in file /home/kai/UVic2.9/default_comb2/nobio/code/isopyc.f.
-Made /home/kai/UVic2.9/default_comb2/nobio/code/O/isopyc.o
-Executable Directory: /home/kai/UVic2.9/default_comb2/nobio
-Linking: lfc --o3 --dbl -o UVic_ESCM code/O/*.o -L/usr/local/models/UVic_ESCM/2.9/lib/lib_linux -lnetcdf 
-Made /home/kai/UVic2.9/default_comb2/nobio/UVic_ESCM
+Made /data/home/kai/dev/UVic2.9/nobio/code/isopyc.f
+Made /data/home/kai/dev/UVic2.9/nobio/code/D/isopyc.f.d
+/data/home/kai/dev/UVic2.9/nobio/code/isopyc.f(114): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9102  format(/' ahisop = ',e12.6,' along isopyncal tracer mixing '
+----------------------------^
+/data/home/kai/dev/UVic2.9/nobio/code/isopyc.f(115): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     &,  '(cm**2/sec) '/' athkdf = ',e12.6,' isopycnal thickness '
+--------------------------------------^
+/data/home/kai/dev/UVic2.9/nobio/code/isopyc.f(116): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     &,'diffusion (cm**2/sec) '/' ah = ',e12.6,' cm**2/sec for '
+------------------------------------------^
+/data/home/kai/dev/UVic2.9/nobio/code/isopyc.f(117): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     &,' am = ',e12.6,' cm**2/sec for horizontal mixing of momentum'/)
+-----------------^
+/data/home/kai/dev/UVic2.9/nobio/code/isopyc.f(180): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+      write (stdout,'(5(1x,e12.6))') (dtxsqr(k),k=1,km)
+----------------------------^
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/isopyc.o
+Executable Directory: /data/home/kai/dev/UVic2.9/nobio
+Linking: ifort -r8 -O3 -warn nouncalled -o UVic_ESCM code/O/*.o -L/usr/local/models/UVic_ESCM/2.9/lib/lib_linux -lnetcdf 
+Made /data/home/kai/dev/UVic2.9/nobio/UVic_ESCM
 Done: mk e

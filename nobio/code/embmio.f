@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/embmio.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/embmio.F
        subroutine embmout (is, ie, js, je)
 
 !=======================================================================
@@ -76,9 +76,6 @@
           write (*,'(1x, a3, i7, 1x, a32, 3(a,1pe13.6))')
      &      'ts=',itt, nstamp, ' iterations =', tai_maxit
      &,     ' TAbar=', tai_sat, ' QAbar=', tai_shum
-!begin AHO
-          write (*,'(a,i5)') ' Index # [ntrec, embmio, ts=]: ', ntrec
-!end AHO
         endif
         rntatil = 0.
         if (ntatil .gt. 0) rntatil = 1./float(ntatil)
@@ -93,10 +90,6 @@
         time = time - tmp*avgper/365.
 !       convert emissions from g cm-2 to kg s-1
         tmp = tai_co2emit*atmsa*1.e-3
-!begin AHO
-        write (*,'(a,i5)') 'Index # [ntrec, embmio], pre embm_tsi_out: 
-     &    ', ntrec
-!end AHO
 
         call embm_tsi_out (fname, avgper, time, nstamp, tai_sat
      &,                    tai_shum, tai_precip, tai_evap, tai_ohice
@@ -120,12 +113,6 @@
      &,                    tai_sscfc12, tai_sulph, tai_volc, tai_agg
      &,                    tai_catm, tai_carbemit, ntrec
      &,                    tai_ssdfe)
-!begin AHO
-        write (*,'(a,i5)') 'Index # [ntrec, embmio], post embm_tsi_out:
-     &    ', ntrec
-!end AHO
-
-
 
         call ta_embm_tsi (is, ie, js, je, 0)
 
@@ -219,10 +206,6 @@
 
         write (*,'(a,i5,a,a,a,a)') '=> Atm time means #'
      &,   ntrec, ' written to ',trim(fname),' on ', stamp
-!begin AHO
-        write(*,'(a,i5)') ' Index # [ntrec, embmio, atm]: ]', ntrec
-!end AHO
-
 
 !       zero time average accumulators
 

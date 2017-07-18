@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/fdifm.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/fdifm.h
 !====================== include file "fdifm.h" =========================
 
 !     finite difference numerics for momentum

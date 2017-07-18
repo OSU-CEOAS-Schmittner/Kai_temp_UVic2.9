@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/switch.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/switch.h
 !====================== include file "switch.h" ========================
 
 !     all time dependent decisions are made by time manager "tmngr.F"

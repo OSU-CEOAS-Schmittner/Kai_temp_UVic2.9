@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/carbon.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/carbon.h
 !====================== include file "carbon.h" =========================
       real phlo,phhi,sit_in,pt_in
       parameter(phlo = 6., phhi = 10., sit_in = 7.6875e-03 !mol/m^3

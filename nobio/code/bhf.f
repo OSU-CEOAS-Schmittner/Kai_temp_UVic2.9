@@ -1,6 +1,5 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/bhf.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/bhf.F
       function geoheatflux(lon,lat)
-
 !     written by Alex Hoffman
 !     put into 2.9 by Andreas Schmittner
 !     input arguments: latitude lat, longitude lon in degrees!
@@ -230,7 +229,6 @@
          f=i*f
       enddo
       factorial = f
-
       return
       end
 ! End Spatially Variable Heat Flux (spavar) !

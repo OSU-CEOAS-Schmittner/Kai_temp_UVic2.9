@@ -75,13 +75,10 @@
       common /grdvar/ dzwr(0:km), dzw2r(0:km)
       common /grdvar/ dxmetr(imt), duw(imt), due(imt)
       common /grdvar/ dun(jmt), dus(jmt)
-
       common /grdvar/ dztur(km), dztlr(km)
-
       common /grdvar/ quick_x(imt,2), curv_xp(imt,3), curv_xn(imt,3)
       common /grdvar/ quick_y(jmt,2), curv_yp(jmt,3), curv_yn(jmt,3)
       common /grdvar/ quick_z(km,2),  curv_zp(km,3),  curv_zn(km,3)
-
       common /grdvar/ tlat(imt,jmt), tlon(imt,jmt), tgarea(imt,jmt)
       common /grdvar/ ulat(imt,jmt), ulon(imt,jmt), ugarea(imt,jmt)
 

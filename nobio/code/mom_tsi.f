@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/mom_tsi.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/mom_tsi.F
       subroutine mom_tsi_def (fname, calendar, expnam, runstamp)
 
 !=======================================================================
@@ -55,7 +55,6 @@
 !     define 1d data (t)
 !-----------------------------------------------------------------------
       call defvar ('time', iou, 1, id, c0, c0, 'T', 'D'
-
      &, 'time', 'time', 'years since 0-1-1')
       call putatttext (iou, 'time', 'calendar', calendar)
       call defvar ('T_avgper', iou, 1, id, c0, c0, ' ', 'F'

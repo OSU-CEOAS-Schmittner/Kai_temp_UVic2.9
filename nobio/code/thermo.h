@@ -10,7 +10,6 @@
       real errmax  ! error tolerance for temp difference in tstm
       parameter (maxedif=5.e2*kilo)
       parameter (maxwdif=1.e-7*centi)
-
       parameter (errmax=5.0e-6)
 
       real cpice,cpsno

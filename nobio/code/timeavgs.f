@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb/nobio/updates/timeavgs.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/timeavgs.F
       subroutine avgset (xt, xu, yt, yu, zt, zw, imkmax
      &,          cvxz, cvx, cvy, cvz, javgr, imav, jmav, levav)
 

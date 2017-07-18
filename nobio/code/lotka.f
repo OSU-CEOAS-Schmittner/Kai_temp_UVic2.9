@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/lotka.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/lotka.F
       subroutine LOTKA (LAND_PTS, LAND_INDEX, C_VEG, FORW, FRAC_VS
      &,                 FRAC_AGR, FRAC_MIN, FRAC_SEED, DENOM_MIN
      &,                 GAMMA, LAI, PC_S, FRAC, DFRAC, DFRAC_AGR)

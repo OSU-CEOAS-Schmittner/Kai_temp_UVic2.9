@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/MOBI1.9/nobio/updates/gosbc.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/gosbc.F
       subroutine gosbc (is, ie, js, je)
 
 !=======================================================================

@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/ctdbc.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/ctdbc.h
 !======================= include file "ctdbc.h" ========================
 
 !           time dependent S.B.C. data for UVic_ESCM

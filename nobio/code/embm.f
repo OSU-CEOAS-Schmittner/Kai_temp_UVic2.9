@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb2/nobio/updates/embm.F
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/embm.F
       subroutine embm (is, ie, js, je)
 
 !=======================================================================

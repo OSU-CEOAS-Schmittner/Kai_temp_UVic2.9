@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/ice.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/ice.h
 !======================== include file "ice.h" =========================
 
 !     arrays for the ice model

@@ -39,7 +39,6 @@
 
       common /index_i/ jfrst, jft0, jft1, jft2, jfu0, jfu1, jfu2
       common /index_i/ jskpt, jskpu, njtbft, njtbfu
-
       common /index_i/ istf(jmtfil,lsegf,km), ietf(jmtfil,lsegf,km)
       common /index_i/ isuf(jmtfil,lsegf,km), ieuf(jmtfil,lsegf,km)
       common /index_i/ iszf(jmtfil,lsegf),    iezf(jmtfil,lsegf)

@@ -1,4 +1,4 @@
-! source file: /home/kai/UVic2.9/default_comb2/nobio/updates/isopyc.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/isopyc.h
 !======================== include file "isopyc.h" ======================
 
 !     isopycnal diffusion variables:
@@ -88,6 +88,10 @@
 
       !     Oleg and Geoff
       !     niso = number of indices in kgm. =2 for anisotropic GM coeff
+
+      integer niso
+      parameter (niso = 1)
+
       real Lm, Lr, L_Rhi, kgm, ahisop_var, gridsum_area
       real ahisop_sum, ahisop_ave, c_eden, coef, kgm_ave, kgm_sum, pii
       real stratif_int, clinic_int(niso), sum_zz

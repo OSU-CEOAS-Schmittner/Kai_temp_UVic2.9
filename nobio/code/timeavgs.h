@@ -1,4 +1,4 @@
-! source file: /raid24/aho/UVic2.9/default_comb/nobio/updates/timeavgs.h
+! source file: /data/home/kai/dev/UVic2.9/nobio/updates/timeavgs.h
 ! source file: /Users/dkeller/Desktop/UVic_ESCM/2.9/source/mom/timeavgs.h
 !====================== include file "timeavgs.h" ======================
 
