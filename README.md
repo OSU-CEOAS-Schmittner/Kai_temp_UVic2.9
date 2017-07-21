@@ -24,6 +24,7 @@ Give examples
 #$ -e /home/changeme/UVic2.9/MOBI1.9
 #$ -o /home/changeme/UVic2.9/MOBI1.9
 cd /home/changeme/UVic2.9/MOBI1.9
+# the next line is only needed on the magellan linux cluster at CEOAS
 source /share/apps/lf6481/csh_laheyfort_setup
 time ./UVic_ESCM > pr
 ```
