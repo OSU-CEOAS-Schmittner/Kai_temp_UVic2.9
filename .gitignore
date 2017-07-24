@@ -1,4 +1,4 @@
-ferret\.jnl\.*
+ferret\.jnl*
 *.svn
 *.[oda]
 mobi1
@@ -9,3 +9,6 @@ UVic_ESCM
 tavg*
 tsi*
 rest*
+pr
+*.log
+
