@@ -1,681 +1,1321 @@
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Source_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/updates 
-  Current Source_Directory:  /home/kai/UVic2.9/default_comb2/updates 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Source_Directory: /home/kai/UVic2.9/default_comb2/updates 
+  Current Source_Directory:  /data/home/kai/dev/UVic2.9/updates 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
-=>Warning: Source_Directory: /home/kai/UVic2.9/default_comb2/updates
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
-=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
 
-=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
 
-=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
 
-=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
 
-=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
 
-=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+=>Warning: Source_Directory: /data/home/kai/dev/UVic2.9/updates
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
-
-=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
-
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/common
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/common
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/netcdf
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/embm
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/embm
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/ice
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/ice
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mtlm
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mtlm
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/mom
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/mom
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/updates/02/source/sed
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Input_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/control.in 
-  Current Input_File:  /home/kai/UVic2.9/default_comb2/control.in 
+  Original Input_File: /home/kai/UVic2.9/default_comb2/control.in 
+  Current Input_File:  /data/home/kai/dev/UVic2.9/control.in 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Executable_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/UVic_ESCM 
-  Current Executable_File:  /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Original Linker_linux: lfc --o3 --dbl -o 
+  Current Linker_linux:  ifort -r8 -O3 -warn nouncalled -o 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Log_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/mk.log 
-  Current Log_File:  /home/kai/UVic2.9/default_comb2/mk.log 
+  Original Compiler_F_linux: lfc --o3 --dbl -c 
+  Current Compiler_F_linux:  ifort -r8 -O3 -warn nouncalled -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Code_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code 
-  Current Code_Directory:  /home/kai/UVic2.9/default_comb2/code 
+  Original Executable_File: /home/kai/UVic2.9/default_comb2/UVic_ESCM 
+  Current Executable_File:  /data/home/kai/dev/UVic2.9/UVic_ESCM 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Data_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/data 
-  Current Data_Directory:  /home/kai/UVic2.9/default_comb2/data 
+  Original Compiler_F90_linux: lfc --o3 --dbl -c 
+  Current Compiler_F90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Output_File: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/pr 
-  Current Output_File:  /home/kai/UVic2.9/default_comb2/pr 
+  Original Log_File: /home/kai/UVic2.9/default_comb2/mk.log 
+  Current Log_File:  /data/home/kai/dev/UVic2.9/mk.log 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Object_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/O 
-  Current Object_Directory:  /home/kai/UVic2.9/default_comb2/code/O 
+  Original Compiler_f90_linux: lfc --o3 --dbl -c 
+  Current Compiler_f90_linux:  ifort -r8 -O3 -warn nouncalled -FR -c 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Executable_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3 
-  Current Executable_Directory:  /home/kai/UVic2.9/default_comb2 
+  Original Code_Directory: /home/kai/UVic2.9/default_comb2/code 
+  Current Code_Directory:  /data/home/kai/dev/UVic2.9/code 
 
 =>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
 
-  Original Dependency_Directory: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/code/D 
-  Current Dependency_Directory:  /home/kai/UVic2.9/default_comb2/code/D 
+  Original Compiler_f_linux: lfc --o3 --dbl -c 
+  Current Compiler_f_linux:  ifort -r8 -O3 -warn nouncalled -c 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Data_Directory: /home/kai/UVic2.9/default_comb2/data 
+  Current Data_Directory:  /data/home/kai/dev/UVic2.9/data 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Preprocessor_Default: /lib/cpp -traditional -P -C 
+  Current Preprocessor_Default:  /lib/cpp -P 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Output_File: /home/kai/UVic2.9/default_comb2/pr 
+  Current Output_File:  /data/home/kai/dev/UVic2.9/pr 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Object_Directory: /home/kai/UVic2.9/default_comb2/code/O 
+  Current Object_Directory:  /data/home/kai/dev/UVic2.9/code/O 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Executable_Directory: /home/kai/UVic2.9/default_comb2 
+  Current Executable_Directory:  /data/home/kai/dev/UVic2.9 
+
+=>Warning: Source_Directory: /usr/local/models/UVic_ESCM/2.9/source/sed
+
+  Original Dependency_Directory: /home/kai/UVic2.9/default_comb2/code/D 
+  Current Dependency_Directory:  /data/home/kai/dev/UVic2.9/code/D 
+Made /data/home/kai/dev/UVic2.9/code/O/aggdata.o
+Made /data/home/kai/dev/UVic2.9/code/O/bhf.o
+Made /data/home/kai/dev/UVic2.9/code/O/cfcdata.o
+Made /data/home/kai/dev/UVic2.9/code/O/clinic.o
+Made /data/home/kai/dev/UVic2.9/code/O/co2calc.o
+Made /data/home/kai/dev/UVic2.9/code/O/co2data.o
+Made /data/home/kai/dev/UVic2.9/code/O/cpts.o
+Made /data/home/kai/dev/UVic2.9/code/O/data.o
+Made /data/home/kai/dev/UVic2.9/code/O/def_files.o
+/data/home/kai/dev/UVic2.9/code/diago.f(999): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+8204  format (2x,i3,3x,3(e12.6,5x))
+--------------------------^
+/data/home/kai/dev/UVic2.9/code/diago.f(187): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9014  format(/' FLX',i1,10(1x,e12.6),/)
+-------------------------------^
+/data/home/kai/dev/UVic2.9/code/diago.f(185): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9003  format('  AVG',10(1x,e12.6))
+----------------------------^
+/data/home/kai/dev/UVic2.9/code/diago.f(184): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9002  format(1x,i4,10(1x,e12.6))
+--------------------------^
+Made /data/home/kai/dev/UVic2.9/code/O/diago.o
+Made /data/home/kai/dev/UVic2.9/code/O/embm.o
+Made /data/home/kai/dev/UVic2.9/code/O/embm_rest.o
+Made /data/home/kai/dev/UVic2.9/code/O/embm_tavg.o
+Made /data/home/kai/dev/UVic2.9/code/O/embm_tsi.o
+Made /data/home/kai/dev/UVic2.9/code/O/embmio.o
+Made /data/home/kai/dev/UVic2.9/code/O/file_names.o
+Made /data/home/kai/dev/UVic2.9/code/O/fluxes.o
+Made /data/home/kai/dev/UVic2.9/code/O/gasbc.o
+Made /data/home/kai/dev/UVic2.9/code/O/global_sums.o
+Made /data/home/kai/dev/UVic2.9/code/O/glsbc.o
+Made /data/home/kai/dev/UVic2.9/code/O/gosbc.o
+Made /data/home/kai/dev/UVic2.9/code/O/gvsbc.o
+Made /data/home/kai/dev/UVic2.9/code/O/hmixc.o
+Made /data/home/kai/dev/UVic2.9/code/O/iomngr.o
+/data/home/kai/dev/UVic2.9/code/isopyc.f(119): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9102  format(/' ahisop = ',e12.6,' along isopyncal tracer mixing '
+----------------------------^
+/data/home/kai/dev/UVic2.9/code/isopyc.f(120): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     &,  '(cm**2/sec) '/' athkdf = ',e12.6,' isopycnal thickness '
+--------------------------------------^
+/data/home/kai/dev/UVic2.9/code/isopyc.f(121): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     &,'diffusion (cm**2/sec) '/' ah = ',e12.6,' cm**2/sec for '
+------------------------------------------^
+/data/home/kai/dev/UVic2.9/code/isopyc.f(122): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     &,' am = ',e12.6,' cm**2/sec for horizontal mixing of momentum'/)
+-----------------^
+/data/home/kai/dev/UVic2.9/code/isopyc.f(185): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+      write (stdout,'(5(1x,e12.6))') (dtxsqr(k),k=1,km)
+----------------------------^
+Made /data/home/kai/dev/UVic2.9/code/O/isopyc.o
+Made /data/home/kai/dev/UVic2.9/code/O/loadmw.o
+Made /data/home/kai/dev/UVic2.9/code/O/lotka.o
+Made /data/home/kai/dev/UVic2.9/code/O/mom_rest.o
+/data/home/kai/dev/UVic2.9/code/mom_tavg.f(993): error #6911: The syntax of this substring is invalid.   [KGM]
+      tmpij(ils:ile,jls:jle) = kgm(ils:ile,jls:jle)
+-------------------------------^
+compilation aborted for /data/home/kai/dev/UVic2.9/code/mom_tavg.f (code 1)
+Made /data/home/kai/dev/UVic2.9/code/O/mom_tsi.o
+Made /data/home/kai/dev/UVic2.9/code/O/mtlm.o
+Made /data/home/kai/dev/UVic2.9/code/O/mtlm_rest.o
+Made /data/home/kai/dev/UVic2.9/code/O/mtlm_state.o
+Made /data/home/kai/dev/UVic2.9/code/O/mtlm_tavg.o
+Made /data/home/kai/dev/UVic2.9/code/O/mtlm_tsi.o
+Made /data/home/kai/dev/UVic2.9/code/O/mtlmio.o
+/data/home/kai/dev/UVic2.9/code/npzd_src.f(386): error #6363: The intrinsic data types of the arguments must be the same.   [MAX]
+         ac13_aq_POC = -0.017*log10(min(max(co2star*1000.,2),74))+1.0034
+----------------------------------------------------------^
+/data/home/kai/dev/UVic2.9/code/npzd_src.f(386): error #6363: The intrinsic data types of the arguments must be the same.   [MIN]
+         ac13_aq_POC = -0.017*log10(min(max(co2star*1000.,2),74))+1.0034
+-------------------------------------------------------------^
+compilation aborted for /data/home/kai/dev/UVic2.9/code/npzd_src.f (code 1)
+Made /data/home/kai/dev/UVic2.9/code/O/sed_rest.o
+Made /data/home/kai/dev/UVic2.9/code/O/sed_tsi.o
+Made /data/home/kai/dev/UVic2.9/code/O/sedio.o
+Made /data/home/kai/dev/UVic2.9/code/O/setcom.o
+Made /data/home/kai/dev/UVic2.9/code/O/setdata.o
+Made /data/home/kai/dev/UVic2.9/code/O/setembm.o
+Made /data/home/kai/dev/UVic2.9/code/O/setmom.o
+Made /data/home/kai/dev/UVic2.9/code/O/setmtlm.o
+Made /data/home/kai/dev/UVic2.9/code/O/setsed.o
+Made /data/home/kai/dev/UVic2.9/code/O/setvbc.o
+Made /data/home/kai/dev/UVic2.9/code/O/soilcarb.o
+Made /data/home/kai/dev/UVic2.9/code/O/solve.o
+Made /data/home/kai/dev/UVic2.9/code/O/stab.o
+Made /data/home/kai/dev/UVic2.9/code/O/sulphdata.o
+Made /data/home/kai/dev/UVic2.9/code/O/switch.o
+Made /data/home/kai/dev/UVic2.9/code/O/therm.o
+Made /data/home/kai/dev/UVic2.9/code/O/timeavgs.o
+Made /data/home/kai/dev/UVic2.9/code/O/topog.o
+Made /data/home/kai/dev/UVic2.9/code/O/tracer.o
+Made /data/home/kai/dev/UVic2.9/code/O/tracer_adv_flx.o
+Made /data/home/kai/dev/UVic2.9/code/O/triffid.o
+Made /data/home/kai/dev/UVic2.9/code/O/UVic_ESCM.o
+Made /data/home/kai/dev/UVic2.9/code/O/vmixc.o
+Made /data/home/kai/dev/UVic2.9/code/O/volcdata.o
+Made /data/home/kai/dev/UVic2.9/code/O/winds.o
+Made /data/home/kai/dev/UVic2.9/code/O/c14data.o
+Made /data/home/kai/dev/UVic2.9/code/O/co2distdata.o
+Made /data/home/kai/dev/UVic2.9/code/O/icedata.o
+Made /data/home/kai/dev/UVic2.9/code/O/sealevdata.o
+Made /data/home/kai/dev/UVic2.9/code/O/solardata.o
+Made /data/home/kai/dev/UVic2.9/code/O/filfir.o
+Made /data/home/kai/dev/UVic2.9/code/O/filt.o
+Made /data/home/kai/dev/UVic2.9/code/O/filtr.o
+Made /data/home/kai/dev/UVic2.9/code/O/filuv.o
+Made /data/home/kai/dev/UVic2.9/code/O/findex.o
+Made /data/home/kai/dev/UVic2.9/code/O/grids.o
+Made /data/home/kai/dev/UVic2.9/code/O/isleperim.o
+/data/home/kai/dev/UVic2.9/code/reg1st.f(196): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9004  format(/' AREA',10(1x,e12.6))
+-----------------------------^
+/data/home/kai/dev/UVic2.9/code/reg1st.f(195): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9003  format('  SUM',10(1x,e12.6))
+----------------------------^
+/data/home/kai/dev/UVic2.9/code/reg1st.f(194): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+9002  format(1x,i4,10(1x,e12.6))
+--------------------------^
+Made /data/home/kai/dev/UVic2.9/code/O/reg1st.o
+Made /data/home/kai/dev/UVic2.9/code/O/size_check.o
+Made /data/home/kai/dev/UVic2.9/code/O/timeinterp.o
+Made /data/home/kai/dev/UVic2.9/code/O/tmngr.o
+Made /data/home/kai/dev/UVic2.9/code/O/util.o
+Made /data/home/kai/dev/UVic2.9/code/O/uvic_netcdf.o
+Made /data/home/kai/dev/UVic2.9/code/O/adi.o
+Made /data/home/kai/dev/UVic2.9/code/O/embmbc.o
+Made /data/home/kai/dev/UVic2.9/code/O/insolation.o
+Made /data/home/kai/dev/UVic2.9/code/O/mgrid.o
+Made /data/home/kai/dev/UVic2.9/code/O/rivmodel.o
+Made /data/home/kai/dev/UVic2.9/code/O/slap.o
+Made /data/home/kai/dev/UVic2.9/code/O/evp.o
+Made /data/home/kai/dev/UVic2.9/code/O/ice.o
+Made /data/home/kai/dev/UVic2.9/code/O/iceadv.o
+Made /data/home/kai/dev/UVic2.9/code/O/canopy.o
+Made /data/home/kai/dev/UVic2.9/code/O/leaf_lit.o
+Made /data/home/kai/dev/UVic2.9/code/O/microbe.o
+Made /data/home/kai/dev/UVic2.9/code/O/penmon.o
+Made /data/home/kai/dev/UVic2.9/code/O/pft_sparm.o
+Made /data/home/kai/dev/UVic2.9/code/O/phenol.o
+Made /data/home/kai/dev/UVic2.9/code/O/qsat.o
+Made /data/home/kai/dev/UVic2.9/code/O/sf_stom.o
+Made /data/home/kai/dev/UVic2.9/code/O/swrad.o
+Made /data/home/kai/dev/UVic2.9/code/O/vegcarb.o
+Made /data/home/kai/dev/UVic2.9/code/O/checks.o
+Made /data/home/kai/dev/UVic2.9/code/O/mom_tbt.o
+Made /data/home/kai/dev/UVic2.9/code/O/adv_vel.o
+Made /data/home/kai/dev/UVic2.9/code/O/bardiv.o
+Made /data/home/kai/dev/UVic2.9/code/O/bcest.o
+Made /data/home/kai/dev/UVic2.9/code/O/blmixi.o
+Made /data/home/kai/dev/UVic2.9/code/O/calc_psgrad.o
+Made /data/home/kai/dev/UVic2.9/code/O/congrad.o
+Made /data/home/kai/dev/UVic2.9/code/O/convect.o
+Made /data/home/kai/dev/UVic2.9/code/O/convect_brine.o
+Made /data/home/kai/dev/UVic2.9/code/O/delsq.o
+Made /data/home/kai/dev/UVic2.9/code/O/denscoef.o
+Made /data/home/kai/dev/UVic2.9/code/O/diag.o
+Made /data/home/kai/dev/UVic2.9/code/O/diagi.o
+Made /data/home/kai/dev/UVic2.9/code/O/energy.o
+Made /data/home/kai/dev/UVic2.9/code/O/gyre.o
+Made /data/home/kai/dev/UVic2.9/code/O/hyper3.o
+Made /data/home/kai/dev/UVic2.9/code/O/invtri.o
+Made /data/home/kai/dev/UVic2.9/code/O/mom.o
+Made /data/home/kai/dev/UVic2.9/code/O/neptune.o
+Made /data/home/kai/dev/UVic2.9/code/O/odam.o
+Made /data/home/kai/dev/UVic2.9/code/O/poisson.o
+Made /data/home/kai/dev/UVic2.9/code/O/ppmix.o
+Made /data/home/kai/dev/UVic2.9/code/O/relax1.o
+Made /data/home/kai/dev/UVic2.9/code/O/setkmp.o
+Made /data/home/kai/dev/UVic2.9/code/O/smagnl.o
+Made /data/home/kai/dev/UVic2.9/code/O/state.o
+Made /data/home/kai/dev/UVic2.9/code/O/tbt.o
+Made /data/home/kai/dev/UVic2.9/code/O/termbal.o
+Made /data/home/kai/dev/UVic2.9/code/O/tropic.o
+Made /data/home/kai/dev/UVic2.9/code/O/xbt.o
+Made /data/home/kai/dev/UVic2.9/code/O/sed.o
+Made /data/home/kai/dev/UVic2.9/code/O/sed_tavg.o
+Made /data/home/kai/dev/UVic2.9/code/O/sediment.o
+/data/home/kai/dev/UVic2.9/code/O/def_files.o: In function `def_tavg_':
+def_files.f:(.text+0xd4d): undefined reference to `mom_tavg_def_'
+/data/home/kai/dev/UVic2.9/code/O/def_files.o: In function `def_tavg_mom_':
+def_files.f:(.text+0x146c): undefined reference to `mom_tavg_def_'
+/data/home/kai/dev/UVic2.9/code/O/setmom.o: In function `setmom_':
+setmom.f:(.text+0x3883): undefined reference to `mobi_init_'
+/data/home/kai/dev/UVic2.9/code/O/timeavgs.o: In function `avgout_':
+timeavgs.f:(.text+0x4210): undefined reference to `mom_tavg_out_'
+/data/home/kai/dev/UVic2.9/code/O/tracer.o: In function `tracer_':
+tracer.f:(.text+0x4d56): undefined reference to `mobi_driver_'
+Executable Directory: /data/home/kai/dev/UVic2.9
+Linking: ifort -r8 -O3 -warn nouncalled -o UVic_ESCM code/O/*.o -L/usr/local/models/UVic_ESCM/2.9/lib/lib_linux -lnetcdf 
 Done: mk e

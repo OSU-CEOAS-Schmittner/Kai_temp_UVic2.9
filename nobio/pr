@@ -1162,16 +1162,16 @@ Maximum allowable isopycnal slope is specified as slmx =  0.1000000E-01
   
      (End of checks) 
   
- ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0, ke= 9.454508E-01 |dT|= 4.034379E-08 |dS|= 3.202894E-12 Tbar= 3.599803E+00 Sbar=-2.803714E-04 Tvar= 2.011342E+01 Svar= 1.188700E-07 scans= 9.562500E+01
+ ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0, ke= 9.564758E-01 |dT|= 3.970379E-08 |dS|= 3.232133E-12 Tbar= 3.599814E+00 Sbar=-2.803714E-04 Tvar= 2.011741E+01 Svar= 1.190503E-07 scans= 9.500000E+01
 => Ocn time means #    1 written to tavg.00000.01.31.nc on ts =         24, d/m/y=31/ 1/    0,h:m:s= 0: 0: 0
- ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0 iterations = 8.333333E+00 TAbar= 1.318642E+01 QAbar= 9.578975E-03
+ ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0 iterations = 8.291667E+00 TAbar= 1.317802E+01 QAbar= 9.574622E-03
 => Atm time means #    1 written to tavg.00000.01.31.nc on d/m/y=31/ 1/    0,h:m:s= 0: 0: 0
 => Lnd time means #    1 written to tavg.00000.01.31.nc on d/m/y=31/ 1/    0,h:m:s= 0: 0: 0
- ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0, ke= 1.565619E+00 |dT|= 3.763834E-08 |dS|= 3.285697E-12 Tbar= 3.601097E+00 Sbar=-2.801661E-04 Tvar= 2.005557E+01 Svar= 1.179770E-07 scans= 9.266667E+01
+ ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0, ke= 1.603691E+00 |dT|= 3.942213E-08 |dS|= 3.743182E-12 Tbar= 3.601142E+00 Sbar=-2.801652E-04 Tvar= 2.006502E+01 Svar= 1.185181E-07 scans= 8.866667E+01
 => Ocn time means #    2 written to tavg.00000.01.31.nc on ts =         48, d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
  => Ocn restart written to data/restart.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
  MOMdone
- ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0 iterations = 8.708333E+00 TAbar= 1.278666E+01 QAbar= 1.009995E-02
+ ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0 iterations = 8.687500E+00 TAbar= 1.275740E+01 QAbar= 1.008403E-02
 => Atm time means #    2 written to tavg.00000.01.31.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
  => Atm restart written to data/restart.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
 => Lnd time means #    2 written to tavg.00000.01.31.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0

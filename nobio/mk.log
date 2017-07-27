@@ -1,5 +1,18 @@
+Made /data/home/kai/dev/UVic2.9/nobio/code/isopyc.h
+Made /data/home/kai/dev/UVic2.9/nobio/code/D/isopyc.h.d
+Made /data/home/kai/dev/UVic2.9/nobio/code/timeavgs.h
+Made /data/home/kai/dev/UVic2.9/nobio/code/D/timeavgs.h.d
+<stdin>:1936:0: error: unterminated #if
+<stdin>:1395:0: error: unterminated #if
+<stdin>:198:0: error: unterminated #if
+<stdin>:197:0: error: unterminated #if
 Made /data/home/kai/dev/UVic2.9/nobio/code/isopyc.f
 Made /data/home/kai/dev/UVic2.9/nobio/code/D/isopyc.f.d
+Made /data/home/kai/dev/UVic2.9/nobio/code/mom_tavg.f
+Made /data/home/kai/dev/UVic2.9/nobio/code/D/mom_tavg.f.d
+<stdin>:316:0: error: unterminated #if
+Made /data/home/kai/dev/UVic2.9/nobio/code/timeavgs.f
+Made /data/home/kai/dev/UVic2.9/nobio/code/D/timeavgs.f.d
 /data/home/kai/dev/UVic2.9/nobio/code/isopyc.f(114): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
 9102  format(/' ahisop = ',e12.6,' along isopyncal tracer mixing '
 ----------------------------^
@@ -16,6 +29,19 @@ Made /data/home/kai/dev/UVic2.9/nobio/code/D/isopyc.f.d
       write (stdout,'(5(1x,e12.6))') (dtxsqr(k),k=1,km)
 ----------------------------^
 Made /data/home/kai/dev/UVic2.9/nobio/code/O/isopyc.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/loadmw.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/mom_tavg.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/setmom.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/stab.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/timeavgs.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/tracer.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/tracer_adv_flx.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/UVic_ESCM.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/vmixc.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/checks.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/diag.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/gyre.o
+Made /data/home/kai/dev/UVic2.9/nobio/code/O/termbal.o
 Executable Directory: /data/home/kai/dev/UVic2.9/nobio
 Linking: ifort -r8 -O3 -warn nouncalled -o UVic_ESCM code/O/*.o -L/usr/local/models/UVic_ESCM/2.9/lib/lib_linux -lnetcdf 
 Made /data/home/kai/dev/UVic2.9/nobio/UVic_ESCM

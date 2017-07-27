@@ -308,11 +308,6 @@
       call defvar ('O_convpe', iou, 3, it, -c1, c1e6, ' ', 'F'
      &, 'potential energy lost due to convection', ' ', 'W m-2')
 
-!begin AHO
-      call defvar('O_KGM', iou, 3, it, 300, 3000, ' ', 'F'
-     &, 'GM coefficient', ' ', 'm2 s-1')
-!end AHO
-
 !-----------------------------------------------------------------------
 !     define time dependent 4d data (x,y,z,t)
 !-----------------------------------------------------------------------
@@ -464,6 +459,10 @@
         iu(3) = id_zw
       call defvar ('O_gmvelZ', iou, 4, iu, -c100, c100, ' ', 'F'
      &, 'upward GM velocity', ' ', 'm s-1')
+
+      call defvar('O_KGM', iou, 4, it, 300, 3000, ' ', 'F'
+     &, 'GM coefficient', ' ', 'm2 s-1')
+
       it(3) = id_zt
 
 !-----------------------------------------------------------------------
@@ -480,9 +479,7 @@
      &,                        t, u, v, adv_vbt, stf, taux, tauy
      &,                        adv_vetiso, adv_vntiso, adv_vbtiso
 
-!begin AHO
      &,                        kgm
-!end Aho
 
      &,                        totalk, vdepth, pe
      &,                        psi
@@ -538,11 +535,7 @@
       real adv_vetiso(ids:ide,jds:jde,km)
       real adv_vntiso(ids:ide,jds:jde,km)
       real adv_vbtiso(ids:ide,jds:jde,km)
-
-!begin AHO
-      real kgm(ids:ide,jds:jde)
-!end AHO
-
+      real kgm(ids:ide,jds:jde,km)
       real totalk(ids:ide,jds:jde), vdepth(ids:ide,jds:jde)
       real pe(ids:ide,jds:jde)
       real psi(ids:ide,jds:jde)
@@ -865,12 +858,6 @@
       call putvaramsk ('O_convpe', iou, ln, ib, ic, tmpij, tmpijm
      &, c1e3, c0)
 
-!begin AHO
-      tmpij(ils:ile,jls:jle) = kgm(ils:ile,jls:jle)
-      call putvaramsk('O_KGM', iou, ln, ib, ic, tmpij, tmpijm
-     &, c1e4, c0)
-!end AHO
-
 !-----------------------------------------------------------------------
 !     write 4d data (x,y,z,t)
 !-----------------------------------------------------------------------
@@ -1027,6 +1014,9 @@
      &  adv_vbtiso(ils:ile,jls:jle,kls:kle)
       call putvaramsk ('O_gmvelZ', iou, ln, ib, ic, tmpijk, tmpijkm
      &, c100, c0)
+      tmpijk(ils:ile,jls:jle,kls:kle) = kgm(ils:ile,jls:jle,kls:kle)
+      call putvaramsk('O_KGM', iou, ln, ib, ic, tmpijk, tmpijkm
+     &, c1e4, c0)
 
       deallocate ( tmpij )
       deallocate ( tmpijm )

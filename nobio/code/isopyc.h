@@ -34,7 +34,8 @@
       common /cisop_r/ K11(imt,km,jsmw:jemw)
       common /cisop_r/ K22(imt,km,1:jemw)
       common /cisop_r/ K33(imt,km,jsmw:jemw)
-      common /cisop_r/ ahisop, fisop(imt,jmt,km), slmxr
+!     Changing fisop here... hopefully not a mistakE!
+      common /cisop_r/ ahisop, fisop(imt,km,jmt), slmxr
       common /cisop_r/ addisop(imt,km,jsmw:jemw)
       real delta_iso, s_minus, s_plus
       common /cisop_r/ delta_iso, s_minus, s_plus
@@ -58,8 +59,9 @@
 
 !     Define variables related to calculating K_gm mesoscale eddy
 !     diffiusivity as outlined in Gent an McWilliams Paper (1989).
-!     Further refinement from Eden 2009
+!     Further refinement from Eden 2009.
 !     *** NEED MORE COMMENTS HERE AND DETAIL ***
+!     baroclinic = Baroclinicty of an isopycnal
 !     L_Rhi      = Rhines scale. Defined as sigma/beta. Where sigma is
 !                  the Eady Growth rate of baroclinic instability
 !     Lr         = 1st baroclinic Rossby Radius
@@ -92,13 +94,13 @@
       integer niso
       parameter (niso = 1)
 
-      real Lm, Lr, L_Rhi, kgm, ahisop_var, gridsum_area
+      real baroclinic, Lm, Lr, L_Rhi, kgm, ahisop_var, gridsum_area
       real ahisop_sum, ahisop_ave, c_eden, coef, kgm_ave, kgm_sum, pii
       real stratif_int, clinic_int(niso), sum_zz
       real eddy_min, eddy_max
 
-      common /kgm2d_r/ kgm(imt,jmt,niso), ahisop_var(imt,jmt,niso),
-     &                 Lr(imt,jmt), L_Rhi(imt,jmt)
+      common /kgm3d_r/ kgm(imt,km,jmt,niso), ahisop_var(imt,km,jmt,niso)
+      common /kgm3d_r/ Lr(imt,jmt), L_Rhi(imt,jmt)
 
       real drodxe, drodze, drodyn, drodzn, drodxb, drodyb, drodzb
       real drodye, drodxn

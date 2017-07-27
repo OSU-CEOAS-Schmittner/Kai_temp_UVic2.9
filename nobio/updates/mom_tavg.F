@@ -371,12 +371,6 @@
      &, 'pipe depth', ' ', 'm')
 # endif
 
-!begin AHO
-# if defined O_KGMdiag
-      call defvar('O_KGM', iou, 3, it, 300, 3000, ' ', 'F'
-     &, 'GM coefficient', ' ', 'm2 s-1')
-# endif
-!end AHO
 
 !-----------------------------------------------------------------------
 !     define time dependent 4d data (x,y,z,t)
@@ -539,11 +533,18 @@
       call defvar ('O_gmvelZ', iou, 4, iu, -c100, c100, ' ', 'F'
      &, 'upward GM velocity', ' ', 'm s-1')
 # endif
+
 # if defined O_save_kv
       iu(3) = id_zw
       call defvar ('O_diffZ', iou, 4, iu, c0, c1, ' ', 'F'
      &, 'diapycnal diffusivity', ' ', 'm2 s-1')
 # endif
+
+# if defined O_KGMdiag
+      call defvar('O_KGM', iou, 4, it, 300, 3000, ' ', 'F'
+     &, 'GM coefficient', ' ', 'm2 s-1')
+# endif
+
 # if defined O_save_npzd
       it(3) = id_zl
 # else
@@ -705,11 +706,9 @@
      &,                        diff_cbt
 # endif
 
-!begin AHO
 # if defined O_KGMdiag
      &,                        kgm
 # endif
-!end Aho
 
 # if defined O_save_npzd
 #  if defined O_save_carbon_totals
@@ -829,13 +828,9 @@
 # if defined O_save_kv
       real diff_cbt(ids:ide,jds:jde,km)
 # endif
-
-!begin AHO
 # if defined O_KGMdiag
-      real kgm(ids:ide,jds:jde)
+      real kgm(ids:ide,jds:jde,km)
 # endif
-!end AHO
-
 # if defined O_save_npzd
       real npp(ids:ide,jds:jde,kpzd)
       real graz_Z(ids:ide,jds:jde,kpzd) , graz(ids:ide,jds:jde,kpzd)
@@ -1299,12 +1294,6 @@
      &, c100, c0)      
 # endif
 
-!begin AHO
-# if defined O_KGMdiag
-      tmpij(ils:ile,jls:jle) = kgm(ils:ile,jls:jle)
-      call putvaramsk('O_KGM', iou, ln, ib, ic, tmpij, tmpijm
-     &, c1e4, c0)
-!end AHO
 
 !-----------------------------------------------------------------------
 !     write 4d data (x,y,z,t)
@@ -1516,6 +1505,11 @@
       call putvaramsk ('O_diffZ', iou, ln, ib, ic, tmpijk, tmpijkm
      &, c1e4, c0)
 # endif     
+# if defined O_KGMdiag
+      tmpijk(ils:ile,jls:jle,kls:kle) = kgm(ils:ile,jls:jle,kls:kle)
+      call putvaramsk('O_KGM', iou, ln, ib, ic, tmpijk, tmpijkm
+     &, c1e4, c0)
+# endif
 # if defined O_save_npzd
       tmpijlm(ils:ile,jls:jle,lls:lle) = tm(ils:ile,jls:jle,lls:lle)
       ib(3) = lls-lgs+1

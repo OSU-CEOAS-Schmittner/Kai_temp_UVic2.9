@@ -20,16 +20,10 @@
       real ta_diff_cbt
       common /ta_kv/ ta_diff_cbt(imt,km,jmt)
 #endif
-
-!begin AHO
 #if defined O_KGMdiag
       real ta_kgm
-      common /ta_gm_r/ ta_kgm(imt,jmt,1) !previously 1 was niso
-!      real kgm
-!      common /kgm2d_r/ kgm(imt,jmt,1) !previously 1 was niso
+      common /ta_gm_r/ ta_kgm(imt,km,jmt,1) 
 #endif
-!end AHO
-
 #if defined O_save_npzd
       real ta_rnpp, ta_rgraz, ta_rmorp, ta_rmorpt, ta_rmorz, ta_rexcr
       real ta_rremi, ta_rexpo, ta_rnpp_D, ta_rgraz_D, ta_rmorpt_D
