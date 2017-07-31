@@ -1231,11 +1231,12 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
       real top_bc(km), bot_bc(km)
 
 #   if defined O_KGMdiag
-      Lm       = 50.e5
-      eddy_min = 3.0e6
-      eddy_max = 3.0e7
-      coef     = 980./1.025
-      pii      = 4.0 * atan(1.0)
+      Lm         = 50.e5
+      eddy_min   = 3.0e6
+      eddy_max   = 5.0e7
+      coef       = 980./1.025
+      gamma_eden = 2.0e10
+      pii        = 4.0 * atan(1.0)
 #   endif
 
       do k=1,km
@@ -1376,7 +1377,11 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
             baroclinic    = sqrt(abs_grd_rho2 / abs_drho_dz)
 
             ! Mult by Rossby Radius follows.
-            kgm(i,km1,jrow,niso) = sqrt(coef) * baroclinic * Lm
+!            kgm(i,km1,jrow,niso) = sqrt(coef) * baroclinic * Lm
+            kgm(i,km1,jrow,niso) = sqrt(abs_grd_rho2) / 
+     &                             sqrt((abs_drho_dz / coef) + 
+     &                                  (gamma_eden * abs_grd_rho2 / 
+     &                                           cori(i,j,1)**2))
           enddo ! k
 
           ! Eddy diffusivity     
@@ -1387,13 +1392,13 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
           ! Rhine's Scale.
           L_Rhi(i,j) = (coef * clinic_int(1)) / beta 
 
-          ! Rossby radius.
-          ! cf. Eq (4) in Oleg's handout "eddy_mixing.pdf" (May 15)
           if (abs(yt(j)).gt.5.) then
             Lr(i,jrow) = stratif_int
      &                   / (pii * p5 * abs(cori(i,j,1) + cori(i,j-1,1)))
+            Lr(i,jrow) = Lr(i,jrow) / sum_zz
           else  ! Neil -- Rossby Radius near equator (Gill,1982, p 437)
             Lr(i,j) = sqrt( stratif_int / (2. * pii * beta * dytr(j)))
+            Lr(i,j) = Lr(i,j) / sum_zz
           endif
         enddo  ! i
       enddo ! j=js,je
@@ -1405,9 +1410,9 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
         jrow = j + joff
         do i=2,imtm1
             if (Lr(i,jrow).lt.L_Rhi(i,jrow)) then
-              kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * Lr(i,jrow)
+              kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * Lr(i,jrow)**2
             else
-              kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * L_Rhi(i,jrow)
+              kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * L_Rhi(i,jrow)**2
             endif
             kgm(i,:,jrow,niso) = min(max(kgm(i,:,jrow,niso),eddy_min),
      &                               eddy_max)

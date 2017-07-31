@@ -75,7 +75,10 @@
 !     L_Rhi      = Rhines scale. Defined as sigma/beta. Where sigma is 
 !                  the Eady Growth rate of baroclinic instability
 !     Lr         = 1st baroclinic Rossby Radius
+!     L_r1       = 1st baroclinic Rossby Radius
+!     L_r2       = 1st baroclinic Rossby Radius
 !     c_eden     = Determined constant to ensure an average O_KGM =~ 800 m^2/s
+!     gamma      = Constant used in sigma calculation from Eden 2009
 !     kgm        = Isopycnal diffisivity constant
 !     kgm_ave    = Average of Kgm. Mainly used to compute c_eden
 !     kgm_sum     
@@ -104,8 +107,10 @@
       integer niso
       parameter (niso = 1)
 
-      real baroclinic, Lm, Lr, L_Rhi, kgm, ahisop_var, gridsum_area
-      real ahisop_sum, ahisop_ave, c_eden, coef, kgm_ave, kgm_sum, pii
+      real baroclinic, Lm, Lr, L_r1, L_r2, L_Rhi, kgm 
+      real ahisop_var, gridsum_area
+      real c_eden, coef, gamma_eden, pii
+      real ahisop_sum, ahisop_ave, kgm_ave, kgm_sum
       real stratif_int, clinic_int(niso), sum_zz
       real eddy_min, eddy_max
       
