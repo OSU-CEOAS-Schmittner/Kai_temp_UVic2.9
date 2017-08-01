@@ -1,9 +1,8 @@
  ! NOAA/PMEL TMAP
  ! FERRET v7.1 (optimized)
  ! Linux 2.6.32-642.13.1.el6.x86_64 64-bit - 02/15/17
- ! 31-Jul-17 17:01     
+ !  1-Aug-17 12:39     
 
 use tavg.00000.01.31.nc
 shade O_KGM[k=1,l=1]
-shade O_KGM[k=1,l=2]
 q

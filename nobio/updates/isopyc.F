@@ -1318,7 +1318,8 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
       do j=js,je
         jrow = j + joff
         do i=2,imtm1
-          beta          = (cori(i,j+1,1) - cori(i,j-1,1)) / 2.0 
+          beta          = ((cori(i,jrow+1,1) - cori(i,jrow-1,1)) * 
+     &                     dytr(jrow) * 0.5)
           Lr(i,jrow)    = 0. 
           L_Rhi(i,jrow) = 0.
           clinic_int(:) = 0.
@@ -1332,7 +1333,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 !         emphasize the mid-depth water where we have more faith in the
 !         stratification. (To emphasize the first baroclinic mode??)
 !          do k=5,min(kmt(i,jrow)-1,20)
-          do k=1,kmt(i,jrow)-1  ! change hard value to a calculated
+          do k=1,kmt(i,jrow)  ! change hard value to a calculated
             kgm(i,k,jrow,niso) = eddy_min
             ahisop_var(i,k,jrow,niso) = eddy_min
 
@@ -1378,26 +1379,32 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 
             ! Mult by Rossby Radius follows.
 !            kgm(i,km1,jrow,niso) = sqrt(coef) * baroclinic * Lm
-            kgm(i,km1,jrow,niso) = sqrt(abs_grd_rho2) / 
-     &                             sqrt((abs_drho_dz / coef) + 
-     &                                  (gamma_eden * abs_grd_rho2 / 
-     &                                           cori(i,j,1)**2))
+            kgm(i,k,jrow,niso) = sqrt(abs_grd_rho2) / 
+     &                           sqrt((abs_drho_dz / coef) + 
+     &                                (gamma_eden * abs_grd_rho2 / 
+     &                                 cori(i,jrow,1)**2))
           enddo ! k
 
-!          ! Eddy diffusivity     
-!          if (sum_zz.ne.0.) then
-!            clinic_int(1) = clinic_int(1) / sum_zz
-!          endif   
+          ! Eddy diffusivity     
+          if (sum_zz.ne.0.) then
+            clinic_int(1) = clinic_int(1) / sum_zz
+          endif   
 
           ! Rhine's Scale.
-          L_Rhi(i,j) = (coef * clinic_int(1)) / beta 
-
-          if (abs(yt(j)).gt.5.) then
-            Lr(i,jrow) = stratif_int
+          L_Rhi(i,jrow) = (coef * clinic_int(1)) / beta 
+          
+          L_r1 = stratif_int
      &                   / (pii * p5 * abs(cori(i,j,1) + cori(i,j-1,1)))
-          else  ! Neil -- Rossby Radius near equator (Gill,1982, p 437)
-            Lr(i,j) = sqrt( stratif_int / (2. * pii * beta * dytr(j)))
-          endif
+          L_r2 = sqrt(stratif_int / (2. * pii * beta))
+
+          Lr(i,jrow) = min(L_r1, L_r2) 
+!          if (abs(yt(j)).gt.5.) then
+!            Lr(i,jrow) = stratif_int
+!     &                   / (pii * p5 * abs(cori(i,j,1) + cori(i,j-1,1)))
+!          else  ! Neil -- Rossby Radius near equator (Gill,1982, p 437)
+!            Lr(i,jrow) = sqrt(stratif_int / 
+!     &                       (2. * pii * beta))
+!          endif
         enddo  ! i
       enddo ! j=js,je
       
