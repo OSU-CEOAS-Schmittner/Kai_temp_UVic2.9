@@ -1235,7 +1235,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
       eddy_min   = 3.0e6
       eddy_max   = 5.0e7
       coef       = 980./1.025
-      gamma_eden = 2.0e10
+      gamma_eden = 200.
       pii        = 4.0 * atan(1.0)
 #   endif
 
@@ -1332,7 +1332,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 !         emphasize the mid-depth water where we have more faith in the
 !         stratification. (To emphasize the first baroclinic mode??)
 !          do k=5,min(kmt(i,jrow)-1,20)
-          do k=6,kmt(i,jrow)-1  ! change hard value to a calculated
+          do k=1,kmt(i,jrow)-1  ! change hard value to a calculated
             kgm(i,k,jrow,niso) = eddy_min
             ahisop_var(i,k,jrow,niso) = eddy_min
 
@@ -1384,10 +1384,10 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
      &                                           cori(i,j,1)**2))
           enddo ! k
 
-          ! Eddy diffusivity     
-          if (sum_zz.ne.0.) then
-            clinic_int(1) = clinic_int(1) / sum_zz
-          endif   
+!          ! Eddy diffusivity     
+!          if (sum_zz.ne.0.) then
+!            clinic_int(1) = clinic_int(1) / sum_zz
+!          endif   
 
           ! Rhine's Scale.
           L_Rhi(i,j) = (coef * clinic_int(1)) / beta 
@@ -1395,10 +1395,8 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
           if (abs(yt(j)).gt.5.) then
             Lr(i,jrow) = stratif_int
      &                   / (pii * p5 * abs(cori(i,j,1) + cori(i,j-1,1)))
-            Lr(i,jrow) = Lr(i,jrow) / sum_zz
           else  ! Neil -- Rossby Radius near equator (Gill,1982, p 437)
             Lr(i,j) = sqrt( stratif_int / (2. * pii * beta * dytr(j)))
-            Lr(i,j) = Lr(i,j) / sum_zz
           endif
         enddo  ! i
       enddo ! j=js,je
@@ -1415,7 +1413,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
               kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * L_Rhi(i,jrow)**2
             endif
             kgm(i,:,jrow,niso) = min(max(kgm(i,:,jrow,niso),eddy_min),
-     &                               eddy_max)
+     &                               eddy_max) * 2.0
 !            kgm_sum = kgm_sum + (kgm(i,jrow,:,niso) * cos(phi(i)))
 !            gridsum_area = gridsum_area + (cos(phi(i)))
         enddo
@@ -1765,19 +1763,20 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
           enddo
         enddo
 # if defined O_KGMdiag
-        do i=1,imt
-          do j=jstrt,je
-            jrow = j + joff
-            do k=1,kmm1
-              ta_kgm(i,k,jrow,niso) = ta_kgm(i,k,jrow,niso) + 
-     &                                kgm(i,k,jrow,niso)
-            enddo ! k
-          enddo ! j
-        enddo ! i
+      do j=jstrt,je
+        jrow = j + joff
+        do k=1,km
+          do i=1,imt
+            ta_kgm(i,k,jrow,niso) = ta_kgm(i,k,jrow,niso) + 
+     &                              kgm(i,k,jrow,niso)
+          enddo
+        enddo
+      enddo
 # endif
       endif
-
-
-
+# endif     
+# endif
+  
       return
       end
+
