@@ -11,8 +11,10 @@
       real ta_vetiso, ta_vntiso, ta_vbtiso
       common /ta_gm_r/ ta_vetiso(imt,km,jmt), ta_vntiso(imt,km,jmt)
       common /ta_gm_r/ ta_vbtiso(imt,km,jmt)
-      real ta_kgm
+      real ta_kgm, ta_Lr, ta_L_Rhi
       common /ta_gm_r/ ta_kgm(imt,km,jmt,1)
+      common /ta_gm_r/ ta_Lr(imt,jmt)
+      common /ta_gm_r/ ta_L_Rhi(imt,jmt)
       integer nta_conv
       common /ta_conv_i/ nta_conv
 

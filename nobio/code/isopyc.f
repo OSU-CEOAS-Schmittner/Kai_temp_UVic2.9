@@ -1057,8 +1057,8 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
       do j=js,je
         jrow = j + joff
         do i=2,imtm1
-          beta          = ((cori(i,jrow+1,1) - cori(i,jrow-1,1)) *
-     &                     dytr(jrow) * 0.5)
+          beta          = ((cori(i,j+1,1) - cori(i,j-1,1)) *
+     &                     dytr(j) * p5)
           Lr(i,jrow)    = 0.
           L_Rhi(i,jrow) = 0.
           clinic_int(:) = 0.
@@ -1198,6 +1198,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
         call setbcx (kgm(1,1,1,j), imt, jmt)
       enddo
       call setbcx (Lr(1,1), imt, jmt)
+      call setbcx (L_Rhi(1,1), imt, jmt)
 
 !-----------------------------------------------------------------------
 !     compute the meridional component of the isopycnal mixing velocity
@@ -1351,6 +1352,10 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
      &                              adv_vbtiso(i,k,j)
             enddo
           enddo
+           do i=1, imt
+               ta_Lr(i,jrow) = ta_Lr(i,jrow) + Lr(i,jrow)
+               ta_L_Rhi(i,jrow) = ta_L_Rhi(i,jrow) + L_Rhi(i,jrow)
+           enddo
         enddo
       do j=jstrt,je
         jrow = j + joff

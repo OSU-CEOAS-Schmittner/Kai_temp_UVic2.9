@@ -122,7 +122,7 @@ timeavgs.h
 #   endif
 # endif !O_eddy_mix AHO
 #   if defined O_time_averages
-# if defined O_KGMdiag
+#         if defined O_KGMdiag
 # endif
 # endif     
 # endif
