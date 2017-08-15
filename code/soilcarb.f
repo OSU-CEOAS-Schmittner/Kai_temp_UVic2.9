@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n_c13_alk_caco3/updates/soilcarb.F
+! source file: /data/home/kai/dev/UVic2.9/updates/soilcarb.F
       subroutine SOILCARB (POINTS, LAND_PTS, LAND_INDEX, FORW, GAMMA
      &,                    DENOM_MIN, LIT_C_T, RESP_S, CS)
 
@@ -76,7 +76,6 @@
 
         DCS(L) = CS(L) - DCS(L)
         RESP_S(L) = RESP_S(L) + FORW*DPC_DCS(L)*DCS(L)
-
 !       correct soil respiration
         RESP_S(L) = LIT_C_T(L) - DCS(L)*GAMMA
 

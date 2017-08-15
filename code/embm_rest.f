@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/updates/embm_rest.F
+! source file: /data/home/kai/dev/UVic2.9/updates/embm_rest.F
       subroutine embm_rest_in (fname, ids, ide, jds, jde)
 
 !=======================================================================

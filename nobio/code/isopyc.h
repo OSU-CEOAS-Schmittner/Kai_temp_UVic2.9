@@ -61,22 +61,16 @@
 !     diffiusivity as outlined in Gent an McWilliams Paper (1989).
 !     Further refinement from Eden 2009.
 !     *** NEED MORE COMMENTS HERE AND DETAIL ***
-!     baroclinic = Baroclinicty of an isopycnal
-!     L_Rhi      = Rhines scale. Defined as sigma/beta. Where sigma is
+!     LRhi       = Rhines scale. Defined as sigma/beta. Where sigma is
 !                  the Eady Growth rate of baroclinic instability
 !     Lr         = 1st baroclinic Rossby Radius
-!     L_r1       = 1st baroclinic Rossby Radius
-!     L_r2       = 1st baroclinic Rossby Radius
-!     c_eden     = Determined constant to ensure an average O_KGM =~ 800 m^2/s
-!     gamma      = Constant used in sigma calculation from Eden 2009
-!     kgm        = Isopycnal diffisivity constant
-!     kgm_ave    = Average of Kgm. Mainly used to compute c_eden
-!     kgm_sum
-!     ahisop_var = Related to ahisop although this is a variable, vectorized
-!                  version that changes with kgm and a constant
-!     ahisop_sum
-!     ahisop_ave
-!     gridsum_area
+!     Lr1        = 1st baroclinic Rossby Radius - placeholder
+!     Lr2        = 1st baroclinic Rossby Radius - placeholder
+!     c_eden     = Tuning parameter to ensure some O_KGM bounds from Eden 2009
+!     gamma_eden = Tuning parameter used in sigma calculation from Eden 2009
+!     kgm        = Thickness diffisivity constant
+!     ahisop_var = Isopycnal diffusivity constant which derives from Kgm
+!     sigma_ave  = The average of Eady growth rate
 
       real drodxte, drodxbe
       real drodytn, drodybn
@@ -97,15 +91,18 @@
       integer niso
       parameter (niso = 1)
 
-      real baroclinic, Lm, Lr, L_r1, L_r2, L_Rhi, kgm
+      real Lm, Lr, Lr1, Lr2, LRhi, kgm
       real ahisop_var, gridsum_area
       real c_eden, coef, gamma_eden, pii
-      real ahisop_sum, ahisop_ave, kgm_ave, kgm_sum
-      real stratif_int, clinic_int(niso), sum_zz
+      real ahisop_ave, kgm_ave, sigma_ave
+      real stratif_int, sum_zz
       real eddy_min, eddy_max
 
+      parameter (c_eden = 2.0)
+      parameter (gamma_eden = 200.0)
+
       common /kgm3d_r/ kgm(imt,km,jmt,niso), ahisop_var(imt,km,jmt,niso)
-      common /kgm3d_r/ Lr(imt,jmt), L_Rhi(imt,jmt)
+      common /kgm3d_r/ Lr(imt,jmt), LRhi(imt,jmt)
 
       real drodxe, drodze, drodyn, drodzn, drodxb, drodyb, drodzb
       real drodye, drodxn

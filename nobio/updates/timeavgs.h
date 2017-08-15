@@ -21,10 +21,10 @@
       common /ta_kv/ ta_diff_cbt(imt,km,jmt)
 #endif
 #if defined O_KGMdiag
-      real ta_kgm, ta_Lr, ta_L_Rhi
+      real ta_kgm, ta_Lr, ta_LRhi
       common /ta_gm_r/ ta_kgm(imt,km,jmt,1)
       common /ta_gm_r/ ta_Lr(imt,jmt)
-      common /ta_gm_r/ ta_L_Rhi(imt,jmt)
+      common /ta_gm_r/ ta_LRhi(imt,jmt)
 #endif
 #if defined O_save_npzd
       real ta_rnpp, ta_rgraz, ta_rmorp, ta_rmorpt, ta_rmorz, ta_rexcr

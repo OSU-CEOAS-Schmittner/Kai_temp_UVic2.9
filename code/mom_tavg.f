@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n_c13_alk_caco3/updates/mom_tavg.F
+! source file: /data/home/kai/dev/UVic2.9/updates/mom_tavg.F
       subroutine mom_tavg_def (fname, imt, jmt, km, nt, kpzd, xt, yt
      &,                        calendar, expnam, runstamp, mapt)
 
@@ -66,7 +66,6 @@
       kgs = 1
       kge = km
       kg  = kge-kgs+1
-
       lgs = max(1,kgs)
       lge = min(kpzd,kg)
       lg  = lge-lgs+1
@@ -99,7 +98,6 @@
       call defdim ('latitude_V_edges', iou, jg+1, id_yu_e)
       call defdim ('depth_edges', iou, kg+1, id_zt_e)
       call defdim ('depth_W_edges', iou, kg+1, id_zw_e)
-
       call defdim ('npzdlev', iou, lg, id_zl)
       call defdim ('npzdlev_edges', iou, lg+1, id_zl_e)
 
@@ -108,7 +106,6 @@
 !-----------------------------------------------------------------------
       it(1) = id_time
       call defvar ('time', iou, 1, it, c0, c0, 'T', 'D'
-
      &, 'time', 'time', 'years since 0-1-1')
       call putatttext (iou, 'time', 'calendar', calendar)
       call defvar ('T_avgper', iou, 1, it, c0, c0, ' ', 'F'
@@ -989,11 +986,7 @@
       tmpij(ils:ile,jls:jle) = sedrr(ils:ile,jls:jle)
       call putvaramsk ('O_sedrr', iou, ln, ib, ic, tmpij, tmpijm
      &, c1e5, c0)
-!AHO
-      tmpij(ils:ile,jls:jle) = kgm(ils:ile,jls:jle)
-      call putvaramsk ('O_KGM', iou, ln, ib, ic, tmpij, tmpijm
-     &, c100, c0)
-!AHO
+
 !-----------------------------------------------------------------------
 !     write 4d data (x,y,z,t)
 !-----------------------------------------------------------------------

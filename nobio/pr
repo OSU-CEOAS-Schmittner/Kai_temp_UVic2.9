@@ -107,7 +107,7 @@
  shum      =           2
  &CONTRL
  INIT    = T,
- RUNLEN  =   60.0000000000000     ,
+ RUNLEN  =   90.0000000000000     ,
  RUNUNITS        = days    ,
  RESTRT  = T,
  INITPT  = F,
@@ -178,8 +178,8 @@
  SNAPLS  =  0.000000000000000E+000,
  SNAPLE  =  0.000000000000000E+000,
  SNAPDE  =  0.000000000000000E+000,
- TIMAVGINT       =   30.0000000000000     ,
- TIMAVGPER       =   30.0000000000000     ,
+ TIMAVGINT       =   90.0000000000000     ,
+ TIMAVGPER       =   90.0000000000000     ,
  CMIXINT =  -36500.0000000000     ,
  PRLAT   =  -60.0000000000000     ,  0.000000000000000E+000,   27.0000000000000     ,   55.0000000000000     ,
   6*100.000000000000        ,
@@ -1098,8 +1098,8 @@ Maximum allowable isopycnal slope is specified as slmx =  0.1000000E-01
                      E N D    C O N S I S T E N C Y    C H E C K S
 
 
- ==> Time averages will be written every      30.00 days, 
-     with an averaging period of              30.00 days. 
+ ==> Time averages will be written every      90.00 days, 
+     with an averaging period of              90.00 days. 
  
  CO2 ratio (reference = 280 ppmv) =  0.990861376594095     
  Yields radiative forcing (W/m2) =  -4.911640679239759E-002
@@ -1152,8 +1152,8 @@ Maximum allowable isopycnal slope is specified as slmx =  0.1000000E-01
  y component of advecting wind
  diurnal temperature range
 
- ==> Time averages written every      30.00 days, 
-     with an averaging period of      30.00 days. 
+ ==> Time averages written every      90.00 days, 
+     with an averaging period of      90.00 days. 
 
  ==> Time step integrals written every      30.00 days, 
      with an averaging period of            30.00 days. 
@@ -1162,18 +1162,17 @@ Maximum allowable isopycnal slope is specified as slmx =  0.1000000E-01
   
      (End of checks) 
   
- ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0, ke= 9.571577E-01 |dT|= 3.897302E-08 |dS|= 2.940905E-12 Tbar= 3.599815E+00 Sbar=-2.803714E-04 Tvar= 2.011795E+01 Svar= 1.190439E-07 scans= 9.641667E+01
-=> Ocn time means #    1 written to tavg.00000.01.31.nc on ts =         24, d/m/y=31/ 1/    0,h:m:s= 0: 0: 0
- ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0 iterations = 8.291667E+00 TAbar= 1.317691E+01 QAbar= 9.574264E-03
-=> Atm time means #    1 written to tavg.00000.01.31.nc on d/m/y=31/ 1/    0,h:m:s= 0: 0: 0
-=> Lnd time means #    1 written to tavg.00000.01.31.nc on d/m/y=31/ 1/    0,h:m:s= 0: 0: 0
- ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0, ke= 1.589399E+00 |dT|= 3.846278E-08 |dS|= 3.298117E-12 Tbar= 3.601148E+00 Sbar=-2.801653E-04 Tvar= 2.006638E+01 Svar= 1.184414E-07 scans= 9.208333E+01
-=> Ocn time means #    2 written to tavg.00000.01.31.nc on ts =         48, d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
- => Ocn restart written to data/restart.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
+ ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0, ke= 9.571577E-01 |dT|= 3.897100E-08 |dS|= 2.940762E-12 Tbar= 3.599815E+00 Sbar=-2.803714E-04 Tvar= 2.011795E+01 Svar= 1.190440E-07 scans= 9.641667E+01
+ ts=     24 d/m/y=31/ 1/    0,h:m:s= 0: 0: 0 iterations = 8.291667E+00 TAbar= 1.317691E+01 QAbar= 9.574263E-03
+ ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0, ke= 1.589395E+00 |dT|= 3.846036E-08 |dS|= 3.297934E-12 Tbar= 3.601148E+00 Sbar=-2.801653E-04 Tvar= 2.006638E+01 Svar= 1.184415E-07 scans= 9.166667E+01
+ ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0 iterations = 8.687500E+00 TAbar= 1.275310E+01 QAbar= 1.008259E-02
+ ts=     72 d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0, ke= 1.666800E+00 |dT|= 3.741224E-08 |dS|= 3.267713E-12 Tbar= 3.602685E+00 Sbar=-2.800057E-04 Tvar= 2.011892E+01 Svar= 1.178986E-07 scans= 8.333333E+01
+=> Ocn time means #    1 written to tavg.00000.04.01.nc on ts =         72, d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0
+ => Ocn restart written to data/restart.nc on d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0
  MOMdone
- ts=     48 d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0 iterations = 8.687500E+00 TAbar= 1.275312E+01 QAbar= 1.008260E-02
-=> Atm time means #    2 written to tavg.00000.01.31.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
- => Atm restart written to data/restart.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
-=> Lnd time means #    2 written to tavg.00000.01.31.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
- => Lnd restart written to data/restart.nc on d/m/y= 2/ 3/    0,h:m:s= 0: 0: 0
+ ts=     72 d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0 iterations = 8.687500E+00 TAbar= 1.271979E+01 QAbar= 1.020576E-02
+=> Atm time means #    1 written to tavg.00000.04.01.nc on d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0
+ => Atm restart written to data/restart.nc on d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0
+=> Lnd time means #    1 written to tavg.00000.04.01.nc on d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0
+ => Lnd restart written to data/restart.nc on d/m/y= 1/ 4/    0,h:m:s= 0: 0: 0
   ==>  UVIC_ESCM integration is complete.

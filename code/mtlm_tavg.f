@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n_c13_alk_caco3/updates/mtlm_tavg.F
+! source file: /data/home/kai/dev/UVic2.9/updates/mtlm_tavg.F
       subroutine mtlm_tavg_def (fname, imt, jmt, NPFT, NTYPE, xt, yt
      &,                         calendar, expnam, runstamp)
 
@@ -88,7 +88,6 @@
 !-----------------------------------------------------------------------
       it(1) = id_time
       call defvar ('time', iou, 1, it, c0, c0, 'T', 'D'
-
      &, 'time', 'time', 'years since 0-1-1')
       call putatttext (iou, 'time', 'calendar', calendar)
       call defvar ('T_avgper', iou, 1, it, c0, c0, ' ', 'F'

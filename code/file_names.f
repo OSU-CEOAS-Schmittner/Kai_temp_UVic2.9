@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc10_npzd_n_fe/updates/file_names.F
+! source file: /data/home/kai/dev/UVic2.9/updates/file_names.F
       subroutine file_names
 !=======================================================================
 !     edit this routine to change file names or add directories to file

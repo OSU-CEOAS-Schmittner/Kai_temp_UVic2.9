@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc10_npzd_n_fe_caco3_n15_c13/updates/mom_rest.F
+! source file: /data/home/kai/dev/UVic2.9/updates/mom_rest.F
       subroutine mom_rest_in (fname, ids, ide, jds, jde)
 
 !=======================================================================

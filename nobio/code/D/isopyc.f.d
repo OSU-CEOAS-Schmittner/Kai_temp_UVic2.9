@@ -120,7 +120,7 @@ timeavgs.h
 #   if defined O_dm_taper
 #   else
 #   endif
-# endif !O_eddy_mix AHO
+# endif
 #   if defined O_time_averages
 #         if defined O_KGMdiag
 # endif

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/hmixc.h
+! source file: /data/home/kai/dev/UVic2.9/updates/hmixc.h
 !======================= include file "hmixc.h" ========================
 
 !                    horizontal mixing coefficients

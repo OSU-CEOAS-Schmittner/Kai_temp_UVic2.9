@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/tidal_kv.h
+! source file: /data/home/kai/dev/UVic2.9/updates/tidal_kv.h
 !===================== include file "tidal_kv.h" =======================
 
 !     quantities for parameterization of tidal mixing

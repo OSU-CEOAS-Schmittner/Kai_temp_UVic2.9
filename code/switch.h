@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/switch.h
+! source file: /data/home/kai/dev/UVic2.9/updates/switch.h
 !====================== include file "switch.h" ========================
 
 !     all time dependent decisions are made by time manager "tmngr.F"

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/topog.F
+! source file: /data/home/kai/dev/UVic2.9/updates/topog.F
       subroutine topog (kmt, kmu, map, xt, yt, zt, xu, yu, zw, imt2
      &,                 jmt2, km2, sg_bathy)
 

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n_c13_alk_caco3/updates/timeavgs.h
+! source file: /data/home/kai/dev/UVic2.9/updates/timeavgs.h
 ! source file: /Users/dkeller/Desktop/UVic_ESCM/2.9/source/mom/timeavgs.h
 !====================== include file "timeavgs.h" ======================
 

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/carbon.h
+! source file: /data/home/kai/dev/UVic2.9/updates/carbon.h
 !====================== include file "carbon.h" =========================
       real phlo,phhi,sit_in,pt_in
       parameter(phlo = 6., phhi = 10., sit_in = 7.6875e-03 !mol/m^3

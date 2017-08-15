@@ -1,4 +1,4 @@
- &contrl init=.true., runlen=60., rununits='days',
+ &contrl init=.true., runlen=90., rununits='days',
          restrt=.true., runstep=36500000. /
  &tsteps dtts=108000., dtuv=1125., dtsf=1125.,
          dtatm=54000., namix=10, segtim=5. /
@@ -10,7 +10,7 @@
          dampts=30.,60.,
          dampdz=50.e2,50.e2 /
  &diagn  tsiint=30., tsiper=30.,
-         timavgint=30., timavgper=30.,
+         timavgint=90., timavgper=90.,
          restint=36500.,
          tavgint=-365000., itavg=.true., tmbint=-365000., itmb=.true.,
          trmbint=-365000., itrmb=.true., tbtint=-365000., tbtper=-365.,

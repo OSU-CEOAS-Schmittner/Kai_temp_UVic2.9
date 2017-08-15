@@ -8,7 +8,6 @@
       dens (tq, sq, k) = (c(k,1) + (c(k,4) + c(k,7)*sq)*sq +
      &                   (c(k,3) + c(k,8)*sq + c(k,6)*tq)*tq)*tq +
      &                   (c(k,2) + (c(k,5) + c(k,9)*sq)*sq)*sq
-
       drodt (tq, sq, k) = c(k,1) + (c(k,4) + c(k,7)*sq)*sq + (2.0*c(k,3)
      &                  + 2.0*c(k,8)*sq + 3.0*c(k,6)*tq)*tq
 

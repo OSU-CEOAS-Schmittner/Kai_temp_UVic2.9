@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/updates/npzd_src.F
+! source file: /data/home/kai/dev/UVic2.9/updates/npzd_src.F
 
       subroutine mobi_init
 
@@ -383,7 +383,8 @@ c     juan: Levin's value was 0.1e-3
 !        c13 biological fractionation
          ac13_DIC_aq = -1.0512994e-4*t_in(k)+1.011765
 !        Popp et al. (1989) Am. J. Sci.
-         ac13_aq_POC = -0.017*log10(min(max(co2star*1000.,2),74))+1.0034
+         ac13_aq_POC = -0.017*log10(min(max(co2star*1000.,2.),74.))
+     &                 +1.0034
          ac13b = ac13_aq_POC/ac13_DIC_aq
          rc13impo = rc13expo
          rcaco3c13impo = rcaco3c13expo

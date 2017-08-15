@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc11_npzd_fe/updates/data.F
+! source file: /data/home/kai/dev/UVic2.9/updates/data.F
       subroutine data (is, ie, js, je)
 
 !----------------------------------------------------------------------

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n15_c13_alk_caco3/updates/gasbc.F
+! source file: /data/home/kai/dev/UVic2.9/updates/gasbc.F
 
       subroutine gasbc (is, ie, js, je)
 

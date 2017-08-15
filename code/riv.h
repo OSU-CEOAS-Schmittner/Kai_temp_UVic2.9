@@ -23,5 +23,4 @@
 
       real psum, wdar, ta_psum
       common /river_r/ psum(maxnb), wdar(imt,jmt)
-
       common /river_r/ ta_psum(maxnb)

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n_c13_alk_caco3/updates/co2calc.F
+! source file: /data/home/kai/dev/UVic2.9/updates/co2calc.F
       subroutine co2calc_SWS (t, s, dic_in, ta_in, co2_in, atmpres
      &,                       depth, ph, co2star, dco2star, pCO2, dpco2
      &,                       CO3, Omega_c, Omega_a)
@@ -171,7 +171,6 @@
       b_x = b_x + 3.16528*1e-5*tk*tk*tk
       FugFac = exp((b_x+2*delta_x)*1/rt_x) ! Note that 1 is the atmospheric pressure in bars
 !
-
 !------------------------------------------------------------------------
 ! k1 = [H][HCO3]/[H2CO3]
 ! k2 = [H][CO3]/[HCO3]     on hSWS
@@ -180,12 +179,10 @@
 
       k1 = 10**(-1.*(3670.7*invtk - 62.008 + 9.7944*dlogtk
      &   - 0.0118*s + 0.000116*s2))
-
      &     *exp((25.5 - 0.1271*t)*pitkR
      &   + 0.5*(-3.08e-3 + 8.77e-5*t)*p2itkR)
 
       k2 = 10**(-1*(1394.7*invtk + 4.777 - 0.0184*s + 0.000118*s2))
-
      &     *exp((15.82 + 0.0219*t)*pitkR
      &   + 0.5*(1.13e-3 - 1.475e-4*t)*p2itkR)
 
@@ -196,7 +193,6 @@
       k1p = exp(-4576.752*invtk + 115.540 - 18.453*dlogtk
      &    + (-106.736*invtk + 0.69171)*sqrts
      &    + (-0.65643*invtk - 0.01844)*s)
-
      &      *exp((14.51 - 0.1211*t + 3.21e-4*t2)*pitkR
      &    + 0.5*(-2.67e-3 + 4.27e-5*t)*p2itkR)
 
@@ -207,7 +203,6 @@
       k2p = exp(-8814.715*invtk + 172.1033 - 27.927*dlogtk
      &    + (-160.340*invtk + 1.3566)*sqrts
      &    + (0.37335*invtk - 0.05778)*s)
-
      &      *exp((23.12 - 0.1758*t + 2.647e-3*t2)*pitkR
      &    + 0.5*(-5.15e-3 + 9.0e-5*t)*p2itkR)
 
@@ -218,7 +213,6 @@
       k3p = exp(-3070.75*invtk - 18.126
      &    + (17.27039*invtk + 2.81197)*sqrts
      &    + (-44.99486*invtk - 0.09984)*s)
-
      &      *exp((26.57 - 0.202*t + 3.042e-3*t2)*pitkR
      &    + 0.5*(-4.08e-3 + 7.14e-5*t)*p2itkR)
 
@@ -234,7 +228,6 @@
      &     + (188.74*invtk - 1.5998)*is
      &     + (-12.1652*invtk + 0.07871)*is2
      &     + log(1.0-0.001005*s))
-
      &       *exp((29.48 - 0.1622*t - 2.608e-3*t2)*pitkR
      &     + 0.5*(-2.84e-3)*p2itkR)
 
@@ -246,7 +239,6 @@
 
        kw = exp(-13847.26*invtk + 148.9802 - 23.6521*dlogtk
      &    + (118.67*invtk - 5.977 + 1.0495*dlogtk)*sqrts - 0.01615*s)
-
      &      *exp((20.02 - 0.1119*t + 1.409e-3*t2)*pitkR
      &    + 0.5*(-5.13e-3 + 7.94e-5*t)*p2itkR)
 
@@ -260,7 +252,6 @@
      &   + (35474*invtk - 771.54 + 114.723*dlogtk)*is
      &   - 2698*invtk*is**1.5 + 1776*invtk*is2
      &   + log(1.0 - 0.001005*s))
-
      &     *exp((18.03 - .0466*t - 3.16e-4*t2)*pitkR
      &   + 0.5*(-4.53e-3 + 9.0e-5*t)*p2itkR)
 
@@ -271,7 +262,6 @@
 
       kf = exp(1590.2*invtk - 12.641 + 1.525*sqrtis
      &   + log(1.0 - 0.001005*s))
-
      &     *exp((9.78 + 9.0e-3*t + 9.42e-4*t2)*pitkR
      &   + 0.5*(-3.91e-3 + 5.4e-5*t)*p2itkR)
 
@@ -287,7 +277,6 @@
      &   + (-24.4344 - 25.085*sqrts - 0.2474*s)*dlogtk
      &   + 0.053105*sqrts*tk
      &   + log((1+(st/ks)+(ft/kf))/(1+(st/ks))))
-
      &     *exp((29.48 - 0.1622*t - 2.608e-3*t2)*pitkR
      &   + 0.5*(-2.84e-3)*p2itkR)
 
@@ -336,10 +325,8 @@
 
 ! Add two output arguments for storing pCO2
 ! Should we be using K0 or ff for the solubility here?
-
       pCO2 = co2star/(k0*FugFac)
 c      pCO2 = co2star/ff ! if not O_pCO2_bug_fix
-
       dpCO2 = pCO2 - co2starair
 c      dpCO2 = pCO2 - co2*atmpres ! if not O_pCO2_bug_fix
 

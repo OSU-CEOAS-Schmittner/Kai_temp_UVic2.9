@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n_c13_alk_caco3/updates/mw.h
+! source file: /data/home/kai/dev/UVic2.9/updates/mw.h
 !======================= include file "mw.h" ===========================
 
 !                     M E M O R Y    W I N D O W

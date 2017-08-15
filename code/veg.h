@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/veg.h
+! source file: /data/home/kai/dev/UVic2.9/updates/veg.h
 !========================= include file "veg.h" ========================
 
 !   variables for the vegetation data
@@ -33,6 +33,5 @@
 
       common /veg_r/ veg_rl(nveg), veg_alb(nveg), veg_rs(nveg)
       common /veg_r/ veg_smd(nveg)
-
       common /veg_r/ veg_dalt(imt,jmt)
       common /veg_r/ agric(imt,jmt,1:3)

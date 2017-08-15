@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc10_npzd_n_fe_caco3_n15_c13/updates/diag.h
+! source file: /data/home/kai/dev/UVic2.9/updates/diag.h
 !====================== include file "diag.h" ==========================
 
 !     variables used for computing diagnostics:

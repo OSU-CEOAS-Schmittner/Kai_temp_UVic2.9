@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio_linadv/updates/param.h
+! source file: /data/home/kai/dev/UVic2.9/updates/param.h
 !======================= include file "param.h" ========================
 
 !     main parameter file which sets ocean characteristics:

@@ -892,7 +892,6 @@
       if (y .ne. yr) write (*,*)
      &  '==>Warning: in mkstmp, year=',yr,'is modified to year=',y
       if (y .gt. -10000 .and. y .lt. 100000) then
-
         write (stamp,'(a6,i2,a1,i2,a1,i5,a7,i2,a1,i2,a1,i2)') 'd/m/y='
      &,   day,'/',month,'/',y,',h:m:s=', hour,':', min,':', sec
       else

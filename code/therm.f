@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers7_nobio/updates/therm.F
+! source file: /data/home/kai/dev/UVic2.9/updates/therm.F
       subroutine therm  (is, ie, js, je)
 
 !=======================================================================

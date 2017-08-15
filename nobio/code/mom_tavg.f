@@ -464,7 +464,7 @@
      &, 'GM coefficient', ' ', 'm2 s-1')
       call defvar('O_Lr', iou, 2, it, 300, 3000, ' ', 'F'
      &, 'Rossby Radius', ' ', 'km')
-      call defvar('O_L_Rhi', iou, 2, it, 300, 3000, ' ', 'F'
+      call defvar('O_LRhi', iou, 2, it, 300, 3000, ' ', 'F'
      &, 'Rhines Scale', ' ', 'km')
 
       it(3) = id_zt
@@ -483,7 +483,7 @@
      &,                        t, u, v, adv_vbt, stf, taux, tauy
      &,                        adv_vetiso, adv_vntiso, adv_vbtiso
 
-     &,                        kgm, Lr, L_Rhi
+     &,                        kgm, Lr, LRhi
 
      &,                        totalk, vdepth, pe
      &,                        psi
@@ -541,7 +541,7 @@
       real adv_vbtiso(ids:ide,jds:jde,km)
       real kgm(ids:ide,jds:jde,km)
       real Lr(ids:ide,jds:jde)
-      real L_Rhi(ids:ide,jds:jde)
+      real LRhi(ids:ide,jds:jde)
       real totalk(ids:ide,jds:jde), vdepth(ids:ide,jds:jde)
       real pe(ids:ide,jds:jde)
       real psi(ids:ide,jds:jde)
@@ -1026,8 +1026,8 @@
       tmpij(ils:ile,jls:jle) = Lr(ils:ile,jls:jle)
       call putvaramsk('O_Lr', iou, ln, ib, ic, tmpij, tmpijm
      &, c1e5, c0)
-      tmpij(ils:ile,jls:jle) = L_Rhi(ils:ile,jls:jle)
-      call putvaramsk('O_L_Rhi', iou, ln, ib, ic, tmpij, tmpijm
+      tmpij(ils:ile,jls:jle) = LRhi(ils:ile,jls:jle)
+      call putvaramsk('O_LRhi', iou, ln, ib, ic, tmpij, tmpijm
      &, c1e5, c0)
 
       deallocate ( tmpij )

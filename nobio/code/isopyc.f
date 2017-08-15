@@ -977,7 +977,6 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
       eddy_min   = 3.0e6
       eddy_max   = 5.0e7
       coef       = 980./1.025
-      gamma_eden = 200.
       pii        = 4.0 * atan(1.0)
 
       do k=1,km
@@ -1049,20 +1048,13 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 ! as outlined in Oleg, Eden, et. al. See documentation for more detail.
 ! *ToDo: add more
 !-----------------------------------------------------------------------
-      kgm_sum       = 0.
-      kgm_ave       = 0.
-      ahisop_sum    = 0.
-      ahisop_ave    = 0.
-      gridsum_area  = 0.
+
       do j=js,je
         jrow = j + joff
         do i=2,imtm1
-          beta          = ((cori(i,j+1,1) - cori(i,j-1,1)) *
-     &                     dytr(j) * p5)
           Lr(i,jrow)    = 0.
-          L_Rhi(i,jrow) = 0.
-          clinic_int(:) = 0.
-          baroclinic    = 0.
+          LRhi(i,jrow)  = 0.
+          sigma_ave     = 0.
           stratif_int   = 0.
           sum_zz        = 0.
 
@@ -1073,6 +1065,8 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 !         stratification. (To emphasize the first baroclinic mode??)
 !          do k=5,min(kmt(i,jrow)-1,20)
           do k=1,kmt(i,jrow)  ! change hard value to a calculated
+            beta          = (cori(i,j+1,1) - cori(i,j-1,1)) /
+     &                      (2.0 * dyt(j))
             kgm(i,k,jrow,niso) = eddy_min
             ahisop_var(i,k,jrow,niso) = eddy_min
 
@@ -1110,95 +1104,57 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
             ! Limit N2 > 1.e-8 / coef
             abs_drho_dz = max(1.e-8/coef, abs_drho_dz)
 
-            ! clinic_int(1) = vertical integral of baroclinicity,
-            ! averaged to approximate it at the centre of "T" cells.
-            clinic_int(1) = clinic_int(1) + dzw(km1) *
-     &                      sqrt(abs_grd_rho2 / abs_drho_dz)
-            baroclinic    = sqrt(abs_grd_rho2 / abs_drho_dz)
+            sigma_ave     = sigma_ave + dzw(km1) *
+     &                      (sqrt(abs_grd_rho2) /
+     &                       sqrt((abs_drho_dz/coef) +
+     &                            (gamma_eden * abs_grd_rho2 /
+     &                             cori(i,j,1)**2)))
 
-            ! Mult by Rossby Radius follows.
-!            kgm(i,km1,jrow,niso) = sqrt(coef) * baroclinic * Lm
             kgm(i,k,jrow,niso) = sqrt(abs_grd_rho2) /
      &                           sqrt((abs_drho_dz / coef) +
      &                                (gamma_eden * abs_grd_rho2 /
      &                                 cori(i,jrow,1)**2))
           enddo ! k
 
-          ! Eddy diffusivity
+          ! Now get the average
           if (sum_zz.ne.0.) then
-            clinic_int(1) = clinic_int(1) / sum_zz
+            sigma_ave = sigma_ave / sum_zz
           endif
 
-          ! Rhine's Scale.
-          L_Rhi(i,jrow) = (coef * clinic_int(1)) / beta
+          ! Rhine's Scale. Averaged over depth
+          LRhi(i,jrow) = sigma_ave / beta
 
-          L_r1 = stratif_int
+          ! Retrieve a minimum of Rossby Radius. See Eden 2009.
+          Lr1 = stratif_int
      &                   / (pii * p5 * abs(cori(i,j,1) + cori(i,j-1,1)))
-          L_r2 = sqrt(stratif_int / (2. * pii * beta))
-
-          Lr(i,jrow) = min(L_r1, L_r2)
-!          if (abs(yt(j)).gt.5.) then
-!            Lr(i,jrow) = stratif_int
-!     &                   / (pii * p5 * abs(cori(i,j,1) + cori(i,j-1,1)))
-!          else  ! Neil -- Rossby Radius near equator (Gill,1982, p 437)
-!            Lr(i,jrow) = sqrt(stratif_int /
-!     &                       (2. * pii * beta))
-!          endif
+          Lr2 = sqrt(stratif_int / (2. * pii * beta))
+          Lr(i,jrow) = min(Lr1, Lr2)
         enddo  ! i
       enddo ! j=js,je
 
-!       Multiply K_GM coefficient by the minimum of L_R and L_Rhi per
-!       Compute sum as well for determining c_eden
-!       Eden 2009
+      ! Finally, derive Kgm using minimum of Rhine's scale and Rossby
+      ! Radius as described in Eden 2009.
       do j=js,je
         jrow = j + joff
         do i=2,imtm1
-            if (Lr(i,jrow).lt.L_Rhi(i,jrow)) then
+            if (Lr(i,jrow).lt.LRhi(i,jrow)) then
               kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * Lr(i,jrow)**2
             else
-              kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * L_Rhi(i,jrow)**2
+              kgm(i,:,jrow,niso) = kgm(i,:,jrow,niso) * LRhi(i,jrow)**2
             endif
-            kgm(i,:,jrow,niso) = min(max(kgm(i,:,jrow,niso),eddy_min),
-     &                               eddy_max) * 2.0
-!            kgm_sum = kgm_sum + (kgm(i,jrow,:,niso) * cos(phi(i)))
-!            gridsum_area = gridsum_area + (cos(phi(i)))
+            kgm(i,:,jrow,niso) = c_eden *
+     &                           min(max(kgm(i,:,jrow,niso),eddy_min),
+     &                               eddy_max)
         enddo
       enddo
 
       ahisop_var(:,:,:,niso) = kgm(:,:,:,niso)
 
-!!     Determine constant to ensure K_GM ends up averaging to 800 m^2/s
-!!     globally.
-!!     HACK until multiplication by grid box size done.
-!      kgm_ave = kgm_sum / gridsum_area
-!      c_eden  = 7.6e6 / kgm_ave
-!
-!!      write(*,*) "Here's c_eden: ", c_eden
-!
-!      do j = js, je
-!        jrow = j + joff
-!        do i = 2, imtm1
-!          kgm(i,jrow,1) = c_eden * kgm(i,jrow,1)
-!          ahisop_var(i,jrow,1) = (3.0 / 2.0) * kgm(i,jrow,1)
-!          ahisop_sum = ahisop_sum + ahisop_var(i,jrow,1)
-!        enddo
-!      enddo
-!
-!      ahisop_ave = ahisop_sum / size(ahisop_var(:,:,1))
-
-!      write(*,*) "kgm count is: ", size(kgm(:,:,1))
-!      write(*,*) "ahisop count is: ", size(ahisop_var(:,:,1))
-!      write(*,*) "ahisop average is: ", ahisop_ave
-!      write(*,*) "kgm average is: ", kgm_ave
-
-!     Now that we've scaled kgm by a constant, scale ahisop_var so
-!     that its average is 1200. HACK
-
       do j=1,niso  ! steal index j
         call setbcx (kgm(1,1,1,j), imt, jmt)
       enddo
       call setbcx (Lr(1,1), imt, jmt)
-      call setbcx (L_Rhi(1,1), imt, jmt)
+      call setbcx (LRhi(1,1), imt, jmt)
 
 !-----------------------------------------------------------------------
 !     compute the meridional component of the isopycnal mixing velocity
@@ -1257,8 +1213,6 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
 
             Ath0 = p5 * (kgm(i,k,jrow,niso) + kgm(i+1,k,jrow,niso)) *
      &             p5 * (fisop(i,k,jrow) + fisop(i+1,k,jrow))
-
-!AHO == Stanley only had kgm component
 
             ! 0.125*epsln is done to match the original stn etc. code.
             ! (I divided my drod*'s before calculating slopes stn etc.)
@@ -1354,7 +1308,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
           enddo
            do i=1, imt
                ta_Lr(i,jrow) = ta_Lr(i,jrow) + Lr(i,jrow)
-               ta_L_Rhi(i,jrow) = ta_L_Rhi(i,jrow) + L_Rhi(i,jrow)
+               ta_LRhi(i,jrow) = ta_LRhi(i,jrow) + LRhi(i,jrow)
            enddo
         enddo
       do j=jstrt,je

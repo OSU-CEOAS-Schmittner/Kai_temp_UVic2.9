@@ -466,7 +466,7 @@
         enddo
         do i=1,imtav
           ta_Lr(i,jj+1) = rnavgt * ta_Lr(i,jj+1)
-          ta_L_Rhi(i,jj+1) = rnavgt * ta_L_Rhi(i,jj+1)
+          ta_LRhi(i,jj+1) = rnavgt * ta_LRhi(i,jj+1)
         enddo
 #  endif
 
@@ -647,7 +647,7 @@
 #  if defined O_KGMdiag
      &,   ta_kgm(is,1,jj+1,1)
      &,   ta_Lr(is,jj+1)
-     &,   ta_L_Rhi(is,jj+1)
+     &,   ta_LRhi(is,jj+1)
 
 #  if defined O_save_npzd
 #   if defined O_save_carbon_totals
@@ -765,7 +765,7 @@
 #  if defined O_KGMdiag
       ta_kgm(:,:,:,:) = c0
       ta_Lr(:,:) = c0
-      ta_L_Rhi(:,:) = c0
+      ta_LRhi(:,:) = c0
 #  endif
 
 #  if defined O_save_npzd

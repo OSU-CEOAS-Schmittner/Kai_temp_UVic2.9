@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mobi_with_calcifiers8_npzd/updates/clinic.F
+! source file: /data/home/kai/dev/UVic2.9/updates/clinic.F
       subroutine clinic (joff, js, je, is, ie)
 
 !=======================================================================

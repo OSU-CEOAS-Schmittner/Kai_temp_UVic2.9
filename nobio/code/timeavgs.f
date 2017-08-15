@@ -425,7 +425,7 @@
         enddo
         do i=1,imtav
           ta_Lr(i,jj+1) = rnavgt * ta_Lr(i,jj+1)
-          ta_L_Rhi(i,jj+1) = rnavgt * ta_L_Rhi(i,jj+1)
+          ta_LRhi(i,jj+1) = rnavgt * ta_LRhi(i,jj+1)
         enddo
 
         do i=2,imtav
@@ -465,7 +465,7 @@
 
      &,   ta_kgm(is,1,jj+1,1)
      &,   ta_Lr(is,jj+1)
-     &,   ta_L_Rhi(is,jj+1)
+     &,   ta_LRhi(is,jj+1)
 
      &,   ta_totalk(is,jj+1), ta_vdepth(is,jj+1), ta_pe(is,jj+1)
      &,   avg2d(is,nt+3)
@@ -503,7 +503,7 @@
 
       ta_kgm(:,:,:,:) = c0
       ta_Lr(:,:) = c0
-      ta_L_Rhi(:,:) = c0
+      ta_LRhi(:,:) = c0
 
       ta_totalk(:,:) = c0
       ta_vdepth(:,:) = c0

@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc15_npzd_fe_n_c13_alk_caco3/updates/triffid.F
+! source file: /data/home/kai/dev/UVic2.9/updates/triffid.F
       subroutine TRIFFID (LAND_PTS, LAND_INDEX, FORW, GAMMA, FRAC_VS
      &,                   FRAC_AGR, FRAC_MIN, FRAC_SEED, DENOM_MIN
      &,                   BF, G_LEAF, NPP, RESP_S, RESP_W, CS, FRAC

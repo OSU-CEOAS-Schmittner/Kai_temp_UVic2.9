@@ -1,4 +1,4 @@
-! source file: /raid24/aschmitt/UVic2.9/karin/mwc10_npzd_c13/updates/vmixc.F
+! source file: /data/home/kai/dev/UVic2.9/updates/vmixc.F
       subroutine vmixc (joff, js, je, is, ie)
 
 !=======================================================================
