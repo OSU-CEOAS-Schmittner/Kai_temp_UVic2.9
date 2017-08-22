@@ -1384,7 +1384,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
           endif   
 
           ! Rhine's Scale. Averaged over depth
-          LRhi(i,jrow) = sigma_ave / beta 
+          LRhi(i,jrow) = sigma_ave / beta
 
           ! Retrieve a minimum of Rossby Radius. See Eden 2009.
           Lr1 = stratif_int
@@ -1409,8 +1409,8 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
      &                               eddy_max)
         enddo
       enddo 
-
-      ahisop_var(:,:,:,niso) = kgm(:,:,:,niso)
+      
+      ahisop_var(:,:,:,niso) = kgm(:,:,:,niso) * ( 3.0 / 2.0 )
 
 # if defined O_KGMdiag
       do j=1,niso  ! steal index j

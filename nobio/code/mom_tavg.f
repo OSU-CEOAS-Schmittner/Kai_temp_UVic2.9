@@ -463,9 +463,9 @@
       call defvar('O_KGM', iou, 4, it, 300, 3000, ' ', 'F'
      &, 'GM coefficient', ' ', 'm2 s-1')
       call defvar('O_Lr', iou, 2, it, 300, 3000, ' ', 'F'
-     &, 'Rossby Radius', ' ', 'km')
+     &, 'Rossby Radius', ' ', 'm')
       call defvar('O_LRhi', iou, 2, it, 300, 3000, ' ', 'F'
-     &, 'Rhines Scale', ' ', 'km')
+     &, 'Rhines Scale', ' ', 'm')
 
       it(3) = id_zt
 
@@ -1025,10 +1025,10 @@
      &, c1e4, c0)
       tmpij(ils:ile,jls:jle) = Lr(ils:ile,jls:jle)
       call putvaramsk('O_Lr', iou, ln, ib, ic, tmpij, tmpijm
-     &, c1e5, c0)
+     &, c100, c0)
       tmpij(ils:ile,jls:jle) = LRhi(ils:ile,jls:jle)
       call putvaramsk('O_LRhi', iou, ln, ib, ic, tmpij, tmpijm
-     &, c1e5, c0)
+     &, c100, c0)
 
       deallocate ( tmpij )
       deallocate ( tmpijm )

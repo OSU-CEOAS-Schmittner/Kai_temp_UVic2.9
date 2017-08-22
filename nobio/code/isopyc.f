@@ -1148,7 +1148,7 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
         enddo
       enddo
 
-      ahisop_var(:,:,:,niso) = kgm(:,:,:,niso)
+      ahisop_var(:,:,:,niso) = kgm(:,:,:,niso) * ( 3.0 / 2.0 )
 
       do j=1,niso  ! steal index j
         call setbcx (kgm(1,1,1,j), imt, jmt)
