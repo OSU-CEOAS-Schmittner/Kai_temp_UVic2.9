@@ -1319,24 +1319,24 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
           stratif_int   = 0.
           sum_zz        = 0.
 
-!         Only integrate baroclinicty below the mixed layer (it will be 
-!         huge in the mixed layer, giving huge K_gm in shallow seas).
-!         Also, can integrate downwards to about 2000m, not further, to
-!         emphasize the mid-depth water where we have more faith in the
-!         stratification. (To emphasize the first baroclinic mode??)
-!          do k=5,min(kmt(i,jrow)-1,20)
-          do k=1,kmt(i,jrow)  ! change hard value to a calculated
+
+          ! First calculate stratif_int as that is used in later 
+          ! calculation of sigma and Rhine's scale.
+          do k=1,kmt(i,jrow)
+            stratif_int = stratif_int + dzw(k) *
+     &                    sqrt(coef * p5 * abs(drodzb(i,k,jrow,0)
+     &                                       + drodzb(i,k,jrow,1)))
+          enddo ! k
+
+          do k=1,kmt(i,jrow) 
             beta          = (cori(i,j+1,1) - cori(i,j-1,1)) /
      &                      (2.0 * dyt(j))
+            f2_max = max(cori(i,jrow,1)**2, 
+     &                  2.0 * beta * stratif_int / pii)
             kgm(i,k,jrow,niso) = eddy_min
             ahisop_var(i,k,jrow,niso) = eddy_min
 
             km1 = max(k-1,1)
-           ! stratif_int = vertical integral of stratification, on T
-           !   cells
-            stratif_int = stratif_int + dzw(k) *
-     &                    sqrt(coef * p5 * abs(drodzb(i,k,jrow,0)
-     &                                       + drodzb(i,k,jrow,1)))
             sum_zz = sum_zz + dzw(km1)
             countx = 2
             county = 2
@@ -1370,12 +1370,12 @@ c               print*,"j=",j,", addisop=",addisop(i,k,j)
      &                      (sqrt(abs_grd_rho2) /
      &                       sqrt((abs_drho_dz/coef) +
      &                            (gamma_eden * abs_grd_rho2 / 
-     &                             cori(i,j,1)**2)))
+     &                             f2_max)))
            
             kgm(i,k,jrow,niso) = sqrt(abs_grd_rho2) / 
      &                           sqrt((abs_drho_dz / coef) + 
      &                                (gamma_eden * abs_grd_rho2 / 
-     &                                 cori(i,jrow,1)**2))
+     &                                 f2_max))
           enddo ! k
 
           ! Now get the average

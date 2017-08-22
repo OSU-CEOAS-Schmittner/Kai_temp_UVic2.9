@@ -1,30 +1,11 @@
  ! NOAA/PMEL TMAP
  ! FERRET v7.1 (optimized)
  ! Linux 2.6.32-642.13.1.el6.x86_64 64-bit - 02/15/17
- ! 21-Aug-17 20:13     
+ ! 22-Aug-17 16:47     
 
 use tavg.00000.01.31.nc
-shade o_lr
-shade o_lr * 2.0 * 3.1415 / 100^2
-shade o_lr * 2.0 * 3.1415 / 100
-shade/lev=(0,500,2)(inf)
-shade/lev=(0,500,5)(inf)
-shade/lev=(0,1000,5)(inf)
-shade o_lr * 2.0 * 3.1415 / 100
-shade o_lr * 2.0 * 3.1415 / (100 * 1000)
-shade/lev=(0,500,5)(inf)
-shade o_lr * 2.0 * 3.1415 / (100)
-shade o_lr * 2.0 * 3.1415 / (1000)
-shade/lev=(0,500,5)(inf)
-shade o_lrhi * 2.0 * 3.1415 / (1000)
-shade/lev=(0,500,5)(inf)
-set eke = (log((o_kgm/min(2.0 * o_lr, 0.3 * o_lrhi) * 100.0)^2)
-set eke = log((o_kgm/min(2.0 * o_lr, 0.3 * o_lrhi) * 100.0)^2)
-let eke = log((o_kgm/min(2.0 * o_lr, 0.3 * o_lrhi) * 100.0)^2)
-shade eke[k=4,l=5]
-shade,lev(0,6,0.2)(eke)
-shade/lev(0,6,0.2)(eke)
-shade/lev(0,6,0.2)(inf)
-shade/lev=(0,6,0.2)(inf)
-shade/lev=(0,4,0.2)(inf)
-q
+shade o_kgm[k=1,l=1]
+shade o_kgm[k=2,l=1]
+shade o_kgm[k=4,l=1]
+shade o_kgm[x=18w,l=1]
+exit

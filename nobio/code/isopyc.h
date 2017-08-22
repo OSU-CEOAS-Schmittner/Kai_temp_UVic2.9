@@ -60,7 +60,9 @@
 !     Define variables related to calculating K_gm mesoscale eddy
 !     diffiusivity as outlined in Gent an McWilliams Paper (1989).
 !     Further refinement from Eden 2009.
-!     eke        = Eddy kinetic energy which is defined as (KGM/L)**2
+!     f2_max     = In calculation of Rhines scale we take squared max of
+!                  coriolis parameter and sqrt(2 * beta * C_r) to prevent
+!                  K_gm from disappearing at equator. See Eden 2009.
 !     LRhi       = Rhines scale. Defined as sigma/beta. Where sigma is
 !                  the Eady Growth rate of baroclinic instability
 !     Lr         = 1st baroclinic Rossby Radius
@@ -91,7 +93,7 @@
       integer niso
       parameter (niso = 1)
 
-      real eke, Lm, Lr, Lr1, Lr2, LRhi, kgm
+      real f2_max, Lm, Lr, Lr1, Lr2, LRhi, kgm
       real ahisop_var, gridsum_area
       real c_eden, coef, gamma_eden, pii
       real ahisop_ave, kgm_ave, sigma_ave

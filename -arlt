@@ -1,0 +1,21 @@
+* [33m4db4a0d[m[33m ([1;36mHEAD[m[33m, [1;31morigin/kai_kgm_depth_var[m[33m, [1;31morigin/kai[m[33m, [1;32mkai_kgm_depth_var[m[33m, [1;32mkai[m[33m)[m Corrected some issues with unit of measure for averages. Minor alterations in isopyc.F
+* [33m357a7f1[m Reasonably working version of 3d Kgm
+* [33m746dd51[m[33m ([1;32mkai_output_Lr_L_Rhi[m[33m)[m Depth dimension appears to give correct values, however, we've discovered that calculation for L_Rhi appears wildly off (much too large).
+* [33m4781a24[m 'Fixed' problem with beta calculation but seems to have broken how L_Rhi is calculated. Now will institute changes to get L_Rhi and Lr output
+* [33ma18f708[m Not dividing by sum_zz appears to have fixed huge values problem?
+* [33m249b2a7[m[33m ([1;33mtag: 1000[m[33m)[m Average over L_r and L_rhi doesn't seem to give good values for z-dependent version. Last good commit.
+* [33mcfb3830[m Start of 3D isopyc. Still not completely right. Third spatial dimensions added to terms related to kgm.
+* [33m3c35d3e[m Updated some annoying things with .gitignore
+* [33m1a58132[m niso problem where variable was declared in header not in updates. This has been moved to isopyc.h. kth loop issue also fixed which caused temp to not converge. New compiler used likely leading to all changes in code directory
+* [33m15493dd[m Remove unneeded kgm directory
+* [33m009587e[m Major fix push?
+* [33m6167d0b[m No need for another kgm
+* [33m374fea5[m Update to an update
+* [33m719c419[m Added .nc files in data/
+* [33m49f4dac[m Updated gitignore
+* [33ma75e7fd[m Changed gitignore
+* [33m3c83f4f[m Initial Kai commit
+[31m|[m * [33mbe5e553[m[33m ([1;32mmaster[m[33m)[m Added data files and updated gitignore
+[31m|[m[31m/[m  
+* [33m7a92e1b[m Update to .gitignore
+* [33m202bb16[m Initial commit
