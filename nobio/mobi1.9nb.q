@@ -1,6 +1,5 @@
 #!/bin/csh
-#$ -e /home/kai/dev/UVic2.9/nobio
-#$ -o /home/kai/dev/UVic2.9/nobio
-cd /home/kai/dev/UVic2.9/nobio
+#$ -e /data/home/kai/dev/UVic2.9/nobio
+#$ -o /data/home/kai/dev/UVic2.9/nobio
+cd /data/home/kai/dev/UVic2.9/nobio
 time ./UVic_ESCM > pr
-
